@@ -75,7 +75,12 @@ public static class SceneArtSetup
         ApplyBackground();
         scene = EditorSceneManager.OpenScene(ScenePath, OpenSceneMode.Single);
 
-        FindOrCreateRoot("GameManager");
+        var gmRoot = FindOrCreateRoot("GameManager");
+        if (gmRoot.GetComponent<GameManager>() == null)
+        {
+            gmRoot.AddComponent<GameManager>();
+        }
+
         FindOrCreateRoot("LaneRegistry");
         FindOrCreateRoot("WaveManager");
         FindOrCreateRoot("UI");
@@ -84,31 +89,8 @@ public static class SceneArtSetup
         var boardGrid = ConfigureBoard(board);
         CreateTiles(board.transform, boardGrid);
 
-        var world = FindOrCreateRoot("World");
-        var laneGrid = world.GetComponent<LaneGrid>();
-        if (laneGrid == null)
-        {
-            laneGrid = world.AddComponent<LaneGrid>();
-        }
-
-        laneGrid.laneCount = 5;
-        laneGrid.laneSpacing = BoardTileHeight;
-        laneGrid.centerY = BoardTopLeftCellCenter.y - BoardTileHeight * 2f;
-        laneGrid.plantX = BoardTopLeftCellCenter.x;
-        laneGrid.zombieSpawnX = 7.5f;
-        laneGrid.despawnX = -8.5f;
-
-        var spawnerObject = FindOrCreateChild(world.transform, "ZombieSpawner");
-        var spawner = spawnerObject.GetComponent<ZombieSpawner>();
-        if (spawner == null)
-        {
-            spawner = spawnerObject.AddComponent<ZombieSpawner>();
-        }
-
-        spawner.laneGrid = laneGrid;
-
-        var plantRoot = FindOrCreateChild(world.transform, "PrototypePlants");
-        CreatePrototypePlants(plantRoot.transform, laneGrid);
+        // Remove legacy prototype objects if they exist from an earlier setup run.
+        CleanupLegacyObjects();
 
         EditorSceneManager.MarkSceneDirty(scene);
         EditorSceneManager.SaveScene(scene);
@@ -357,38 +339,21 @@ public static class SceneArtSetup
         return gameObject;
     }
 
-    private static void CreatePrototypePlants(Transform parent, LaneGrid laneGrid)
+    /// <summary>
+    /// Destroys GameObject roots that were created by the old prototype setup
+    /// but are no longer needed now that the real agent systems are in place.
+    /// Safe to call when those objects don't exist.
+    /// </summary>
+    private static void CleanupLegacyObjects()
     {
-        var controller = AssetDatabase.LoadAssetAtPath<RuntimeAnimatorController>(PeashooterControllerPath);
-
-        for (var i = 0; i < laneGrid.laneCount; i++)
+        var legacyRoots = new[] { "World" };
+        foreach (var rootName in legacyRoots)
         {
-            var plant = FindOrCreateChild(parent, "Plant_Lane_" + i);
-            plant.transform.position = new Vector3(laneGrid.plantX, laneGrid.GetLaneY(i), 0f);
-            plant.transform.localScale = new Vector3(0.9f, 0.9f, 1f);
-
-            var renderer = plant.GetComponent<SpriteRenderer>();
-            if (renderer == null)
+            var go = GameObject.Find(rootName);
+            if (go != null)
             {
-                renderer = plant.AddComponent<SpriteRenderer>();
-            }
-
-            renderer.sortingOrder = 10 + i;
-
-            var animator = plant.GetComponent<Animator>();
-            if (controller != null)
-            {
-                if (animator == null)
-                {
-                    animator = plant.AddComponent<Animator>();
-                }
-
-                animator.runtimeAnimatorController = controller;
-            }
-
-            if (plant.GetComponent<PlantShooter>() == null)
-            {
-                plant.AddComponent<PlantShooter>();
+                Object.DestroyImmediate(go);
+                Debug.Log($"[SceneArtSetup] Removed legacy object: {rootName}");
             }
         }
     }
