@@ -45,41 +45,41 @@ Complete each milestone before moving to the next one.
 
 ## 2. Core Game State
 
-- [ ] Create `GameManager`.
-- [ ] Add game states:
-  - [ ] NotStarted
-  - [ ] Playing
-  - [ ] Paused
-  - [ ] Won
-  - [ ] Lost
-- [ ] Track current sun amount.
-- [ ] Track selected plant type.
-- [ ] Track whether placement mode is active.
-- [ ] Add plant placement validation.
-- [ ] Reject placement when tile is occupied.
-- [ ] Reject placement when sun is too low.
-- [ ] Reject placement when game is not playing.
-- [ ] Spend sun only after successful placement.
-- [ ] Add basic restart flow.
-- [ ] Add basic pause and resume flow.
+- [x] Create `GameManager`.
+- [x] Add game states:
+  - [x] NotStarted
+  - [x] Playing
+  - [x] Paused
+  - [x] Won
+  - [x] Lost
+- [x] Track current sun amount.
+- [x] Track selected plant type.
+- [x] Track whether placement mode is active.
+- [x] Add plant placement validation.
+- [x] Reject placement when tile is occupied.
+- [x] Reject placement when sun is too low.
+- [x] Reject placement when game is not playing.
+- [x] Spend sun only after successful placement.
+- [x] Add basic restart flow.
+- [x] Add basic pause and resume flow.
 
 ## 3. Plant Base Agent
 
-- [ ] Create base `Plant` component.
-- [ ] Add max HP and current HP.
-- [ ] Add sun cost.
-- [ ] Add row and column.
-- [ ] Add reference to occupied `Tile`.
-- [ ] Register plant with tile after placement.
-- [ ] Clear tile when plant dies.
-- [ ] Add `TakeDamage(int amount)`.
-- [ ] Add `Die()`.
-- [ ] Add optional death sound hook.
-- [ ] Create `Peashooter.prefab`.
-- [ ] Attach Peashooter animation controller.
-- [ ] Add collider if needed for click/debug selection.
-- [ ] Tune Peashooter scale and sorting order.
-- [ ] Place Peashooter through `GameManager`.
+- [x] Create base `Plant` component.
+- [x] Add max HP and current HP.
+- [x] Add sun cost.
+- [x] Add row and column.
+- [x] Add reference to occupied `Tile`.
+- [x] Register plant with tile after placement.
+- [x] Clear tile when plant dies.
+- [x] Add `TakeDamage(int amount)`.
+- [x] Add `Die()`.
+- [x] Add optional death sound hook.
+- [x] Create `Peashooter.prefab`. *(run PvZ > Prefabs > Create All Plant Prefabs, then assign in GameManager)*
+- [x] Attach Peashooter animation controller.
+- [x] Add collider if needed for click/debug selection.
+- [x] Tune Peashooter scale and sorting order.
+- [ ] Place Peashooter through `GameManager`. *(requires prefab assigned in Inspector)*
 - [ ] Verify one plant can be placed on a tile.
 - [ ] Verify a second plant cannot be placed on the same tile.
 
