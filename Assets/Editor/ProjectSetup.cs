@@ -32,6 +32,7 @@ public static class ProjectSetup
         SceneArtSetup.ApplyPrototypeFoundation();
         PrefabFactory.CreateAllPlantPrefabs();
         PrefabFactory.WireGameManagerPrefabs();
+        UIFactory.BuildHud();
 
         Debug.Log("[ProjectSetup] FullSetup complete.");
     }
@@ -52,7 +53,7 @@ public static class ProjectSetup
 
         var scene = EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
 
-        var camera = Object.FindObjectOfType<Camera>();
+        var camera = Object.FindFirstObjectByType<Camera>();
         if (camera != null)
         {
             camera.orthographic = true;
