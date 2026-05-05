@@ -1,0 +1,911 @@
+fileFormatVersion: 2
+guid: 909a0745f258640eab0632cca48dbd2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5160832513421557822
+    second: ConeheadZombie_Eat_sheet_0
+  - first:
+      213: -5209597892818028347
+    second: ConeheadZombie_Eat_sheet_1
+  - first:
+      213: -3060829276382974193
+    second: ConeheadZombie_Eat_sheet_2
+  - first:
+      213: -3427706774473071206
+    second: ConeheadZombie_Eat_sheet_3
+  - first:
+      213: -2862832057774671716
+    second: ConeheadZombie_Eat_sheet_4
+  - first:
+      213: 4104638069143668570
+    second: ConeheadZombie_Eat_sheet_5
+  - first:
+      213: -5678857416888752997
+    second: ConeheadZombie_Eat_sheet_6
+  - first:
+      213: 5043085661222994999
+    second: ConeheadZombie_Eat_sheet_7
+  - first:
+      213: -105093354321303971
+    second: ConeheadZombie_Eat_sheet_8
+  - first:
+      213: 7731731667221030731
+    second: ConeheadZombie_Eat_sheet_9
+  - first:
+      213: -6631044476541217496
+    second: ConeheadZombie_Eat_sheet_10
+  - first:
+      213: 21537282392885802
+    second: ConeheadZombie_Eat_sheet_11
+  - first:
+      213: 238450242420370483
+    second: ConeheadZombie_Eat_sheet_12
+  - first:
+      213: -282020490146829540
+    second: ConeheadZombie_Eat_sheet_13
+  - first:
+      213: -2407401021025639490
+    second: ConeheadZombie_Eat_sheet_14
+  - first:
+      213: 9084391124722612881
+    second: ConeheadZombie_Eat_sheet_15
+  - first:
+      213: 1667479429311271764
+    second: ConeheadZombie_Eat_sheet_16
+  - first:
+      213: -7064203740697432525
+    second: ConeheadZombie_Eat_sheet_17
+  - first:
+      213: 1319175897697233541
+    second: ConeheadZombie_Eat_sheet_18
+  - first:
+      213: 7437689804305657513
+    second: ConeheadZombie_Eat_sheet_19
+  - first:
+      213: -3519055415187165904
+    second: ConeheadZombie_Eat_sheet_20
+  - first:
+      213: 5418195277618061518
+    second: ConeheadZombie_Eat_sheet_21
+  - first:
+      213: -3544067321321968151
+    second: ConeheadZombie_Eat_sheet_22
+  - first:
+      213: 3615470459918890542
+    second: ConeheadZombie_Eat_sheet_23
+  - first:
+      213: -8941086440883453257
+    second: ConeheadZombie_Eat_sheet_24
+  - first:
+      213: 8761888524391647249
+    second: ConeheadZombie_Eat_sheet_25
+  - first:
+      213: 8155962419159579107
+    second: ConeheadZombie_Eat_sheet_26
+  - first:
+      213: 804462431432389017
+    second: ConeheadZombie_Eat_sheet_27
+  - first:
+      213: 4976313257458486360
+    second: ConeheadZombie_Eat_sheet_28
+  - first:
+      213: -3556633175090794014
+    second: ConeheadZombie_Eat_sheet_00
+  - first:
+      213: -5237375982394274143
+    second: ConeheadZombie_Eat_sheet_01
+  - first:
+      213: -558853941763681899
+    second: ConeheadZombie_Eat_sheet_02
+  - first:
+      213: 267319629485663565
+    second: ConeheadZombie_Eat_sheet_03
+  - first:
+      213: -2622448293306431258
+    second: ConeheadZombie_Eat_sheet_04
+  - first:
+      213: 8661670731678461754
+    second: ConeheadZombie_Eat_sheet_05
+  - first:
+      213: 8639110421847719863
+    second: ConeheadZombie_Eat_sheet_06
+  - first:
+      213: 1563444578898690683
+    second: ConeheadZombie_Eat_sheet_07
+  - first:
+      213: 5500040235247526390
+    second: ConeheadZombie_Eat_sheet_08
+  - first:
+      213: 5804092724956992303
+    second: ConeheadZombie_Eat_sheet_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1f75a98fc44aec0800000000000000
+      internalID: -3556633175090794014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_01
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae0a36fa4a1157b0800000000000000
+      internalID: -5237375982394274143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_02
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59159d70d4d8e38f0800000000000000
+      internalID: -558853941763681899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_03
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d456bf469c5b5b300800000000000000
+      internalID: 267319629485663565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_04
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e804abeb213b9bd0800000000000000
+      internalID: -2622448293306431258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_05
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fa71393af643870800000000000000
+      internalID: 8661670731678461754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_06
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfbb9d182944e770800000000000000
+      internalID: 8639110421847719863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_07
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72444f9f8872b510800000000000000
+      internalID: 1563444578898690683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_08
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1e8481471145c40800000000000000
+      internalID: 5500040235247526390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_09
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f239d7af4974c8050800000000000000
+      internalID: 5804092724956992303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825d1fd6e2cc9f3a0800000000000000
+      internalID: -6631044476541217496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a84725b048c4000800000000000000
+      internalID: 21537282392885802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c621c6b352f4300800000000000000
+      internalID: 238450242420370483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1baa61cbdf061cf0800000000000000
+      internalID: -282020490146829540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3aaddb681379ed0800000000000000
+      internalID: -2407401021025639490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a7dc5c89d321e70800000000000000
+      internalID: 9084391124722612881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4539e5ec4b3142710800000000000000
+      internalID: 1667479429311271764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e6eb62028e6fd90800000000000000
+      internalID: -7064203740697432525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a208a5d77ae4210800000000000000
+      internalID: 1319175897697233541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aeee2f687bf73760800000000000000
+      internalID: 7437689804305657513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03daad0aebdc92fc0800000000000000
+      internalID: -3519055415187165904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0af1ee5eb413b40800000000000000
+      internalID: 5418195277618061518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eda88c6c81f0dec0800000000000000
+      internalID: -3544067321321968151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26326b4a3bbc2230800000000000000
+      internalID: 3615470459918890542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b284110141eae380800000000000000
+      internalID: -8941086440883453257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1188fe1c03b789970800000000000000
+      internalID: 8761888524391647249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9317bab9ccf2170800000000000000
+      internalID: 8155962419159579107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991bca4b1560a2b00800000000000000
+      internalID: 804462431432389017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConeheadZombie_Eat_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c41e1ca8a6f0540800000000000000
+      internalID: 4976313257458486360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ConeheadZombie_Eat_sheet_0: 5160832513421557822
+      ConeheadZombie_Eat_sheet_00: -3556633175090794014
+      ConeheadZombie_Eat_sheet_01: -5237375982394274143
+      ConeheadZombie_Eat_sheet_02: -558853941763681899
+      ConeheadZombie_Eat_sheet_03: 267319629485663565
+      ConeheadZombie_Eat_sheet_04: -2622448293306431258
+      ConeheadZombie_Eat_sheet_05: 8661670731678461754
+      ConeheadZombie_Eat_sheet_06: 8639110421847719863
+      ConeheadZombie_Eat_sheet_07: 1563444578898690683
+      ConeheadZombie_Eat_sheet_08: 5500040235247526390
+      ConeheadZombie_Eat_sheet_09: 5804092724956992303
+      ConeheadZombie_Eat_sheet_1: -5209597892818028347
+      ConeheadZombie_Eat_sheet_10: -6631044476541217496
+      ConeheadZombie_Eat_sheet_11: 21537282392885802
+      ConeheadZombie_Eat_sheet_12: 238450242420370483
+      ConeheadZombie_Eat_sheet_13: -282020490146829540
+      ConeheadZombie_Eat_sheet_14: -2407401021025639490
+      ConeheadZombie_Eat_sheet_15: 9084391124722612881
+      ConeheadZombie_Eat_sheet_16: 1667479429311271764
+      ConeheadZombie_Eat_sheet_17: -7064203740697432525
+      ConeheadZombie_Eat_sheet_18: 1319175897697233541
+      ConeheadZombie_Eat_sheet_19: 7437689804305657513
+      ConeheadZombie_Eat_sheet_2: -3060829276382974193
+      ConeheadZombie_Eat_sheet_20: -3519055415187165904
+      ConeheadZombie_Eat_sheet_21: 5418195277618061518
+      ConeheadZombie_Eat_sheet_22: -3544067321321968151
+      ConeheadZombie_Eat_sheet_23: 3615470459918890542
+      ConeheadZombie_Eat_sheet_24: -8941086440883453257
+      ConeheadZombie_Eat_sheet_25: 8761888524391647249
+      ConeheadZombie_Eat_sheet_26: 8155962419159579107
+      ConeheadZombie_Eat_sheet_27: 804462431432389017
+      ConeheadZombie_Eat_sheet_28: 4976313257458486360
+      ConeheadZombie_Eat_sheet_3: -3427706774473071206
+      ConeheadZombie_Eat_sheet_4: -2862832057774671716
+      ConeheadZombie_Eat_sheet_5: 4104638069143668570
+      ConeheadZombie_Eat_sheet_6: -5678857416888752997
+      ConeheadZombie_Eat_sheet_7: 5043085661222994999
+      ConeheadZombie_Eat_sheet_8: -105093354321303971
+      ConeheadZombie_Eat_sheet_9: 7731731667221030731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

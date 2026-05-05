@@ -1,0 +1,1249 @@
+fileFormatVersion: 2
+guid: 834b85b06a719470caab867da2592475
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5547279423204047815
+    second: Repeater_sheet_0
+  - first:
+      213: -3090310668855863165
+    second: Repeater_sheet_1
+  - first:
+      213: 2479830448219977530
+    second: Repeater_sheet_2
+  - first:
+      213: 2432698114512508293
+    second: Repeater_sheet_3
+  - first:
+      213: -7084957361028444907
+    second: Repeater_sheet_4
+  - first:
+      213: -6196017741075923845
+    second: Repeater_sheet_5
+  - first:
+      213: 7520271609437884775
+    second: Repeater_sheet_6
+  - first:
+      213: -8526220639232294234
+    second: Repeater_sheet_7
+  - first:
+      213: 6732635176655573100
+    second: Repeater_sheet_8
+  - first:
+      213: -890388802572892726
+    second: Repeater_sheet_9
+  - first:
+      213: -782835148448955320
+    second: Repeater_sheet_10
+  - first:
+      213: 7113541849832542999
+    second: Repeater_sheet_11
+  - first:
+      213: 481732204928132292
+    second: Repeater_sheet_12
+  - first:
+      213: 8244760452948039800
+    second: Repeater_sheet_13
+  - first:
+      213: -3252761562937761468
+    second: Repeater_sheet_14
+  - first:
+      213: -60122920610288052
+    second: Repeater_sheet_15
+  - first:
+      213: 2997361703608835104
+    second: Repeater_sheet_16
+  - first:
+      213: 6243848665651062397
+    second: Repeater_sheet_17
+  - first:
+      213: 228384344732383383
+    second: Repeater_sheet_18
+  - first:
+      213: 1209569804852880290
+    second: Repeater_sheet_19
+  - first:
+      213: 5306555643149511333
+    second: Repeater_sheet_20
+  - first:
+      213: 7580296836578768691
+    second: Repeater_sheet_21
+  - first:
+      213: 3417990080832036031
+    second: Repeater_sheet_22
+  - first:
+      213: -4146404205083629045
+    second: Repeater_sheet_23
+  - first:
+      213: 7193513467931381917
+    second: Repeater_sheet_24
+  - first:
+      213: -3877337316388766302
+    second: Repeater_sheet_25
+  - first:
+      213: -4240004270272752266
+    second: Repeater_sheet_26
+  - first:
+      213: 2505469524110911990
+    second: Repeater_sheet_27
+  - first:
+      213: -4350655710713046927
+    second: Repeater_sheet_28
+  - first:
+      213: -4537805294309938354
+    second: Repeater_sheet_29
+  - first:
+      213: -1228890439892424947
+    second: Repeater_sheet_30
+  - first:
+      213: -2770116887039900865
+    second: Repeater_sheet_31
+  - first:
+      213: 1647105865291037163
+    second: Repeater_sheet_32
+  - first:
+      213: -4644526622189893821
+    second: Repeater_sheet_33
+  - first:
+      213: -2909053300564780527
+    second: Repeater_sheet_34
+  - first:
+      213: -2219059887251664351
+    second: Repeater_sheet_35
+  - first:
+      213: 2917618473579790490
+    second: Repeater_sheet_36
+  - first:
+      213: 5790103260061900147
+    second: Repeater_sheet_37
+  - first:
+      213: 7997894540927583035
+    second: Repeater_sheet_38
+  - first:
+      213: 1479491018976510132
+    second: Repeater_sheet_39
+  - first:
+      213: -6836615654040299444
+    second: Repeater_sheet_40
+  - first:
+      213: 164362989945501335
+    second: Repeater_sheet_41
+  - first:
+      213: -5263723696573098143
+    second: Repeater_sheet_00
+  - first:
+      213: 6417537899604721554
+    second: Repeater_sheet_01
+  - first:
+      213: -8191028608800441535
+    second: Repeater_sheet_02
+  - first:
+      213: 8133031894474546712
+    second: Repeater_sheet_03
+  - first:
+      213: 7921805105356938912
+    second: Repeater_sheet_04
+  - first:
+      213: -8556277543037802087
+    second: Repeater_sheet_05
+  - first:
+      213: 8392519334730562765
+    second: Repeater_sheet_06
+  - first:
+      213: 4511920544336876506
+    second: Repeater_sheet_07
+  - first:
+      213: 2794192953260047635
+    second: Repeater_sheet_08
+  - first:
+      213: -1539912557465771696
+    second: Repeater_sheet_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Repeater_sheet_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16754f5bf2f73f6b0800000000000000
+      internalID: -5263723696573098143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_01
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fbb86d7bcaf0950800000000000000
+      internalID: 6417537899604721554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_02
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b3363d0ee935e80800000000000000
+      internalID: -8191028608800441535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_03
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ed319da655ed070800000000000000
+      internalID: 8133031894474546712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_04
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae1da495c7efed60800000000000000
+      internalID: 7921805105356938912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_05
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999649f58eef14980800000000000000
+      internalID: -8556277543037802087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_06
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc76359ed7387470800000000000000
+      internalID: 8392519334730562765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_07
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad39cf374df8d9e30800000000000000
+      internalID: 4511920544336876506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_08
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31df6fccfa7f6c620800000000000000
+      internalID: 2794192953260047635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_09
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051e61310b121aae0800000000000000
+      internalID: -1539912557465771696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8448203849fc225f0800000000000000
+      internalID: -782835148448955320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713d42e8f9068b260800000000000000
+      internalID: 7113541849832542999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c46b9753e47fa600800000000000000
+      internalID: 481732204928132292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878182803f54b6270800000000000000
+      internalID: 8244760452948039800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441ec06a79edbd2d0800000000000000
+      internalID: -3252761562937761468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e2a22b5866a2ff0800000000000000
+      internalID: -60122920610288052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cd6f6b694c89920800000000000000
+      internalID: 2997361703608835104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76ad63b74b96a650800000000000000
+      internalID: 6243848665651062397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798b80cf9526b2300800000000000000
+      internalID: 228384344732383383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a36b45345149c010800000000000000
+      internalID: 1209569804852880290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa65cafd3ca4a940800000000000000
+      internalID: 5306555643149511333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3377b4c8fcf923960800000000000000
+      internalID: 7580296836578768691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc5dc58ed32f6f20800000000000000
+      internalID: 3417990080832036031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0aedc418530576c0800000000000000
+      internalID: -4146404205083629045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90d90fd26e74d360800000000000000
+      internalID: 7193513467931381917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adf746f04ee03ac0800000000000000
+      internalID: -3877337316388766302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675d048a49a7825c0800000000000000
+      internalID: -4240004270272752266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9a234f14735c220800000000000000
+      internalID: 2505469524110911990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1789cee8ead5f93c0800000000000000
+      internalID: -4350655710713046927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4be4cc802a7601c0800000000000000
+      internalID: -4537805294309938354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07a656e7aa12fee0800000000000000
+      internalID: -1228890439892424947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f330da13e519e89d0800000000000000
+      internalID: -2770116887039900865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be97228ce02bbd610800000000000000
+      internalID: 1647105865291037163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347c68615a35b8fb0800000000000000
+      internalID: -4644526622189893821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a982b9f67f0a7d0800000000000000
+      internalID: -2909053300564780527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122db052ac05431e0800000000000000
+      internalID: -2219059887251664351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9047d32b867d7820800000000000000
+      internalID: 2917618473579790490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d12dcdc349a5050800000000000000
+      internalID: 5790103260061900147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b334607d5ba3efe60800000000000000
+      internalID: 7997894540927583035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0c97a3e35388410800000000000000
+      internalID: 1479491018976510132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c489d0bd8467f11a0800000000000000
+      internalID: -6836615654040299444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Repeater_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7963cedb44fe74200800000000000000
+      internalID: 164362989945501335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Repeater_sheet_0: 5547279423204047815
+      Repeater_sheet_00: -5263723696573098143
+      Repeater_sheet_01: 6417537899604721554
+      Repeater_sheet_02: -8191028608800441535
+      Repeater_sheet_03: 8133031894474546712
+      Repeater_sheet_04: 7921805105356938912
+      Repeater_sheet_05: -8556277543037802087
+      Repeater_sheet_06: 8392519334730562765
+      Repeater_sheet_07: 4511920544336876506
+      Repeater_sheet_08: 2794192953260047635
+      Repeater_sheet_09: -1539912557465771696
+      Repeater_sheet_1: -3090310668855863165
+      Repeater_sheet_10: -782835148448955320
+      Repeater_sheet_11: 7113541849832542999
+      Repeater_sheet_12: 481732204928132292
+      Repeater_sheet_13: 8244760452948039800
+      Repeater_sheet_14: -3252761562937761468
+      Repeater_sheet_15: -60122920610288052
+      Repeater_sheet_16: 2997361703608835104
+      Repeater_sheet_17: 6243848665651062397
+      Repeater_sheet_18: 228384344732383383
+      Repeater_sheet_19: 1209569804852880290
+      Repeater_sheet_2: 2479830448219977530
+      Repeater_sheet_20: 5306555643149511333
+      Repeater_sheet_21: 7580296836578768691
+      Repeater_sheet_22: 3417990080832036031
+      Repeater_sheet_23: -4146404205083629045
+      Repeater_sheet_24: 7193513467931381917
+      Repeater_sheet_25: -3877337316388766302
+      Repeater_sheet_26: -4240004270272752266
+      Repeater_sheet_27: 2505469524110911990
+      Repeater_sheet_28: -4350655710713046927
+      Repeater_sheet_29: -4537805294309938354
+      Repeater_sheet_3: 2432698114512508293
+      Repeater_sheet_30: -1228890439892424947
+      Repeater_sheet_31: -2770116887039900865
+      Repeater_sheet_32: 1647105865291037163
+      Repeater_sheet_33: -4644526622189893821
+      Repeater_sheet_34: -2909053300564780527
+      Repeater_sheet_35: -2219059887251664351
+      Repeater_sheet_36: 2917618473579790490
+      Repeater_sheet_37: 5790103260061900147
+      Repeater_sheet_38: 7997894540927583035
+      Repeater_sheet_39: 1479491018976510132
+      Repeater_sheet_4: -7084957361028444907
+      Repeater_sheet_40: -6836615654040299444
+      Repeater_sheet_41: 164362989945501335
+      Repeater_sheet_5: -6196017741075923845
+      Repeater_sheet_6: 7520271609437884775
+      Repeater_sheet_7: -8526220639232294234
+      Repeater_sheet_8: 6732635176655573100
+      Repeater_sheet_9: -890388802572892726
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

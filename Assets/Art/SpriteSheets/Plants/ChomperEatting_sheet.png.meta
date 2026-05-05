@@ -1,0 +1,625 @@
+fileFormatVersion: 2
+guid: 308a9fbdaa93e468585a34380445ba3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4516202527649470884
+    second: ChomperEatting_sheet_0
+  - first:
+      213: -530370265747246623
+    second: ChomperEatting_sheet_1
+  - first:
+      213: -3543625921447997704
+    second: ChomperEatting_sheet_2
+  - first:
+      213: 6184967865656334485
+    second: ChomperEatting_sheet_3
+  - first:
+      213: 3076152875169456678
+    second: ChomperEatting_sheet_4
+  - first:
+      213: -1732314476790829165
+    second: ChomperEatting_sheet_5
+  - first:
+      213: 8831044257183514753
+    second: ChomperEatting_sheet_6
+  - first:
+      213: 1379485632935895983
+    second: ChomperEatting_sheet_7
+  - first:
+      213: -8724842418070754174
+    second: ChomperEatting_sheet_8
+  - first:
+      213: 1512591598398858232
+    second: ChomperEatting_sheet_9
+  - first:
+      213: 8804169281608504906
+    second: ChomperEatting_sheet_10
+  - first:
+      213: -7900344724814683229
+    second: ChomperEatting_sheet_11
+  - first:
+      213: 637104106477204173
+    second: ChomperEatting_sheet_12
+  - first:
+      213: 2475279990377659858
+    second: ChomperEatting_sheet_13
+  - first:
+      213: 2217992573549980506
+    second: ChomperEatting_sheet_14
+  - first:
+      213: 1821636943158004409
+    second: ChomperEatting_sheet_15
+  - first:
+      213: 2004374779281175953
+    second: ChomperEatting_sheet_16
+  - first:
+      213: 5482493190977513310
+    second: ChomperEatting_sheet_17
+  - first:
+      213: -8157218760002780610
+    second: ChomperEatting_sheet_00
+  - first:
+      213: 1220942417744115531
+    second: ChomperEatting_sheet_01
+  - first:
+      213: 1696961065955522185
+    second: ChomperEatting_sheet_02
+  - first:
+      213: -3867301963695994504
+    second: ChomperEatting_sheet_03
+  - first:
+      213: -6915443153846308793
+    second: ChomperEatting_sheet_04
+  - first:
+      213: 5231117091402611016
+    second: ChomperEatting_sheet_05
+  - first:
+      213: -4665424624287440631
+    second: ChomperEatting_sheet_06
+  - first:
+      213: -6834820742106507997
+    second: ChomperEatting_sheet_07
+  - first:
+      213: -1828168201376921398
+    second: ChomperEatting_sheet_08
+  - first:
+      213: 6891305514640594388
+    second: ChomperEatting_sheet_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32c1eea1ccbbce80800000000000000
+      internalID: -8157218760002780610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_01
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4738dcf8a8a1f010800000000000000
+      internalID: 1220942417744115531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_02
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98672fd3911dc8710800000000000000
+      internalID: 1696961065955522185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_03
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879cab69a55945ac0800000000000000
+      internalID: -3867301963695994504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_04
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740759657196700a0800000000000000
+      internalID: -6915443153846308793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_05
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849f68b6749a89840800000000000000
+      internalID: 5231117091402611016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_06
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901acfec505114fb0800000000000000
+      internalID: -4665424624287440631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_07
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325154b5fb6d521a0800000000000000
+      internalID: -6834820742106507997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_08
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac88347f4ba01a6e0800000000000000
+      internalID: -1828168201376921398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_09
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5d7d69ad5d2af50800000000000000
+      internalID: 6891305514640594388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a465eaca051be2a70800000000000000
+      internalID: 8804169281608504906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a32a42a4565c5290800000000000000
+      internalID: -7900344724814683229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2348f2fc277d800800000000000000
+      internalID: 637104106477204173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddb7126906f95220800000000000000
+      internalID: 2475279990377659858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ba6e48e74e7ce10800000000000000
+      internalID: 2217992573549980506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba49aaf521c74910800000000000000
+      internalID: 1821636943158004409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1957ecbfd38f0db10800000000000000
+      internalID: 2004374779281175953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperEatting_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 0
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5766bb728ab51c40800000000000000
+      internalID: 5482493190977513310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChomperEatting_sheet_0: 4516202527649470884
+      ChomperEatting_sheet_00: -8157218760002780610
+      ChomperEatting_sheet_01: 1220942417744115531
+      ChomperEatting_sheet_02: 1696961065955522185
+      ChomperEatting_sheet_03: -3867301963695994504
+      ChomperEatting_sheet_04: -6915443153846308793
+      ChomperEatting_sheet_05: 5231117091402611016
+      ChomperEatting_sheet_06: -4665424624287440631
+      ChomperEatting_sheet_07: -6834820742106507997
+      ChomperEatting_sheet_08: -1828168201376921398
+      ChomperEatting_sheet_09: 6891305514640594388
+      ChomperEatting_sheet_1: -530370265747246623
+      ChomperEatting_sheet_10: 8804169281608504906
+      ChomperEatting_sheet_11: -7900344724814683229
+      ChomperEatting_sheet_12: 637104106477204173
+      ChomperEatting_sheet_13: 2475279990377659858
+      ChomperEatting_sheet_14: 2217992573549980506
+      ChomperEatting_sheet_15: 1821636943158004409
+      ChomperEatting_sheet_16: 2004374779281175953
+      ChomperEatting_sheet_17: 5482493190977513310
+      ChomperEatting_sheet_2: -3543625921447997704
+      ChomperEatting_sheet_3: 6184967865656334485
+      ChomperEatting_sheet_4: 3076152875169456678
+      ChomperEatting_sheet_5: -1732314476790829165
+      ChomperEatting_sheet_6: 8831044257183514753
+      ChomperEatting_sheet_7: 1379485632935895983
+      ChomperEatting_sheet_8: -8724842418070754174
+      ChomperEatting_sheet_9: 1512591598398858232
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

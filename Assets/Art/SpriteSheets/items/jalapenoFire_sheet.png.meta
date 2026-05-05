@@ -1,0 +1,629 @@
+fileFormatVersion: 2
+guid: f3e5608e0abf743d68053fe9966b9bdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8535056919598806787
+    second: jalapenoFire_sheet_0
+  - first:
+      213: -5390011585935452081
+    second: jalapenoFire_sheet_1
+  - first:
+      213: -6539424763945408344
+    second: jalapenoFire_sheet_2
+  - first:
+      213: 8182321273945198272
+    second: jalapenoFire_sheet_3
+  - first:
+      213: -3908306844497426764
+    second: jalapenoFire_sheet_4
+  - first:
+      213: -6917698547665781770
+    second: jalapenoFire_sheet_5
+  - first:
+      213: 8328718031588278151
+    second: jalapenoFire_sheet_6
+  - first:
+      213: 1854037590720390072
+    second: jalapenoFire_sheet_7
+  - first:
+      213: -3400169272460413277
+    second: jalapenoFire_sheet_8
+  - first:
+      213: 7507451883990013607
+    second: jalapenoFire_sheet_9
+  - first:
+      213: -5060991775113150300
+    second: jalapenoFire_sheet_10
+  - first:
+      213: -3693271209084353383
+    second: jalapenoFire_sheet_11
+  - first:
+      213: -5771904766351004278
+    second: jalapenoFire_sheet_12
+  - first:
+      213: -1076144798024729964
+    second: jalapenoFire_sheet_13
+  - first:
+      213: 6402385606292856896
+    second: jalapenoFire_sheet_14
+  - first:
+      213: 5386517463152352235
+    second: jalapenoFire_sheet_15
+  - first:
+      213: 2548079871255026438
+    second: jalapenoFire_sheet_16
+  - first:
+      213: -1805161198136341744
+    second: jalapenoFire_sheet_17
+  - first:
+      213: -8806034241716634086
+    second: jalapenoFire_sheet_18
+  - first:
+      213: 4479216721756276743
+    second: jalapenoFire_sheet_00
+  - first:
+      213: 7903229677859891076
+    second: jalapenoFire_sheet_01
+  - first:
+      213: 8570718681978020330
+    second: jalapenoFire_sheet_02
+  - first:
+      213: 1712788437690842860
+    second: jalapenoFire_sheet_03
+  - first:
+      213: 9075600386085021705
+    second: jalapenoFire_sheet_04
+  - first:
+      213: 3523028759229058518
+    second: jalapenoFire_sheet_05
+  - first:
+      213: -5126870982567280754
+    second: jalapenoFire_sheet_06
+  - first:
+      213: 7111737688769686467
+    second: jalapenoFire_sheet_07
+  - first:
+      213: 6579690783437176227
+    second: jalapenoFire_sheet_08
+  - first:
+      213: -1177812990904335403
+    second: jalapenoFire_sheet_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708c54460ef592e30800000000000000
+      internalID: 4479216721756276743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_01
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487e927d489edad60800000000000000
+      internalID: 7903229677859891076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_02
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1aa1d4b3f41f670800000000000000
+      internalID: 8570718681978020330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_03
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee75f3620c05c710800000000000000
+      internalID: 1712788437690842860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_04
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908eeff677203fd70800000000000000
+      internalID: 9075600386085021705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_05
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd455f9dff44e030800000000000000
+      internalID: 3523028759229058518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_06
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fb1d23102b9d8b0800000000000000
+      internalID: -5126870982567280754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_07
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbefd29fb7f1b260800000000000000
+      internalID: 7111737688769686467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_08
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad3fa628e1cf4b50800000000000000
+      internalID: 6579690783437176227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_09
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d38e49335197afe0800000000000000
+      internalID: -1177812990904335403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a005397bceb3c9b0800000000000000
+      internalID: -5060991775113150300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9948953376ddebcc0800000000000000
+      internalID: -3693271209084353383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8da344223316efa0800000000000000
+      internalID: -5771904766351004278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49af9d20204c011f0800000000000000
+      internalID: -1076144798024729964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040e822a9c7d9d850800000000000000
+      internalID: 6402385606292856896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb52aff711c0ca40800000000000000
+      internalID: 5386517463152352235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b9a7184299c5320800000000000000
+      internalID: 2548079871255026438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalapenoFire_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bc3c65477c2f6e0800000000000000
+      internalID: -1805161198136341744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jalapenoFire_sheet_0: -8535056919598806787
+      jalapenoFire_sheet_00: 4479216721756276743
+      jalapenoFire_sheet_01: 7903229677859891076
+      jalapenoFire_sheet_02: 8570718681978020330
+      jalapenoFire_sheet_03: 1712788437690842860
+      jalapenoFire_sheet_04: 9075600386085021705
+      jalapenoFire_sheet_05: 3523028759229058518
+      jalapenoFire_sheet_06: -5126870982567280754
+      jalapenoFire_sheet_07: 7111737688769686467
+      jalapenoFire_sheet_08: 6579690783437176227
+      jalapenoFire_sheet_09: -1177812990904335403
+      jalapenoFire_sheet_1: -5390011585935452081
+      jalapenoFire_sheet_10: -5060991775113150300
+      jalapenoFire_sheet_11: -3693271209084353383
+      jalapenoFire_sheet_12: -5771904766351004278
+      jalapenoFire_sheet_13: -1076144798024729964
+      jalapenoFire_sheet_14: 6402385606292856896
+      jalapenoFire_sheet_15: 5386517463152352235
+      jalapenoFire_sheet_16: 2548079871255026438
+      jalapenoFire_sheet_17: -1805161198136341744
+      jalapenoFire_sheet_18: -8806034241716634086
+      jalapenoFire_sheet_2: -6539424763945408344
+      jalapenoFire_sheet_3: 8182321273945198272
+      jalapenoFire_sheet_4: -3908306844497426764
+      jalapenoFire_sheet_5: -6917698547665781770
+      jalapenoFire_sheet_6: 8328718031588278151
+      jalapenoFire_sheet_7: 1854037590720390072
+      jalapenoFire_sheet_8: -3400169272460413277
+      jalapenoFire_sheet_9: 7507451883990013607
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

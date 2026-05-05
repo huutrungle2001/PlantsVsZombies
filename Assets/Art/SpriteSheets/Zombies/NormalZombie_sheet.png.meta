@@ -1,0 +1,911 @@
+fileFormatVersion: 2
+guid: b0a393802fbc54412bffd5e83b1299fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2963635474423134084
+    second: NormalZombie_sheet_0
+  - first:
+      213: -2093938292504801762
+    second: NormalZombie_sheet_1
+  - first:
+      213: -474546937428800061
+    second: NormalZombie_sheet_2
+  - first:
+      213: 1126275314521438168
+    second: NormalZombie_sheet_3
+  - first:
+      213: 5339540073461448256
+    second: NormalZombie_sheet_4
+  - first:
+      213: -4364086828148289830
+    second: NormalZombie_sheet_5
+  - first:
+      213: 9121834198899113011
+    second: NormalZombie_sheet_6
+  - first:
+      213: -2576758624297732264
+    second: NormalZombie_sheet_7
+  - first:
+      213: -30321034237777786
+    second: NormalZombie_sheet_8
+  - first:
+      213: -4437493909612438232
+    second: NormalZombie_sheet_9
+  - first:
+      213: -7395840889376457895
+    second: NormalZombie_sheet_10
+  - first:
+      213: 8145741281955365300
+    second: NormalZombie_sheet_11
+  - first:
+      213: 2699446234815047398
+    second: NormalZombie_sheet_12
+  - first:
+      213: 5465344728133953027
+    second: NormalZombie_sheet_13
+  - first:
+      213: 8960726183775728184
+    second: NormalZombie_sheet_14
+  - first:
+      213: -7296704318703474981
+    second: NormalZombie_sheet_15
+  - first:
+      213: 3207322311026176425
+    second: NormalZombie_sheet_16
+  - first:
+      213: 1696648803935473617
+    second: NormalZombie_sheet_17
+  - first:
+      213: 187769439959913106
+    second: NormalZombie_sheet_18
+  - first:
+      213: 8052994404526844069
+    second: NormalZombie_sheet_19
+  - first:
+      213: 5358448035726186640
+    second: NormalZombie_sheet_20
+  - first:
+      213: -7250421444807156414
+    second: NormalZombie_sheet_21
+  - first:
+      213: -6579616091450379615
+    second: NormalZombie_sheet_22
+  - first:
+      213: -2479337234555562659
+    second: NormalZombie_sheet_23
+  - first:
+      213: 2528615163389181335
+    second: NormalZombie_sheet_24
+  - first:
+      213: -5771871650717569945
+    second: NormalZombie_sheet_25
+  - first:
+      213: 3381227428758878218
+    second: NormalZombie_sheet_26
+  - first:
+      213: -3132928835854644454
+    second: NormalZombie_sheet_27
+  - first:
+      213: 435088469571775798
+    second: NormalZombie_sheet_28
+  - first:
+      213: -6150028632691859586
+    second: NormalZombie_sheet_00
+  - first:
+      213: 1146696224588423546
+    second: NormalZombie_sheet_01
+  - first:
+      213: -5859680633546627703
+    second: NormalZombie_sheet_02
+  - first:
+      213: 6526832448759532435
+    second: NormalZombie_sheet_03
+  - first:
+      213: -4527533184782804773
+    second: NormalZombie_sheet_04
+  - first:
+      213: -8155560162326238877
+    second: NormalZombie_sheet_05
+  - first:
+      213: 6045465006303065054
+    second: NormalZombie_sheet_06
+  - first:
+      213: -6549665850257409627
+    second: NormalZombie_sheet_07
+  - first:
+      213: -5776474386310001596
+    second: NormalZombie_sheet_08
+  - first:
+      213: -3941695000530225491
+    second: NormalZombie_sheet_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NormalZombie_sheet_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f9be5fa85b6aaa0800000000000000
+      internalID: -6150028632691859586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_01
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71efdb0422e9ef00800000000000000
+      internalID: 1146696224588423546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_02
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985a73c728b3eaea0800000000000000
+      internalID: -5859680633546627703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_03
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b0ec01887f39a50800000000000000
+      internalID: 6526832448759532435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_04
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd85a3c6e88fa21c0800000000000000
+      internalID: -4527533184782804773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_05
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369a73c0e31a1de80800000000000000
+      internalID: -8155560162326238877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_06
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3bfba946ec5e350800000000000000
+      internalID: 6045465006303065054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_07
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a976ed5c99ea15a0800000000000000
+      internalID: -6549665850257409627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_08
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c89d59627d5dfa0800000000000000
+      internalID: -5776474386310001596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_09
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da67670f7494c49c0800000000000000
+      internalID: -3941695000530225491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b386d55e1bc5990800000000000000
+      internalID: -7395840889376457895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b14f27b98c7b0170800000000000000
+      internalID: 8145741281955365300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6aa6c5c0c567520800000000000000
+      internalID: 2699446234815047398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3066a77d21ec8db40800000000000000
+      internalID: 5465344728133953027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8327e79fcf4ea5c70800000000000000
+      internalID: 8960726183775728184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6ee9ce416ecba90800000000000000
+      internalID: -7296704318703474981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a176e416a2b28c20800000000000000
+      internalID: 3207322311026176425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df4a231915bb8710800000000000000
+      internalID: 1696648803935473617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2921c709f471b9200800000000000000
+      internalID: 187769439959913106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8e70c8ebbf1cf60800000000000000
+      internalID: 8052994404526844069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09859d429180d5a40800000000000000
+      internalID: 5358448035726186640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d156e3c14516b90800000000000000
+      internalID: -7250421444807156414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2f7ae660280b4a0800000000000000
+      internalID: -6579616091450379615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d559ae7dbef979dd0800000000000000
+      internalID: -2479337234555562659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d7a7b0812771320800000000000000
+      internalID: 2528615163389181335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ce4d9705136efa0800000000000000
+      internalID: -5771871650717569945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08faf39e688cee20800000000000000
+      internalID: 3381227428758878218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b4e40a2d99584d0800000000000000
+      internalID: -3132928835854644454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombie_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63da1ba68aeb90600800000000000000
+      internalID: 435088469571775798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NormalZombie_sheet_0: 2963635474423134084
+      NormalZombie_sheet_00: -6150028632691859586
+      NormalZombie_sheet_01: 1146696224588423546
+      NormalZombie_sheet_02: -5859680633546627703
+      NormalZombie_sheet_03: 6526832448759532435
+      NormalZombie_sheet_04: -4527533184782804773
+      NormalZombie_sheet_05: -8155560162326238877
+      NormalZombie_sheet_06: 6045465006303065054
+      NormalZombie_sheet_07: -6549665850257409627
+      NormalZombie_sheet_08: -5776474386310001596
+      NormalZombie_sheet_09: -3941695000530225491
+      NormalZombie_sheet_1: -2093938292504801762
+      NormalZombie_sheet_10: -7395840889376457895
+      NormalZombie_sheet_11: 8145741281955365300
+      NormalZombie_sheet_12: 2699446234815047398
+      NormalZombie_sheet_13: 5465344728133953027
+      NormalZombie_sheet_14: 8960726183775728184
+      NormalZombie_sheet_15: -7296704318703474981
+      NormalZombie_sheet_16: 3207322311026176425
+      NormalZombie_sheet_17: 1696648803935473617
+      NormalZombie_sheet_18: 187769439959913106
+      NormalZombie_sheet_19: 8052994404526844069
+      NormalZombie_sheet_2: -474546937428800061
+      NormalZombie_sheet_20: 5358448035726186640
+      NormalZombie_sheet_21: -7250421444807156414
+      NormalZombie_sheet_22: -6579616091450379615
+      NormalZombie_sheet_23: -2479337234555562659
+      NormalZombie_sheet_24: 2528615163389181335
+      NormalZombie_sheet_25: -5771871650717569945
+      NormalZombie_sheet_26: 3381227428758878218
+      NormalZombie_sheet_27: -3132928835854644454
+      NormalZombie_sheet_28: 435088469571775798
+      NormalZombie_sheet_3: 1126275314521438168
+      NormalZombie_sheet_4: 5339540073461448256
+      NormalZombie_sheet_5: -4364086828148289830
+      NormalZombie_sheet_6: 9121834198899113011
+      NormalZombie_sheet_7: -2576758624297732264
+      NormalZombie_sheet_8: -30321034237777786
+      NormalZombie_sheet_9: -4437493909612438232
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

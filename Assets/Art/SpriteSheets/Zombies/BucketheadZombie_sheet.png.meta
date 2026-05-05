@@ -1,0 +1,1561 @@
+fileFormatVersion: 2
+guid: 2ffbc268ad1a1432dbb8c377654636b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2341455257321708681
+    second: BucketheadZombie_sheet_0
+  - first:
+      213: 4775354419596945484
+    second: BucketheadZombie_sheet_1
+  - first:
+      213: 1174176038273112010
+    second: BucketheadZombie_sheet_2
+  - first:
+      213: -5516657544848124894
+    second: BucketheadZombie_sheet_3
+  - first:
+      213: 2684599764938401618
+    second: BucketheadZombie_sheet_4
+  - first:
+      213: 4178559510418554635
+    second: BucketheadZombie_sheet_5
+  - first:
+      213: 5141488789757265149
+    second: BucketheadZombie_sheet_6
+  - first:
+      213: 1659002234804118762
+    second: BucketheadZombie_sheet_7
+  - first:
+      213: 1790227593889250930
+    second: BucketheadZombie_sheet_8
+  - first:
+      213: 440630667144424353
+    second: BucketheadZombie_sheet_9
+  - first:
+      213: -2587253805167039922
+    second: BucketheadZombie_sheet_10
+  - first:
+      213: 2973666950233802278
+    second: BucketheadZombie_sheet_11
+  - first:
+      213: -8338511526161664336
+    second: BucketheadZombie_sheet_12
+  - first:
+      213: 4016998299508603416
+    second: BucketheadZombie_sheet_13
+  - first:
+      213: -2783575102173788330
+    second: BucketheadZombie_sheet_14
+  - first:
+      213: -3476097858660127467
+    second: BucketheadZombie_sheet_15
+  - first:
+      213: -2725788334007645464
+    second: BucketheadZombie_sheet_16
+  - first:
+      213: -6965307862688686941
+    second: BucketheadZombie_sheet_17
+  - first:
+      213: 8370882824517623237
+    second: BucketheadZombie_sheet_18
+  - first:
+      213: 5465615932631146736
+    second: BucketheadZombie_sheet_19
+  - first:
+      213: -7183887310041308044
+    second: BucketheadZombie_sheet_20
+  - first:
+      213: 6179298656702844972
+    second: BucketheadZombie_sheet_21
+  - first:
+      213: 7438302077621964949
+    second: BucketheadZombie_sheet_22
+  - first:
+      213: 7235576858360652888
+    second: BucketheadZombie_sheet_23
+  - first:
+      213: -385158052158288912
+    second: BucketheadZombie_sheet_24
+  - first:
+      213: 5180799157890369912
+    second: BucketheadZombie_sheet_25
+  - first:
+      213: -5148258231209976505
+    second: BucketheadZombie_sheet_26
+  - first:
+      213: 6424737495321367023
+    second: BucketheadZombie_sheet_27
+  - first:
+      213: 3675806828801363217
+    second: BucketheadZombie_sheet_28
+  - first:
+      213: -8077133605654125753
+    second: BucketheadZombie_sheet_29
+  - first:
+      213: 9109491682363718679
+    second: BucketheadZombie_sheet_30
+  - first:
+      213: 3158279437209213817
+    second: BucketheadZombie_sheet_31
+  - first:
+      213: 4464370929212164939
+    second: BucketheadZombie_sheet_32
+  - first:
+      213: 7159838477530874952
+    second: BucketheadZombie_sheet_33
+  - first:
+      213: 2079424301276549727
+    second: BucketheadZombie_sheet_34
+  - first:
+      213: -8498887014604429812
+    second: BucketheadZombie_sheet_35
+  - first:
+      213: 395357566409056881
+    second: BucketheadZombie_sheet_36
+  - first:
+      213: 590512335508623247
+    second: BucketheadZombie_sheet_37
+  - first:
+      213: 8624794548929736304
+    second: BucketheadZombie_sheet_38
+  - first:
+      213: -9204164696344923236
+    second: BucketheadZombie_sheet_39
+  - first:
+      213: -6740520770114875832
+    second: BucketheadZombie_sheet_40
+  - first:
+      213: -8299281585039284618
+    second: BucketheadZombie_sheet_41
+  - first:
+      213: 1899354055198915659
+    second: BucketheadZombie_sheet_42
+  - first:
+      213: -1512684651853465801
+    second: BucketheadZombie_sheet_43
+  - first:
+      213: 6659099050189139357
+    second: BucketheadZombie_sheet_44
+  - first:
+      213: 5754491428091216191
+    second: BucketheadZombie_sheet_45
+  - first:
+      213: -3192673062872395732
+    second: BucketheadZombie_sheet_46
+  - first:
+      213: -8538329131459216216
+    second: BucketheadZombie_sheet_47
+  - first:
+      213: -8489251051823490847
+    second: BucketheadZombie_sheet_48
+  - first:
+      213: -2594490906301497300
+    second: BucketheadZombie_sheet_49
+  - first:
+      213: -3824025381160518196
+    second: BucketheadZombie_sheet_50
+  - first:
+      213: -3298062260808068661
+    second: BucketheadZombie_sheet_51
+  - first:
+      213: 1327628840930214191
+    second: BucketheadZombie_sheet_52
+  - first:
+      213: 4888698965885812026
+    second: BucketheadZombie_sheet_53
+  - first:
+      213: 4536157408241412190
+    second: BucketheadZombie_sheet_00
+  - first:
+      213: 244313627689221519
+    second: BucketheadZombie_sheet_01
+  - first:
+      213: -2040360917937624345
+    second: BucketheadZombie_sheet_02
+  - first:
+      213: -4130390872943411985
+    second: BucketheadZombie_sheet_03
+  - first:
+      213: -1367597490546808416
+    second: BucketheadZombie_sheet_04
+  - first:
+      213: 4641377555609707232
+    second: BucketheadZombie_sheet_05
+  - first:
+      213: -3591254273294315018
+    second: BucketheadZombie_sheet_06
+  - first:
+      213: 8259974460542980195
+    second: BucketheadZombie_sheet_07
+  - first:
+      213: 2404085275724047523
+    second: BucketheadZombie_sheet_08
+  - first:
+      213: -3334627535022494170
+    second: BucketheadZombie_sheet_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e586c73112ba3fe30800000000000000
+      internalID: 4536157408241412190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_01
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8df33033f9f36300800000000000000
+      internalID: 244313627689221519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_02
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eaecb03e8e2fa3e0800000000000000
+      internalID: -2040360917937624345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_03
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec31b28267eda6c0800000000000000
+      internalID: -4130390872943411985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_04
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9ed340451550de0800000000000000
+      internalID: -1367597490546808416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_05
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e26696bb4c796040800000000000000
+      internalID: 4641377555609707232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_06
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f15036044d492ec0800000000000000
+      internalID: -3591254273294315018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_07
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3609676320351a270800000000000000
+      internalID: 8259974460542980195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_08
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4674522d60d5120800000000000000
+      internalID: 2404085275724047523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_09
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e6fbcace509b1d0800000000000000
+      internalID: -3334627535022494170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4aad3f3f5a381cd0800000000000000
+      internalID: -2587253805167039922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62641090656944920800000000000000
+      internalID: 2973666950233802278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b632af32f7a74c80800000000000000
+      internalID: -8338511526161664336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81afe81abae3fb730800000000000000
+      internalID: 4016998299508603416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6574f4d4131ce59d0800000000000000
+      internalID: -2783575102173788330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d211a2a6b62cfc0800000000000000
+      internalID: -3476097858660127467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea029ab3fd0c2ad0800000000000000
+      internalID: -2725788334007645464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac94351761465f90800000000000000
+      internalID: -6965307862688686941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd9acbf3995b2470800000000000000
+      internalID: 8370882824517623237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0e13f8bb4c9db40800000000000000
+      internalID: 5465615932631146736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4742d8aad84bd4c90800000000000000
+      internalID: -7183887310041308044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2052d1936741c550800000000000000
+      internalID: 6179298656702844972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59015bc64582a3760800000000000000
+      internalID: 7438302077621964949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854af9321dee96460800000000000000
+      internalID: 7235576858360652888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb49becac4a7aaf0800000000000000
+      internalID: -385158052158288912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879c2b29265e5e740800000000000000
+      internalID: 5180799157890369912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d9fb45a66bd88b0800000000000000
+      internalID: -5148258231209976505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe153c756b0492950800000000000000
+      internalID: 6424737495321367023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d09a5e5d6130330800000000000000
+      internalID: 3675806828801363217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743ad97b7c148ef80800000000000000
+      internalID: -8077133605654125753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c3aa3cb6a6b6e70800000000000000
+      internalID: 9109491682363718679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b96443a6674db20800000000000000
+      internalID: 3158279437209213817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b8545f4b1a4fd30800000000000000
+      internalID: 4464370929212164939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844c66e292bdc5360800000000000000
+      internalID: 7159838477530874952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5257ee72699bdc10800000000000000
+      internalID: 2079424301276549727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06a25c0a43ed0a80800000000000000
+      internalID: -8498887014604429812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1722319ac979c7500800000000000000
+      internalID: 395357566409056881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f4a7927dbe13800800000000000000
+      internalID: 590512335508623247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07eaea532fc61b770800000000000000
+      internalID: 8624794548929736304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c937b2479fc344080800000000000000
+      internalID: -9204164696344923236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e0928821cd472a0800000000000000
+      internalID: -6740520770114875832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676eac0be5703dc80800000000000000
+      internalID: -8299281585039284618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c34d2337cdb5a10800000000000000
+      internalID: 1899354055198915659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737b61dd25dd10be0800000000000000
+      internalID: -1512684651853465801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d2aa20e4fd96c50800000000000000
+      internalID: 6659099050189139357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31486a177f0cdf40800000000000000
+      internalID: 5754491428091216191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20588bc3c851b3d0800000000000000
+      internalID: -3192673062872395732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acf00894e2c18980800000000000000
+      internalID: -8538329131459216216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e813f6752f103a80800000000000000
+      internalID: -8489251051823490847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c200be454448efbd0800000000000000
+      internalID: -2594490906301497300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd79d72d255eeac0800000000000000
+      internalID: -3824025381160518196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1d96109ddea32d0800000000000000
+      internalID: -3298062260808068661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f218531956fac6210800000000000000
+      internalID: 1327628840930214191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketheadZombie_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 0
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d717bdec528d340800000000000000
+      internalID: 4888698965885812026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BucketheadZombie_sheet_0: -2341455257321708681
+      BucketheadZombie_sheet_00: 4536157408241412190
+      BucketheadZombie_sheet_01: 244313627689221519
+      BucketheadZombie_sheet_02: -2040360917937624345
+      BucketheadZombie_sheet_03: -4130390872943411985
+      BucketheadZombie_sheet_04: -1367597490546808416
+      BucketheadZombie_sheet_05: 4641377555609707232
+      BucketheadZombie_sheet_06: -3591254273294315018
+      BucketheadZombie_sheet_07: 8259974460542980195
+      BucketheadZombie_sheet_08: 2404085275724047523
+      BucketheadZombie_sheet_09: -3334627535022494170
+      BucketheadZombie_sheet_1: 4775354419596945484
+      BucketheadZombie_sheet_10: -2587253805167039922
+      BucketheadZombie_sheet_11: 2973666950233802278
+      BucketheadZombie_sheet_12: -8338511526161664336
+      BucketheadZombie_sheet_13: 4016998299508603416
+      BucketheadZombie_sheet_14: -2783575102173788330
+      BucketheadZombie_sheet_15: -3476097858660127467
+      BucketheadZombie_sheet_16: -2725788334007645464
+      BucketheadZombie_sheet_17: -6965307862688686941
+      BucketheadZombie_sheet_18: 8370882824517623237
+      BucketheadZombie_sheet_19: 5465615932631146736
+      BucketheadZombie_sheet_2: 1174176038273112010
+      BucketheadZombie_sheet_20: -7183887310041308044
+      BucketheadZombie_sheet_21: 6179298656702844972
+      BucketheadZombie_sheet_22: 7438302077621964949
+      BucketheadZombie_sheet_23: 7235576858360652888
+      BucketheadZombie_sheet_24: -385158052158288912
+      BucketheadZombie_sheet_25: 5180799157890369912
+      BucketheadZombie_sheet_26: -5148258231209976505
+      BucketheadZombie_sheet_27: 6424737495321367023
+      BucketheadZombie_sheet_28: 3675806828801363217
+      BucketheadZombie_sheet_29: -8077133605654125753
+      BucketheadZombie_sheet_3: -5516657544848124894
+      BucketheadZombie_sheet_30: 9109491682363718679
+      BucketheadZombie_sheet_31: 3158279437209213817
+      BucketheadZombie_sheet_32: 4464370929212164939
+      BucketheadZombie_sheet_33: 7159838477530874952
+      BucketheadZombie_sheet_34: 2079424301276549727
+      BucketheadZombie_sheet_35: -8498887014604429812
+      BucketheadZombie_sheet_36: 395357566409056881
+      BucketheadZombie_sheet_37: 590512335508623247
+      BucketheadZombie_sheet_38: 8624794548929736304
+      BucketheadZombie_sheet_39: -9204164696344923236
+      BucketheadZombie_sheet_4: 2684599764938401618
+      BucketheadZombie_sheet_40: -6740520770114875832
+      BucketheadZombie_sheet_41: -8299281585039284618
+      BucketheadZombie_sheet_42: 1899354055198915659
+      BucketheadZombie_sheet_43: -1512684651853465801
+      BucketheadZombie_sheet_44: 6659099050189139357
+      BucketheadZombie_sheet_45: 5754491428091216191
+      BucketheadZombie_sheet_46: -3192673062872395732
+      BucketheadZombie_sheet_47: -8538329131459216216
+      BucketheadZombie_sheet_48: -8489251051823490847
+      BucketheadZombie_sheet_49: -2594490906301497300
+      BucketheadZombie_sheet_5: 4178559510418554635
+      BucketheadZombie_sheet_50: -3824025381160518196
+      BucketheadZombie_sheet_51: -3298062260808068661
+      BucketheadZombie_sheet_52: 1327628840930214191
+      BucketheadZombie_sheet_53: 4888698965885812026
+      BucketheadZombie_sheet_6: 5141488789757265149
+      BucketheadZombie_sheet_7: 1659002234804118762
+      BucketheadZombie_sheet_8: 1790227593889250930
+      BucketheadZombie_sheet_9: 440630667144424353
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

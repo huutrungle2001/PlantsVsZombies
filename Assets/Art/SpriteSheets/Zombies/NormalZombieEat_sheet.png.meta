@@ -1,0 +1,1197 @@
+fileFormatVersion: 2
+guid: f2975c9b2658141279f204c19de4edbb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2392278386861724156
+    second: NormalZombieEat_sheet_0
+  - first:
+      213: 2372764445701092472
+    second: NormalZombieEat_sheet_1
+  - first:
+      213: 5433650516448568473
+    second: NormalZombieEat_sheet_2
+  - first:
+      213: 8719746370228662445
+    second: NormalZombieEat_sheet_3
+  - first:
+      213: -1294246594121104489
+    second: NormalZombieEat_sheet_4
+  - first:
+      213: -2504034087224974331
+    second: NormalZombieEat_sheet_5
+  - first:
+      213: -1152080597938346641
+    second: NormalZombieEat_sheet_6
+  - first:
+      213: -8411017027405881213
+    second: NormalZombieEat_sheet_7
+  - first:
+      213: 450580082241465674
+    second: NormalZombieEat_sheet_8
+  - first:
+      213: 4093534300432282975
+    second: NormalZombieEat_sheet_9
+  - first:
+      213: 7438548666230357161
+    second: NormalZombieEat_sheet_10
+  - first:
+      213: 208654113015470765
+    second: NormalZombieEat_sheet_11
+  - first:
+      213: 3378152927505359716
+    second: NormalZombieEat_sheet_12
+  - first:
+      213: -4627074893806712929
+    second: NormalZombieEat_sheet_13
+  - first:
+      213: -3453032778637467464
+    second: NormalZombieEat_sheet_14
+  - first:
+      213: -3461401674973342503
+    second: NormalZombieEat_sheet_15
+  - first:
+      213: -3746002810335610736
+    second: NormalZombieEat_sheet_16
+  - first:
+      213: 4042452562335908391
+    second: NormalZombieEat_sheet_17
+  - first:
+      213: -8312535167291589520
+    second: NormalZombieEat_sheet_18
+  - first:
+      213: 672476118676124055
+    second: NormalZombieEat_sheet_19
+  - first:
+      213: 7258384320263587326
+    second: NormalZombieEat_sheet_20
+  - first:
+      213: -8265392800896812758
+    second: NormalZombieEat_sheet_21
+  - first:
+      213: -4134170841305586987
+    second: NormalZombieEat_sheet_22
+  - first:
+      213: -6787138546297247112
+    second: NormalZombieEat_sheet_23
+  - first:
+      213: -2524956646150921935
+    second: NormalZombieEat_sheet_24
+  - first:
+      213: -270144119667896638
+    second: NormalZombieEat_sheet_25
+  - first:
+      213: 1353439308232333621
+    second: NormalZombieEat_sheet_26
+  - first:
+      213: 717192387963348075
+    second: NormalZombieEat_sheet_27
+  - first:
+      213: 7654802384744017076
+    second: NormalZombieEat_sheet_28
+  - first:
+      213: -7271252808240526854
+    second: NormalZombieEat_sheet_29
+  - first:
+      213: 2473518055073927683
+    second: NormalZombieEat_sheet_30
+  - first:
+      213: -188056047023075900
+    second: NormalZombieEat_sheet_31
+  - first:
+      213: -6625274520777576518
+    second: NormalZombieEat_sheet_32
+  - first:
+      213: 3506731704725208946
+    second: NormalZombieEat_sheet_33
+  - first:
+      213: -3912297577053909043
+    second: NormalZombieEat_sheet_34
+  - first:
+      213: 6266121402090543282
+    second: NormalZombieEat_sheet_35
+  - first:
+      213: 5472933635280082390
+    second: NormalZombieEat_sheet_36
+  - first:
+      213: 6187051823917705034
+    second: NormalZombieEat_sheet_37
+  - first:
+      213: -2060275422607525165
+    second: NormalZombieEat_sheet_38
+  - first:
+      213: -4835672252203528413
+    second: NormalZombieEat_sheet_39
+  - first:
+      213: -5980366285590202987
+    second: NormalZombieEat_sheet_00
+  - first:
+      213: -1597453568362903475
+    second: NormalZombieEat_sheet_01
+  - first:
+      213: -7922612016829842782
+    second: NormalZombieEat_sheet_02
+  - first:
+      213: 4268461527371614151
+    second: NormalZombieEat_sheet_03
+  - first:
+      213: -4726864287576238467
+    second: NormalZombieEat_sheet_04
+  - first:
+      213: 6408644124237270570
+    second: NormalZombieEat_sheet_05
+  - first:
+      213: -4553593846663134629
+    second: NormalZombieEat_sheet_06
+  - first:
+      213: -7208611699567876014
+    second: NormalZombieEat_sheet_07
+  - first:
+      213: -3904914911260612056
+    second: NormalZombieEat_sheet_08
+  - first:
+      213: 4000795737366721199
+    second: NormalZombieEat_sheet_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5957ca07c88710da0800000000000000
+      internalID: -5980366285590202987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_01
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d488c887174b4d9e0800000000000000
+      internalID: -1597453568362903475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_02
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aabd93b85a3d0290800000000000000
+      internalID: -7922612016829842782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_03
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c70864d42f9c3b30800000000000000
+      internalID: 4268461527371614151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_04
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76d98579fdc66eb0800000000000000
+      internalID: -4726864287576238467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_05
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e8e0560e310f850800000000000000
+      internalID: 6408644124237270570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_06
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b524d3eb5826ec0c0800000000000000
+      internalID: -4553593846663134629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_07
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25828832addd5fb90800000000000000
+      internalID: -7208611699567876014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_08
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a6f2cc394fec9c0800000000000000
+      internalID: -3904914911260612056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_09
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2f3a8a68ea58730800000000000000
+      internalID: 4000795737366721199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acbd1fc9980b3760800000000000000
+      internalID: 7438548666230357161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa163f6fc945e200800000000000000
+      internalID: 208654113015470765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46327e8703c91ee20800000000000000
+      internalID: 3378152927505359716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97c58d36e359cfb0800000000000000
+      internalID: -4627074893806712929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0a8879bfc5410d0800000000000000
+      internalID: -3453032778637467464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d495421481a6ffc0800000000000000
+      internalID: -3461401674973342503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098b45a8a46830cc0800000000000000
+      internalID: -3746002810335610736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7224667003da91830800000000000000
+      internalID: 4042452562335908391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c74aa9e41f3ac80800000000000000
+      internalID: -8312535167291589520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791bf9d877d155900800000000000000
+      internalID: 672476118676124055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5839c2516fab460800000000000000
+      internalID: 7258384320263587326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29797d1a0d6b4d80800000000000000
+      internalID: -8265392800896812758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2e33b068970a6c0800000000000000
+      internalID: -4134170841305586987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a6792b37d3fc1a0800000000000000
+      internalID: -6787138546297247112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131a9e0ee4d85fcd0800000000000000
+      internalID: -2524956646150921935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cec80dba51404cf0800000000000000
+      internalID: -270144119667896638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5391d3841e168c210800000000000000
+      internalID: 1353439308232333621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 4752
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b646b205daaf3f900800000000000000
+      internalID: 717192387963348075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcea7846325b3a60800000000000000
+      internalID: 7654802384744017076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af903cc7812571b90800000000000000
+      internalID: -7271252808240526854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 5280
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302523ad093b35220800000000000000
+      internalID: 2473518055073927683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 5456
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd43578504e36df0800000000000000
+      internalID: -188056047023075900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf2b91fceb4e04a0800000000000000
+      internalID: -6625274520777576518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 5808
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ffebee7e96aa030800000000000000
+      internalID: 3506731704725208946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf8418f41ab4b9c0800000000000000
+      internalID: -3912297577053909043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b85413473cb5f650800000000000000
+      internalID: 6266121402090543282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5182af424c3fb40800000000000000
+      internalID: 5472933635280082390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 6512
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a472c8b7ad2dcd550800000000000000
+      internalID: 6187051823917705034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dab2004b6e6863e0800000000000000
+      internalID: -2060275422607525165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalZombieEat_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 6864
+        y: 0
+        width: 176
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f023505bd34ecb0800000000000000
+      internalID: -4835672252203528413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NormalZombieEat_sheet_0: -2392278386861724156
+      NormalZombieEat_sheet_00: -5980366285590202987
+      NormalZombieEat_sheet_01: -1597453568362903475
+      NormalZombieEat_sheet_02: -7922612016829842782
+      NormalZombieEat_sheet_03: 4268461527371614151
+      NormalZombieEat_sheet_04: -4726864287576238467
+      NormalZombieEat_sheet_05: 6408644124237270570
+      NormalZombieEat_sheet_06: -4553593846663134629
+      NormalZombieEat_sheet_07: -7208611699567876014
+      NormalZombieEat_sheet_08: -3904914911260612056
+      NormalZombieEat_sheet_09: 4000795737366721199
+      NormalZombieEat_sheet_1: 2372764445701092472
+      NormalZombieEat_sheet_10: 7438548666230357161
+      NormalZombieEat_sheet_11: 208654113015470765
+      NormalZombieEat_sheet_12: 3378152927505359716
+      NormalZombieEat_sheet_13: -4627074893806712929
+      NormalZombieEat_sheet_14: -3453032778637467464
+      NormalZombieEat_sheet_15: -3461401674973342503
+      NormalZombieEat_sheet_16: -3746002810335610736
+      NormalZombieEat_sheet_17: 4042452562335908391
+      NormalZombieEat_sheet_18: -8312535167291589520
+      NormalZombieEat_sheet_19: 672476118676124055
+      NormalZombieEat_sheet_2: 5433650516448568473
+      NormalZombieEat_sheet_20: 7258384320263587326
+      NormalZombieEat_sheet_21: -8265392800896812758
+      NormalZombieEat_sheet_22: -4134170841305586987
+      NormalZombieEat_sheet_23: -6787138546297247112
+      NormalZombieEat_sheet_24: -2524956646150921935
+      NormalZombieEat_sheet_25: -270144119667896638
+      NormalZombieEat_sheet_26: 1353439308232333621
+      NormalZombieEat_sheet_27: 717192387963348075
+      NormalZombieEat_sheet_28: 7654802384744017076
+      NormalZombieEat_sheet_29: -7271252808240526854
+      NormalZombieEat_sheet_3: 8719746370228662445
+      NormalZombieEat_sheet_30: 2473518055073927683
+      NormalZombieEat_sheet_31: -188056047023075900
+      NormalZombieEat_sheet_32: -6625274520777576518
+      NormalZombieEat_sheet_33: 3506731704725208946
+      NormalZombieEat_sheet_34: -3912297577053909043
+      NormalZombieEat_sheet_35: 6266121402090543282
+      NormalZombieEat_sheet_36: 5472933635280082390
+      NormalZombieEat_sheet_37: 6187051823917705034
+      NormalZombieEat_sheet_38: -2060275422607525165
+      NormalZombieEat_sheet_39: -4835672252203528413
+      NormalZombieEat_sheet_4: -1294246594121104489
+      NormalZombieEat_sheet_5: -2504034087224974331
+      NormalZombieEat_sheet_6: -1152080597938346641
+      NormalZombieEat_sheet_7: -8411017027405881213
+      NormalZombieEat_sheet_8: 450580082241465674
+      NormalZombieEat_sheet_9: 4093534300432282975
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

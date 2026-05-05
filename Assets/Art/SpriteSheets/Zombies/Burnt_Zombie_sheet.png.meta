@@ -1,0 +1,1431 @@
+fileFormatVersion: 2
+guid: 9a75d0a3da28543dc97728063335fb83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1420081457453222265
+    second: Burnt_Zombie_sheet_0
+  - first:
+      213: -2757247016969778422
+    second: Burnt_Zombie_sheet_1
+  - first:
+      213: 2821673767286133067
+    second: Burnt_Zombie_sheet_2
+  - first:
+      213: -7086215079087709239
+    second: Burnt_Zombie_sheet_3
+  - first:
+      213: 4098227753995381697
+    second: Burnt_Zombie_sheet_4
+  - first:
+      213: -4273945744419097706
+    second: Burnt_Zombie_sheet_5
+  - first:
+      213: 8792450272489203408
+    second: Burnt_Zombie_sheet_6
+  - first:
+      213: -416324715253257653
+    second: Burnt_Zombie_sheet_7
+  - first:
+      213: 7658531656663205534
+    second: Burnt_Zombie_sheet_8
+  - first:
+      213: 4270663408615119718
+    second: Burnt_Zombie_sheet_9
+  - first:
+      213: 9043290594942340273
+    second: Burnt_Zombie_sheet_10
+  - first:
+      213: 5435945631786790112
+    second: Burnt_Zombie_sheet_11
+  - first:
+      213: 5044478845765633827
+    second: Burnt_Zombie_sheet_12
+  - first:
+      213: -343445970376629591
+    second: Burnt_Zombie_sheet_13
+  - first:
+      213: -1229820235601914217
+    second: Burnt_Zombie_sheet_14
+  - first:
+      213: -2008327411845902217
+    second: Burnt_Zombie_sheet_15
+  - first:
+      213: 494769197353163483
+    second: Burnt_Zombie_sheet_16
+  - first:
+      213: 8396028736175721873
+    second: Burnt_Zombie_sheet_17
+  - first:
+      213: 574621916701566381
+    second: Burnt_Zombie_sheet_18
+  - first:
+      213: 6072993191375824625
+    second: Burnt_Zombie_sheet_19
+  - first:
+      213: 3909993543425150239
+    second: Burnt_Zombie_sheet_20
+  - first:
+      213: 8165630419994995562
+    second: Burnt_Zombie_sheet_21
+  - first:
+      213: -2034928818870837476
+    second: Burnt_Zombie_sheet_22
+  - first:
+      213: 2501980222258802438
+    second: Burnt_Zombie_sheet_23
+  - first:
+      213: 3448893058159513620
+    second: Burnt_Zombie_sheet_24
+  - first:
+      213: 678356548454727728
+    second: Burnt_Zombie_sheet_25
+  - first:
+      213: 470882809834135530
+    second: Burnt_Zombie_sheet_26
+  - first:
+      213: -322799804919734483
+    second: Burnt_Zombie_sheet_27
+  - first:
+      213: 6847273466684774325
+    second: Burnt_Zombie_sheet_28
+  - first:
+      213: -6760089339836486665
+    second: Burnt_Zombie_sheet_29
+  - first:
+      213: 2287881450123042955
+    second: Burnt_Zombie_sheet_30
+  - first:
+      213: 8014180662910792567
+    second: Burnt_Zombie_sheet_31
+  - first:
+      213: 2061621797297169132
+    second: Burnt_Zombie_sheet_32
+  - first:
+      213: 4862040313311722901
+    second: Burnt_Zombie_sheet_33
+  - first:
+      213: 291497759474098785
+    second: Burnt_Zombie_sheet_34
+  - first:
+      213: -3659135447041821638
+    second: Burnt_Zombie_sheet_35
+  - first:
+      213: 461011632649621912
+    second: Burnt_Zombie_sheet_36
+  - first:
+      213: 7753285046452500028
+    second: Burnt_Zombie_sheet_37
+  - first:
+      213: -6947167761653094143
+    second: Burnt_Zombie_sheet_38
+  - first:
+      213: 6446254538476602169
+    second: Burnt_Zombie_sheet_39
+  - first:
+      213: -6889554371362603795
+    second: Burnt_Zombie_sheet_40
+  - first:
+      213: -196908483604218791
+    second: Burnt_Zombie_sheet_41
+  - first:
+      213: 6382020934189963135
+    second: Burnt_Zombie_sheet_42
+  - first:
+      213: -8785839368232210465
+    second: Burnt_Zombie_sheet_43
+  - first:
+      213: 8651087289759160167
+    second: Burnt_Zombie_sheet_44
+  - first:
+      213: -7256265364232828630
+    second: Burnt_Zombie_sheet_45
+  - first:
+      213: -8457928278320730470
+    second: Burnt_Zombie_sheet_46
+  - first:
+      213: 6347467808211695856
+    second: Burnt_Zombie_sheet_47
+  - first:
+      213: 1595147269050944468
+    second: Burnt_Zombie_sheet_48
+  - first:
+      213: 780043595559713680
+    second: Burnt_Zombie_sheet_00
+  - first:
+      213: -4759768146979922469
+    second: Burnt_Zombie_sheet_01
+  - first:
+      213: 7894407098160617925
+    second: Burnt_Zombie_sheet_02
+  - first:
+      213: 5164667556798774407
+    second: Burnt_Zombie_sheet_03
+  - first:
+      213: 8631099645707340080
+    second: Burnt_Zombie_sheet_04
+  - first:
+      213: -3127944392767865154
+    second: Burnt_Zombie_sheet_05
+  - first:
+      213: -2147754358112881155
+    second: Burnt_Zombie_sheet_06
+  - first:
+      213: 2850651990874505050
+    second: Burnt_Zombie_sheet_07
+  - first:
+      213: 6342357933828450122
+    second: Burnt_Zombie_sheet_08
+  - first:
+      213: -2149339929604596561
+    second: Burnt_Zombie_sheet_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bb7ae648543da00800000000000000
+      internalID: 780043595559713680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_01
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddda02b618e1fdb0800000000000000
+      internalID: -4759768146979922469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_02
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c99f2eed619e8d60800000000000000
+      internalID: 7894407098160617925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_03
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cb9f187c59ca740800000000000000
+      internalID: 5164667556798774407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_04
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039c263f563d7c770800000000000000
+      internalID: 8631099645707340080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_05
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe75e7b52f4794d0800000000000000
+      internalID: -3127944392767865154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_06
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df572e36ac4a132e0800000000000000
+      internalID: -2147754358112881155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_07
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fb55ed1ec8f8720800000000000000
+      internalID: 2850651990874505050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_08
+      rect:
+        serializedVersion: 2
+        x: 3352
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47a93400f4940850800000000000000
+      internalID: 6342357933828450122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_09
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: facda52c8b20c22e0800000000000000
+      internalID: -2149339929604596561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4190
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc4b28f1e8308d70800000000000000
+      internalID: 9043290594942340273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4609
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ececf050cb507b40800000000000000
+      internalID: 5435945631786790112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 5028
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32745de88c6910640800000000000000
+      internalID: 5044478845765633827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 5447
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a26928a5b5db3bf0800000000000000
+      internalID: -343445970376629591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 5866
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7965c57f20dceeee0800000000000000
+      internalID: -1229820235601914217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6285
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770de380cdcf024e0800000000000000
+      internalID: -2008327411845902217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 6704
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda5a0ea6f5cdd600800000000000000
+      internalID: 494769197353163483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 7123
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dc9b7c6afa48470800000000000000
+      internalID: 8396028736175721873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 7542
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5a629b69779f700800000000000000
+      internalID: 574621916701566381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 7961
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f66257a12b974450800000000000000
+      internalID: 6072993191375824625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 8380
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d4de56966134630800000000000000
+      internalID: 3909993543425150239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 8799
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bece68a95225170800000000000000
+      internalID: 8165630419994995562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 9218
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f9fff450b72c3e0800000000000000
+      internalID: -2034928818870837476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 9637
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fe9ce81c1d8b220800000000000000
+      internalID: 2501980222258802438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 10056
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41098ef96fdecdf20800000000000000
+      internalID: 3448893058159513620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 10475
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03044bdcfa10a6900800000000000000
+      internalID: 678356548454727728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 10894
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef5003bb69e88600800000000000000
+      internalID: 470882809834135530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 11313
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f9136a94f258bf0800000000000000
+      internalID: -322799804919734483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 11732
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b714b580f6660f50800000000000000
+      internalID: 6847273466684774325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 12151
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb2429df865f22a0800000000000000
+      internalID: -6760089339836486665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 12570
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b802ac2ae0030cf10800000000000000
+      internalID: 2287881450123042955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 12989
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7733a9a1ad6183f60800000000000000
+      internalID: 8014180662910792567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 13408
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a9190a1a5c9c10800000000000000
+      internalID: 2061621797297169132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 13827
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59df29e97ef697340800000000000000
+      internalID: 4862040313311722901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 14246
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162a646faab9b0400800000000000000
+      internalID: 291497759474098785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 14665
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a343806a2b3283dc0800000000000000
+      internalID: -3659135447041821638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 15084
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891576923a7d56600800000000000000
+      internalID: 461011632649621912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 15503
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36362ccba3399b60800000000000000
+      internalID: 7753285046452500028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 15922
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1092f9b7ab3b69f90800000000000000
+      internalID: -6947167761653094143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 16341
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933c5a95952b57950800000000000000
+      internalID: 6446254538476602169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 16760
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec313a3dc26360a0800000000000000
+      internalID: -6889554371362603795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 17179
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c728507c0744df0800000000000000
+      internalID: -196908483604218791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 17598
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77df7be93e719850800000000000000
+      internalID: 6382020934189963135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 18017
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf60ead4ad621680800000000000000
+      internalID: -8785839368232210465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 18436
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767ddfafd06de0870800000000000000
+      internalID: 8651087289759160167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 18855
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a298ee8b8119c4b90800000000000000
+      internalID: -7256265364232828630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 19274
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e26fafa076f9a80800000000000000
+      internalID: -8457928278320730470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 19693
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f87fab575cb61850800000000000000
+      internalID: 6347467808211695856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnt_Zombie_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 20112
+        y: 0
+        width: 419
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db47306df9132610800000000000000
+      internalID: 1595147269050944468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Burnt_Zombie_sheet_0: 1420081457453222265
+      Burnt_Zombie_sheet_00: 780043595559713680
+      Burnt_Zombie_sheet_01: -4759768146979922469
+      Burnt_Zombie_sheet_02: 7894407098160617925
+      Burnt_Zombie_sheet_03: 5164667556798774407
+      Burnt_Zombie_sheet_04: 8631099645707340080
+      Burnt_Zombie_sheet_05: -3127944392767865154
+      Burnt_Zombie_sheet_06: -2147754358112881155
+      Burnt_Zombie_sheet_07: 2850651990874505050
+      Burnt_Zombie_sheet_08: 6342357933828450122
+      Burnt_Zombie_sheet_09: -2149339929604596561
+      Burnt_Zombie_sheet_1: -2757247016969778422
+      Burnt_Zombie_sheet_10: 9043290594942340273
+      Burnt_Zombie_sheet_11: 5435945631786790112
+      Burnt_Zombie_sheet_12: 5044478845765633827
+      Burnt_Zombie_sheet_13: -343445970376629591
+      Burnt_Zombie_sheet_14: -1229820235601914217
+      Burnt_Zombie_sheet_15: -2008327411845902217
+      Burnt_Zombie_sheet_16: 494769197353163483
+      Burnt_Zombie_sheet_17: 8396028736175721873
+      Burnt_Zombie_sheet_18: 574621916701566381
+      Burnt_Zombie_sheet_19: 6072993191375824625
+      Burnt_Zombie_sheet_2: 2821673767286133067
+      Burnt_Zombie_sheet_20: 3909993543425150239
+      Burnt_Zombie_sheet_21: 8165630419994995562
+      Burnt_Zombie_sheet_22: -2034928818870837476
+      Burnt_Zombie_sheet_23: 2501980222258802438
+      Burnt_Zombie_sheet_24: 3448893058159513620
+      Burnt_Zombie_sheet_25: 678356548454727728
+      Burnt_Zombie_sheet_26: 470882809834135530
+      Burnt_Zombie_sheet_27: -322799804919734483
+      Burnt_Zombie_sheet_28: 6847273466684774325
+      Burnt_Zombie_sheet_29: -6760089339836486665
+      Burnt_Zombie_sheet_3: -7086215079087709239
+      Burnt_Zombie_sheet_30: 2287881450123042955
+      Burnt_Zombie_sheet_31: 8014180662910792567
+      Burnt_Zombie_sheet_32: 2061621797297169132
+      Burnt_Zombie_sheet_33: 4862040313311722901
+      Burnt_Zombie_sheet_34: 291497759474098785
+      Burnt_Zombie_sheet_35: -3659135447041821638
+      Burnt_Zombie_sheet_36: 461011632649621912
+      Burnt_Zombie_sheet_37: 7753285046452500028
+      Burnt_Zombie_sheet_38: -6947167761653094143
+      Burnt_Zombie_sheet_39: 6446254538476602169
+      Burnt_Zombie_sheet_4: 4098227753995381697
+      Burnt_Zombie_sheet_40: -6889554371362603795
+      Burnt_Zombie_sheet_41: -196908483604218791
+      Burnt_Zombie_sheet_42: 6382020934189963135
+      Burnt_Zombie_sheet_43: -8785839368232210465
+      Burnt_Zombie_sheet_44: 8651087289759160167
+      Burnt_Zombie_sheet_45: -7256265364232828630
+      Burnt_Zombie_sheet_46: -8457928278320730470
+      Burnt_Zombie_sheet_47: 6347467808211695856
+      Burnt_Zombie_sheet_48: 1595147269050944468
+      Burnt_Zombie_sheet_5: -4273945744419097706
+      Burnt_Zombie_sheet_6: 8792450272489203408
+      Burnt_Zombie_sheet_7: -416324715253257653
+      Burnt_Zombie_sheet_8: 7658531656663205534
+      Burnt_Zombie_sheet_9: 4270663408615119718
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

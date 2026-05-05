@@ -1,0 +1,2419 @@
+fileFormatVersion: 2
+guid: 6c016aeb165ec43e5be31a0785d1f7c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8518586647789898323
+    second: FlagZombie_sheet_0
+  - first:
+      213: 644229237138973463
+    second: FlagZombie_sheet_1
+  - first:
+      213: 9019590569369905358
+    second: FlagZombie_sheet_2
+  - first:
+      213: 7342082260532451368
+    second: FlagZombie_sheet_3
+  - first:
+      213: -3400681839743182273
+    second: FlagZombie_sheet_4
+  - first:
+      213: -5209314114195604791
+    second: FlagZombie_sheet_5
+  - first:
+      213: -8358382819455402231
+    second: FlagZombie_sheet_6
+  - first:
+      213: 1624937926358014054
+    second: FlagZombie_sheet_7
+  - first:
+      213: -5106757782601961552
+    second: FlagZombie_sheet_8
+  - first:
+      213: 2286735516939238307
+    second: FlagZombie_sheet_9
+  - first:
+      213: -7271428069625661144
+    second: FlagZombie_sheet_10
+  - first:
+      213: 5124144907388344296
+    second: FlagZombie_sheet_11
+  - first:
+      213: 143163896572561766
+    second: FlagZombie_sheet_12
+  - first:
+      213: -3872337210154978059
+    second: FlagZombie_sheet_13
+  - first:
+      213: 563162078128476974
+    second: FlagZombie_sheet_14
+  - first:
+      213: -1358987683710584298
+    second: FlagZombie_sheet_15
+  - first:
+      213: -1724271656229811627
+    second: FlagZombie_sheet_16
+  - first:
+      213: -3687031660204112279
+    second: FlagZombie_sheet_17
+  - first:
+      213: 1732780511833590675
+    second: FlagZombie_sheet_18
+  - first:
+      213: 5145429288045677791
+    second: FlagZombie_sheet_19
+  - first:
+      213: -82751961242261127
+    second: FlagZombie_sheet_20
+  - first:
+      213: 2849658853117864205
+    second: FlagZombie_sheet_21
+  - first:
+      213: 5107541410266535656
+    second: FlagZombie_sheet_22
+  - first:
+      213: -7139228646902669534
+    second: FlagZombie_sheet_23
+  - first:
+      213: -7280143252476608231
+    second: FlagZombie_sheet_24
+  - first:
+      213: -4092452422252265937
+    second: FlagZombie_sheet_25
+  - first:
+      213: -4601268794927887955
+    second: FlagZombie_sheet_26
+  - first:
+      213: 7575619460388265474
+    second: FlagZombie_sheet_27
+  - first:
+      213: 6739130087237487939
+    second: FlagZombie_sheet_28
+  - first:
+      213: -4540647679326734926
+    second: FlagZombie_sheet_29
+  - first:
+      213: -6461303839393472651
+    second: FlagZombie_sheet_30
+  - first:
+      213: 927330314828559007
+    second: FlagZombie_sheet_31
+  - first:
+      213: 2394580549524547044
+    second: FlagZombie_sheet_32
+  - first:
+      213: -8278117305302908725
+    second: FlagZombie_sheet_33
+  - first:
+      213: 3970011295676661926
+    second: FlagZombie_sheet_34
+  - first:
+      213: 6938478000400938689
+    second: FlagZombie_sheet_35
+  - first:
+      213: -222766720052513106
+    second: FlagZombie_sheet_36
+  - first:
+      213: -6868407578992066542
+    second: FlagZombie_sheet_37
+  - first:
+      213: 171177028945070480
+    second: FlagZombie_sheet_38
+  - first:
+      213: -3242419825391163809
+    second: FlagZombie_sheet_39
+  - first:
+      213: 7848132056446770469
+    second: FlagZombie_sheet_40
+  - first:
+      213: -827393979891929298
+    second: FlagZombie_sheet_41
+  - first:
+      213: 907871898465786721
+    second: FlagZombie_sheet_42
+  - first:
+      213: 8749159882912649321
+    second: FlagZombie_sheet_43
+  - first:
+      213: 8410210427399006555
+    second: FlagZombie_sheet_44
+  - first:
+      213: 7992848144723358071
+    second: FlagZombie_sheet_45
+  - first:
+      213: -6682512638827474007
+    second: FlagZombie_sheet_46
+  - first:
+      213: 4865298026900112437
+    second: FlagZombie_sheet_47
+  - first:
+      213: -1302242018733082500
+    second: FlagZombie_sheet_48
+  - first:
+      213: -8215735301308142164
+    second: FlagZombie_sheet_49
+  - first:
+      213: -8511306808688251140
+    second: FlagZombie_sheet_50
+  - first:
+      213: -799768410033471203
+    second: FlagZombie_sheet_51
+  - first:
+      213: 4282014300996956920
+    second: FlagZombie_sheet_52
+  - first:
+      213: 1408032888784298015
+    second: FlagZombie_sheet_53
+  - first:
+      213: 7747443381115310903
+    second: FlagZombie_sheet_54
+  - first:
+      213: 8790873184340719615
+    second: FlagZombie_sheet_55
+  - first:
+      213: 137690621206231814
+    second: FlagZombie_sheet_56
+  - first:
+      213: -7783939510833239086
+    second: FlagZombie_sheet_57
+  - first:
+      213: -1493460640579550461
+    second: FlagZombie_sheet_58
+  - first:
+      213: -5206946034927989951
+    second: FlagZombie_sheet_59
+  - first:
+      213: -3342524381127431342
+    second: FlagZombie_sheet_60
+  - first:
+      213: -8050302574457286434
+    second: FlagZombie_sheet_61
+  - first:
+      213: -4606243434122649177
+    second: FlagZombie_sheet_62
+  - first:
+      213: -3970889705055700979
+    second: FlagZombie_sheet_63
+  - first:
+      213: 4641459806126802966
+    second: FlagZombie_sheet_64
+  - first:
+      213: -6573364666358971939
+    second: FlagZombie_sheet_65
+  - first:
+      213: -225090235404325674
+    second: FlagZombie_sheet_66
+  - first:
+      213: 7560714674828356266
+    second: FlagZombie_sheet_67
+  - first:
+      213: -85048673721307051
+    second: FlagZombie_sheet_68
+  - first:
+      213: -307629190119285429
+    second: FlagZombie_sheet_69
+  - first:
+      213: 1970100927259346501
+    second: FlagZombie_sheet_70
+  - first:
+      213: 2106698793290923268
+    second: FlagZombie_sheet_71
+  - first:
+      213: -8651894454112250717
+    second: FlagZombie_sheet_72
+  - first:
+      213: -8591757051370017274
+    second: FlagZombie_sheet_73
+  - first:
+      213: -375293084408721121
+    second: FlagZombie_sheet_74
+  - first:
+      213: -2163856701943408023
+    second: FlagZombie_sheet_75
+  - first:
+      213: 3691707308898384344
+    second: FlagZombie_sheet_76
+  - first:
+      213: -3588716832621463086
+    second: FlagZombie_sheet_77
+  - first:
+      213: -3909256289156779173
+    second: FlagZombie_sheet_78
+  - first:
+      213: 8227757932611305088
+    second: FlagZombie_sheet_79
+  - first:
+      213: -3917326731441955074
+    second: FlagZombie_sheet_80
+  - first:
+      213: 4341730555005228462
+    second: FlagZombie_sheet_81
+  - first:
+      213: -8287255026318971559
+    second: FlagZombie_sheet_82
+  - first:
+      213: -9063565556276528364
+    second: FlagZombie_sheet_83
+  - first:
+      213: 2792468965924014284
+    second: FlagZombie_sheet_84
+  - first:
+      213: 2344118912983294105
+    second: FlagZombie_sheet_85
+  - first:
+      213: 8237895551787577078
+    second: FlagZombie_sheet_86
+  - first:
+      213: 1959629280262782566
+    second: FlagZombie_sheet_00
+  - first:
+      213: -43149910504859607
+    second: FlagZombie_sheet_01
+  - first:
+      213: 9212139440468761067
+    second: FlagZombie_sheet_02
+  - first:
+      213: -2740047266519805640
+    second: FlagZombie_sheet_03
+  - first:
+      213: 5825163316928458556
+    second: FlagZombie_sheet_04
+  - first:
+      213: 8825584877248316954
+    second: FlagZombie_sheet_05
+  - first:
+      213: 3072348389831423022
+    second: FlagZombie_sheet_06
+  - first:
+      213: 8368399304045558292
+    second: FlagZombie_sheet_07
+  - first:
+      213: -8992880255235869357
+    second: FlagZombie_sheet_08
+  - first:
+      213: 7771231670886275134
+    second: FlagZombie_sheet_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlagZombie_sheet_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e7485a270023b10800000000000000
+      internalID: 1959629280262782566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_01
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92894409263b66ff0800000000000000
+      internalID: -43149910504859607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_02
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9918a530818df70800000000000000
+      internalID: 9212139440468761067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_03
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8319e4b478569f9d0800000000000000
+      internalID: -2740047266519805640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_04
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f28287c2327d050800000000000000
+      internalID: 5825163316928458556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_05
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1602779fa6ca7a70800000000000000
+      internalID: 8825584877248316954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_06
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e243522259c23aa20800000000000000
+      internalID: 3072348389831423022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_07
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41af24054d6822470800000000000000
+      internalID: 8368399304045558292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_08
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355ba0fdd0fd23380800000000000000
+      internalID: -8992880255235869357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_09
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38117ae706f8db60800000000000000
+      internalID: 7771231670886275134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829782442b2b61b90800000000000000
+      internalID: -7271428069625661144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e75286f4ae9c1740800000000000000
+      internalID: 5124144907388344296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6694edf2ece9cf100800000000000000
+      internalID: 143163896572561766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f47f2ae2d1b24ac0800000000000000
+      internalID: -3872337210154978059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2391d12de0c0d700800000000000000
+      internalID: 563162078128476974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61abc42e6e7e32de0800000000000000
+      internalID: -1358987683710584298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ac52270182218e0800000000000000
+      internalID: -1724271656229811627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9664ae16d3805dcc0800000000000000
+      internalID: -3687031660204112279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b8f81e1b21c0810800000000000000
+      internalID: 1732780511833590675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc8ad20dac386740800000000000000
+      internalID: 5145429288045677791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97920b997810adef0800000000000000
+      internalID: -82751961242261127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d092327f0a50c8720800000000000000
+      internalID: 2849658853117864205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6d88a0ad1a1e640800000000000000
+      internalID: 5107541410266535656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fd213fe5d5cec90800000000000000
+      internalID: -7139228646902669534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911cc22a84cb7fa90800000000000000
+      internalID: -7280143252476608231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e77776430b437c0800000000000000
+      internalID: -4092452422252265937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9cb3ad8620520c0800000000000000
+      internalID: -4601268794927887955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e9af903c1022960800000000000000
+      internalID: 7575619460388265474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d00f0eb13368d50800000000000000
+      internalID: 6739130087237487939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b537873ef06cf0c0800000000000000
+      internalID: -4540647679326734926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f951b3466d456a0800000000000000
+      internalID: -6461303839393472651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92bec4120a8edc00800000000000000
+      internalID: 927330314828559007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e56870a2524b3120800000000000000
+      internalID: 2394580549524547044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc008609b283e1d80800000000000000
+      internalID: -8278117305302908725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a088194d30581730800000000000000
+      internalID: 3970011295676661926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6b2cfcafc6a4060800000000000000
+      internalID: 6938478000400938689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6bd7f29d298ecf0800000000000000
+      internalID: -222766720052513106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210c39182b38ea0a0800000000000000
+      internalID: -6868407578992066542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0994af3d994206200800000000000000
+      internalID: 171177028945070480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5620ee095c9003d0800000000000000
+      internalID: -3242419825391163809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d9dde268a2aec60800000000000000
+      internalID: 7848132056446770469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fae3b1f818484f0800000000000000
+      internalID: -827393979891929298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bdc997ea8699c00800000000000000
+      internalID: 907871898465786721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 5160
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9605b18fe824b6970800000000000000
+      internalID: 8749159882912649321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 5280
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59676313d117b470800000000000000
+      internalID: 8410210427399006555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77130e92a0d4cee60800000000000000
+      internalID: 7992848144723358071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 5520
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a351a31922f243a0800000000000000
+      internalID: -6682512638827474007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 5640
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5344acb27c2058340800000000000000
+      internalID: 4865298026900112437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78b3d598c18dede0800000000000000
+      internalID: -1302242018733082500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad24e4b548dbfd80800000000000000
+      internalID: -8215735301308142164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfee5c56d83c1e980800000000000000
+      internalID: -8511306808688251140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1140615ed6a6e4f0800000000000000
+      internalID: -799768410033471203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2f016d155cc6b30800000000000000
+      internalID: 4282014300996956920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 6360
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f102e08c3765a8310800000000000000
+      internalID: 1408032888784298015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73354d815b2748b60800000000000000
+      internalID: 7747443381115310903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7b22ac5947ff970800000000000000
+      internalID: 8790873184340719615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b76e5f3ec29e100800000000000000
+      internalID: 137690621206231814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db28a78144e9f390800000000000000
+      internalID: -7783939510833239086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 6960
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3038a38c579264be0800000000000000
+      internalID: -1493460640579550461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 7080
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b0d773b263db7b0800000000000000
+      internalID: -5206946034927989951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b21d9e8c7fc91d0800000000000000
+      internalID: -3342524381127431342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed09f0bf574974090800000000000000
+      internalID: -8050302574457286434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1e42860065310c0800000000000000
+      internalID: -4606243434122649177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0836e71ad094e8c0800000000000000
+      internalID: -3970889705055700979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61801772a17c96040800000000000000
+      internalID: 4641459806126802966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 7800
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1c192c9a7b6c4a0800000000000000
+      internalID: -6573364666358971939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dce05c9f9150ecf0800000000000000
+      internalID: -225090235404325674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 8040
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa2a3930fd0de860800000000000000
+      internalID: 7560714674828356266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 8160
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550393e8ea8d1def0800000000000000
+      internalID: -85048673721307051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d1668a1e41bbbf0800000000000000
+      internalID: -307629190119285429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54606f4fa54375b10800000000000000
+      internalID: 1970100927259346501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 8520
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d79d6046f7c3d10800000000000000
+      internalID: 2106698793290923268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4977c65db4ee780800000000000000
+      internalID: -8651894454112250717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 8760
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ee1ac9b72f3c880800000000000000
+      internalID: -8591757051370017274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1158299de0bacaf0800000000000000
+      internalID: -375293084408721121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a90df4bcf68f1e0800000000000000
+      internalID: -2163856701943408023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 9120
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9f999ec349b3330800000000000000
+      internalID: 3691707308898384344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 9240
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9f128fd01523ec0800000000000000
+      internalID: -3588716832621463086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5339dcfd188fb9c0800000000000000
+      internalID: -3909256289156779173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 9480
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ef2374f3ede2270800000000000000
+      internalID: 8227757932611305088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe9247b71cd2a9c0800000000000000
+      internalID: -3917326731441955074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5db81bfece04c30800000000000000
+      internalID: 4341730555005228462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 9840
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95def291671cdfc80800000000000000
+      internalID: -8287255026318971559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 9960
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bfbabb52fb73280800000000000000
+      internalID: -9063565556276528364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc80438bab7d0c620800000000000000
+      internalID: 2792468965924014284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 10200
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990e4af4bbbf78020800000000000000
+      internalID: 2344118912983294105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlagZombie_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 10320
+        y: 0
+        width: 120
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fea11dab52e25270800000000000000
+      internalID: 8237895551787577078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FlagZombie_sheet_0: -8518586647789898323
+      FlagZombie_sheet_00: 1959629280262782566
+      FlagZombie_sheet_01: -43149910504859607
+      FlagZombie_sheet_02: 9212139440468761067
+      FlagZombie_sheet_03: -2740047266519805640
+      FlagZombie_sheet_04: 5825163316928458556
+      FlagZombie_sheet_05: 8825584877248316954
+      FlagZombie_sheet_06: 3072348389831423022
+      FlagZombie_sheet_07: 8368399304045558292
+      FlagZombie_sheet_08: -8992880255235869357
+      FlagZombie_sheet_09: 7771231670886275134
+      FlagZombie_sheet_1: 644229237138973463
+      FlagZombie_sheet_10: -7271428069625661144
+      FlagZombie_sheet_11: 5124144907388344296
+      FlagZombie_sheet_12: 143163896572561766
+      FlagZombie_sheet_13: -3872337210154978059
+      FlagZombie_sheet_14: 563162078128476974
+      FlagZombie_sheet_15: -1358987683710584298
+      FlagZombie_sheet_16: -1724271656229811627
+      FlagZombie_sheet_17: -3687031660204112279
+      FlagZombie_sheet_18: 1732780511833590675
+      FlagZombie_sheet_19: 5145429288045677791
+      FlagZombie_sheet_2: 9019590569369905358
+      FlagZombie_sheet_20: -82751961242261127
+      FlagZombie_sheet_21: 2849658853117864205
+      FlagZombie_sheet_22: 5107541410266535656
+      FlagZombie_sheet_23: -7139228646902669534
+      FlagZombie_sheet_24: -7280143252476608231
+      FlagZombie_sheet_25: -4092452422252265937
+      FlagZombie_sheet_26: -4601268794927887955
+      FlagZombie_sheet_27: 7575619460388265474
+      FlagZombie_sheet_28: 6739130087237487939
+      FlagZombie_sheet_29: -4540647679326734926
+      FlagZombie_sheet_3: 7342082260532451368
+      FlagZombie_sheet_30: -6461303839393472651
+      FlagZombie_sheet_31: 927330314828559007
+      FlagZombie_sheet_32: 2394580549524547044
+      FlagZombie_sheet_33: -8278117305302908725
+      FlagZombie_sheet_34: 3970011295676661926
+      FlagZombie_sheet_35: 6938478000400938689
+      FlagZombie_sheet_36: -222766720052513106
+      FlagZombie_sheet_37: -6868407578992066542
+      FlagZombie_sheet_38: 171177028945070480
+      FlagZombie_sheet_39: -3242419825391163809
+      FlagZombie_sheet_4: -3400681839743182273
+      FlagZombie_sheet_40: 7848132056446770469
+      FlagZombie_sheet_41: -827393979891929298
+      FlagZombie_sheet_42: 907871898465786721
+      FlagZombie_sheet_43: 8749159882912649321
+      FlagZombie_sheet_44: 8410210427399006555
+      FlagZombie_sheet_45: 7992848144723358071
+      FlagZombie_sheet_46: -6682512638827474007
+      FlagZombie_sheet_47: 4865298026900112437
+      FlagZombie_sheet_48: -1302242018733082500
+      FlagZombie_sheet_49: -8215735301308142164
+      FlagZombie_sheet_5: -5209314114195604791
+      FlagZombie_sheet_50: -8511306808688251140
+      FlagZombie_sheet_51: -799768410033471203
+      FlagZombie_sheet_52: 4282014300996956920
+      FlagZombie_sheet_53: 1408032888784298015
+      FlagZombie_sheet_54: 7747443381115310903
+      FlagZombie_sheet_55: 8790873184340719615
+      FlagZombie_sheet_56: 137690621206231814
+      FlagZombie_sheet_57: -7783939510833239086
+      FlagZombie_sheet_58: -1493460640579550461
+      FlagZombie_sheet_59: -5206946034927989951
+      FlagZombie_sheet_6: -8358382819455402231
+      FlagZombie_sheet_60: -3342524381127431342
+      FlagZombie_sheet_61: -8050302574457286434
+      FlagZombie_sheet_62: -4606243434122649177
+      FlagZombie_sheet_63: -3970889705055700979
+      FlagZombie_sheet_64: 4641459806126802966
+      FlagZombie_sheet_65: -6573364666358971939
+      FlagZombie_sheet_66: -225090235404325674
+      FlagZombie_sheet_67: 7560714674828356266
+      FlagZombie_sheet_68: -85048673721307051
+      FlagZombie_sheet_69: -307629190119285429
+      FlagZombie_sheet_7: 1624937926358014054
+      FlagZombie_sheet_70: 1970100927259346501
+      FlagZombie_sheet_71: 2106698793290923268
+      FlagZombie_sheet_72: -8651894454112250717
+      FlagZombie_sheet_73: -8591757051370017274
+      FlagZombie_sheet_74: -375293084408721121
+      FlagZombie_sheet_75: -2163856701943408023
+      FlagZombie_sheet_76: 3691707308898384344
+      FlagZombie_sheet_77: -3588716832621463086
+      FlagZombie_sheet_78: -3909256289156779173
+      FlagZombie_sheet_79: 8227757932611305088
+      FlagZombie_sheet_8: -5106757782601961552
+      FlagZombie_sheet_80: -3917326731441955074
+      FlagZombie_sheet_81: 4341730555005228462
+      FlagZombie_sheet_82: -8287255026318971559
+      FlagZombie_sheet_83: -9063565556276528364
+      FlagZombie_sheet_84: 2792468965924014284
+      FlagZombie_sheet_85: 2344118912983294105
+      FlagZombie_sheet_86: 8237895551787577078
+      FlagZombie_sheet_9: 2286735516939238307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
