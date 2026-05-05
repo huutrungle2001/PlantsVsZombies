@@ -22,26 +22,26 @@ Complete each milestone before moving to the next one.
 
 ## 1. Environment Foundation
 
-- [ ] Create editor-visible scene root objects:
-  - [ ] `GameManager`
-  - [ ] `Board`
-  - [ ] `LaneRegistry`
-  - [ ] `WaveManager`
-  - [ ] `UI`
-  - [ ] `Background`
-- [ ] Configure the main camera as orthographic.
-- [ ] Place and scale the lawn background.
-- [ ] Create `BoardGrid`.
-- [ ] Define a 5-row by 9-column board.
-- [ ] Define tile width, tile height, board origin, and lane spacing.
-- [ ] Convert row/column coordinates to world positions.
-- [ ] Convert mouse world position to row/column coordinates.
-- [ ] Create `Tile` objects for every board cell.
-- [ ] Store row and column on each `Tile`.
-- [ ] Add temporary debug visuals for tiles.
-- [ ] Add tile hover feedback.
-- [ ] Add tile click detection.
-- [ ] Verify clicking every tile reports the correct row and column.
+- [x] Create editor-visible scene root objects:
+  - [x] `GameManager`
+  - [x] `Board`
+  - [x] `LaneRegistry`
+  - [x] `WaveManager`
+  - [x] `UI`
+  - [x] `Background`
+- [x] Configure the main camera as orthographic.
+- [x] Place and scale the lawn background.
+- [x] Create `BoardGrid`.
+- [x] Define a 5-row by 9-column board.
+- [x] Define tile width, tile height, board origin, and lane spacing.
+- [x] Convert row/column coordinates to world positions.
+- [x] Convert mouse world position to row/column coordinates.
+- [x] Create `Tile` objects for every board cell.
+- [x] Store row and column on each `Tile`.
+- [x] Add temporary debug visuals for tiles.
+- [x] Add tile hover feedback.
+- [x] Add tile click detection.
+- [x] Verify clicking every tile reports the correct row and column.
 
 ## 2. Core Game State
 

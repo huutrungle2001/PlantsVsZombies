@@ -7,6 +7,9 @@ public static class SceneArtSetup
     private const string ScenePath = "Assets/Scenes/Main.unity";
     private const string LawnPath = "Assets/Art/items/lawn.png";
     private const string PeashooterControllerPath = "Assets/Resources/Animations/Plants/Peashooter.controller";
+    private const float BoardTileWidth = 1f;
+    private const float BoardTileHeight = 1.4f;
+    private static readonly Vector2 BoardTopLeftCellCenter = new Vector2(-4.5f, 2.8f);
 
     public static void ApplyBackground()
     {
@@ -69,6 +72,15 @@ public static class SceneArtSetup
         ApplyBackground();
         scene = EditorSceneManager.OpenScene(ScenePath, OpenSceneMode.Single);
 
+        FindOrCreateRoot("GameManager");
+        FindOrCreateRoot("LaneRegistry");
+        FindOrCreateRoot("WaveManager");
+        FindOrCreateRoot("UI");
+
+        var board = FindOrCreateRoot("Board");
+        var boardGrid = ConfigureBoard(board);
+        CreateTiles(board.transform, boardGrid);
+
         var world = FindOrCreateRoot("World");
         var laneGrid = world.GetComponent<LaneGrid>();
         if (laneGrid == null)
@@ -100,6 +112,175 @@ public static class SceneArtSetup
         AssetDatabase.SaveAssets();
 
         Debug.Log("Applied prototype scene foundation to Main scene.");
+    }
+
+    public static void ValidateEnvironmentFoundation()
+    {
+        EditorSceneManager.OpenScene(ScenePath, OpenSceneMode.Single);
+
+        var failed = false;
+        var requiredRoots = new[] { "GameManager", "Board", "LaneRegistry", "WaveManager", "UI", "Background" };
+        foreach (var root in requiredRoots)
+        {
+            if (GameObject.Find(root) == null)
+            {
+                Debug.LogError("Missing scene root: " + root);
+                failed = true;
+            }
+        }
+
+        var board = GameObject.Find("Board");
+        var boardGrid = board != null ? board.GetComponent<BoardGrid>() : null;
+        if (boardGrid == null)
+        {
+            Debug.LogError("Board is missing BoardGrid.");
+            failed = true;
+        }
+        else
+        {
+            failed |= !ValidateBoardGrid(boardGrid);
+        }
+
+        if (failed)
+        {
+            EditorApplication.Exit(1);
+            return;
+        }
+
+        Debug.Log("Environment foundation validation passed.");
+    }
+
+    private static bool ValidateBoardGrid(BoardGrid boardGrid)
+    {
+        var valid = true;
+        if (boardGrid.rowCount != 5 || boardGrid.columnCount != 9)
+        {
+            Debug.LogError("BoardGrid should be 5 rows by 9 columns.");
+            valid = false;
+        }
+
+        var tileRoot = boardGrid.transform.Find("Tiles");
+        if (tileRoot == null)
+        {
+            Debug.LogError("Board is missing Tiles child.");
+            return false;
+        }
+
+        for (var row = 0; row < boardGrid.rowCount; row++)
+        {
+            for (var column = 0; column < boardGrid.columnCount; column++)
+            {
+                var tileObject = tileRoot.Find("Tile_" + row + "_" + column);
+                if (tileObject == null)
+                {
+                    Debug.LogError("Missing tile: " + row + ", " + column);
+                    valid = false;
+                    continue;
+                }
+
+                valid &= ValidateTile(boardGrid, tileObject.gameObject, row, column);
+            }
+        }
+
+        return valid;
+    }
+
+    private static bool ValidateTile(BoardGrid boardGrid, GameObject tileObject, int expectedRow, int expectedColumn)
+    {
+        var valid = true;
+        var tile = tileObject.GetComponent<Tile>();
+        if (tile == null)
+        {
+            Debug.LogError(tileObject.name + " is missing Tile component.");
+            valid = false;
+        }
+        else if (tile.row != expectedRow || tile.column != expectedColumn)
+        {
+            Debug.LogError(tileObject.name + " has wrong coordinate data.");
+            valid = false;
+        }
+
+        if (tileObject.GetComponent<SpriteRenderer>() == null)
+        {
+            Debug.LogError(tileObject.name + " is missing SpriteRenderer.");
+            valid = false;
+        }
+
+        if (tileObject.GetComponent<BoxCollider2D>() == null)
+        {
+            Debug.LogError(tileObject.name + " is missing BoxCollider2D.");
+            valid = false;
+        }
+
+        if (!boardGrid.TryGetCellAtWorld(tileObject.transform.position, out var row, out var column)
+            || row != expectedRow
+            || column != expectedColumn)
+        {
+            Debug.LogError(tileObject.name + " does not map back to its expected coordinate.");
+            valid = false;
+        }
+
+        tileObject.SendMessage("OnMouseDown", SendMessageOptions.RequireReceiver);
+
+        return valid;
+    }
+
+    private static BoardGrid ConfigureBoard(GameObject board)
+    {
+        var boardGrid = board.GetComponent<BoardGrid>();
+        if (boardGrid == null)
+        {
+            boardGrid = board.AddComponent<BoardGrid>();
+        }
+
+        boardGrid.rowCount = 5;
+        boardGrid.columnCount = 9;
+        boardGrid.tileWidth = BoardTileWidth;
+        boardGrid.tileHeight = BoardTileHeight;
+        boardGrid.topLeftCellCenter = BoardTopLeftCellCenter;
+        return boardGrid;
+    }
+
+    private static void CreateTiles(Transform boardRoot, BoardGrid boardGrid)
+    {
+        var tileRoot = FindOrCreateChild(boardRoot, "Tiles");
+
+        for (var row = 0; row < boardGrid.rowCount; row++)
+        {
+            for (var column = 0; column < boardGrid.columnCount; column++)
+            {
+                var tileObject = FindOrCreateChild(tileRoot.transform, "Tile_" + row + "_" + column);
+                tileObject.transform.position = boardGrid.GetCellCenter(row, column);
+                tileObject.transform.localScale = new Vector3(boardGrid.tileWidth, boardGrid.tileHeight, 1f);
+
+                var renderer = tileObject.GetComponent<SpriteRenderer>();
+                if (renderer == null)
+                {
+                    renderer = tileObject.AddComponent<SpriteRenderer>();
+                }
+
+                renderer.sortingOrder = -30;
+
+                var collider = tileObject.GetComponent<BoxCollider2D>();
+                if (collider == null)
+                {
+                    collider = tileObject.AddComponent<BoxCollider2D>();
+                }
+
+                collider.size = Vector2.one;
+                collider.isTrigger = true;
+
+                var tile = tileObject.GetComponent<Tile>();
+                if (tile == null)
+                {
+                    tile = tileObject.AddComponent<Tile>();
+                }
+
+                tile.boardGrid = boardGrid;
+                tile.row = row;
+                tile.column = column;
+            }
+        }
     }
 
     private static Camera EnsureCamera()
