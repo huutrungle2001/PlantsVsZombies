@@ -7,18 +7,18 @@ PROJECT_PATH := $(CURDIR)
 
 help:
 	@echo "Targets:"
-	@echo "  make setup  - create default scene and build settings"
-	@echo "  make build  - build using BuildScript.Build"
-	@echo "  make run    - build then launch the game"
+	@echo "  make setup  - one-time bootstrap: scene, board, prefabs, GameManager wiring"
+	@echo "  make build  - compile and build the macOS app"
+	@echo "  make run    - launch the built app"
 	@echo "  make clean  - remove Builds/ output"
 
 setup:
-	$(UNITY) -batchmode -quit -nographics -projectPath "$(PROJECT_PATH)" -executeMethod ProjectSetup.CreateDefaultScene -logFile -
+	$(UNITY) -batchmode -quit -nographics -projectPath "$(PROJECT_PATH)" -executeMethod ProjectSetup.FullSetup -logFile -
 
 build:
 	$(UNITY) -batchmode -quit -nographics -projectPath "$(PROJECT_PATH)" -executeMethod BuildScript.Build -logFile -
 
-run: 
+run:
 	@open "Builds/PVZ.app"
 
 clean:

@@ -7,17 +7,51 @@ public static class ProjectSetup
 {
     private const string ScenePath = "Assets/Scenes/Main.unity";
 
+    // -------------------------------------------------------------------------
+    // CLI entry point
+    // -------------------------------------------------------------------------
+
+    /// <summary>
+    /// Full one-shot project bootstrap. Intended to be run once on a clean
+    /// clone via:
+    ///
+    ///   make setup
+    ///
+    /// which calls:
+    ///   Unity -batchmode -quit -nographics -executeMethod ProjectSetup.FullSetup
+    ///
+    /// Steps (each is idempotent – safe to re-run):
+    ///   1. Create the Main scene if it does not exist.
+    ///   2. Apply the prototype scene foundation (camera, board, tiles, GameManager, etc.).
+    ///   3. Create plant prefabs (Peashooter, Sunflower) under Assets/Prefabs/.
+    ///   4. Wire prefab references into the GameManager scene object and save.
+    /// </summary>
+    public static void FullSetup()
+    {
+        CreateDefaultScene();
+        SceneArtSetup.ApplyPrototypeFoundation();
+        PrefabFactory.CreateAllPlantPrefabs();
+        PrefabFactory.WireGameManagerPrefabs();
+
+        Debug.Log("[ProjectSetup] FullSetup complete.");
+    }
+
+    // -------------------------------------------------------------------------
+    // Individual steps (kept public for editor scripting convenience)
+    // -------------------------------------------------------------------------
+
     public static void CreateDefaultScene()
     {
         Directory.CreateDirectory("Assets/Scenes");
 
         if (File.Exists(ScenePath))
         {
-            Debug.Log("Main scene already exists at " + ScenePath);
+            Debug.Log("[ProjectSetup] Main scene already exists – skipping creation.");
             return;
         }
 
         var scene = EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
+
         var camera = Object.FindObjectOfType<Camera>();
         if (camera != null)
         {
@@ -36,6 +70,6 @@ public static class ProjectSetup
         EditorSettings.defaultBehaviorMode = EditorBehaviorMode.Mode2D;
         AssetDatabase.SaveAssets();
 
-        Debug.Log("Created default scene at " + ScenePath);
+        Debug.Log("[ProjectSetup] Created Main scene at " + ScenePath);
     }
 }
