@@ -22,7 +22,7 @@ public static class ProjectSetup
         if (camera != null)
         {
             camera.orthographic = true;
-            camera.orthographicSize = 5f;
+            camera.orthographicSize = 4.5f;
             camera.transform.position = new Vector3(0f, 0f, -10f);
         }
 

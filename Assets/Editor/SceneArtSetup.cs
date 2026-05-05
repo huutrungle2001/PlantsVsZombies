@@ -5,11 +5,14 @@ using UnityEngine;
 public static class SceneArtSetup
 {
     private const string ScenePath = "Assets/Scenes/Main.unity";
-    private const string LawnPath = "Assets/Art/items/lawn.png";
+    private const string BackgroundPath = "Assets/Art/items/Frontyard.png";
     private const string PeashooterControllerPath = "Assets/Resources/Animations/Plants/Peashooter.controller";
-    private const float BoardTileWidth = 1f;
-    private const float BoardTileHeight = 1.4f;
-    private static readonly Vector2 BoardTopLeftCellCenter = new Vector2(-4.5f, 2.8f);
+    private const float TargetAspectWidth = 16f;
+    private const float TargetAspectHeight = 9f;
+    private const float CameraOrthographicSize = 4.5f;
+    private const float BoardTileWidth = 1.2569444f;
+    private const float BoardTileHeight = 1.4089457f;
+    private static readonly Vector2 BoardTopLeftCellCenter = new Vector2(-3.4027778f, 2.7891374f);
 
     public static void ApplyBackground()
     {
@@ -30,10 +33,10 @@ public static class SceneArtSetup
             renderer = background.AddComponent<SpriteRenderer>();
         }
 
-        var sprite = AssetDatabase.LoadAssetAtPath<Sprite>(LawnPath);
+        var sprite = AssetDatabase.LoadAssetAtPath<Sprite>(BackgroundPath);
         if (sprite == null)
         {
-            Debug.LogError("Could not load background sprite at " + LawnPath);
+            Debug.LogError("Could not load background sprite at " + BackgroundPath);
             return;
         }
 
@@ -89,9 +92,9 @@ public static class SceneArtSetup
         }
 
         laneGrid.laneCount = 5;
-        laneGrid.laneSpacing = 1.4f;
-        laneGrid.centerY = 0f;
-        laneGrid.plantX = -4.5f;
+        laneGrid.laneSpacing = BoardTileHeight;
+        laneGrid.centerY = BoardTopLeftCellCenter.y - BoardTileHeight * 2f;
+        laneGrid.plantX = BoardTopLeftCellCenter.x;
         laneGrid.zombieSpawnX = 7.5f;
         laneGrid.despawnX = -8.5f;
 
@@ -309,10 +312,20 @@ public static class SceneArtSetup
     private static void ConfigureCamera(Camera camera)
     {
         camera.orthographic = true;
-        camera.orthographicSize = 4.5f;
+        camera.orthographicSize = CameraOrthographicSize;
         camera.clearFlags = CameraClearFlags.SolidColor;
         camera.backgroundColor = new Color(0.85f, 0.93f, 0.85f);
         camera.transform.position = new Vector3(0f, 0f, -10f);
+
+        var fixedAspect = camera.GetComponent<FixedAspectCamera>();
+        if (fixedAspect == null)
+        {
+            fixedAspect = camera.gameObject.AddComponent<FixedAspectCamera>();
+        }
+
+        fixedAspect.targetWidth = TargetAspectWidth;
+        fixedAspect.targetHeight = TargetAspectHeight;
+        fixedAspect.ApplyAspect();
     }
 
     private static GameObject FindOrCreateRoot(string name)
