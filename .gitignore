@@ -1,0 +1,45 @@
+# Unity generated files
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+
+# Unity generated project files
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity crash reports
+/sysinfo.txt
+
+# Build artifacts
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# macOS
+.DS_Store
+
+# IDE/editor settings
+.idea/
+.vs/
+.vscode/
+
+# Python/local tooling
+.venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
