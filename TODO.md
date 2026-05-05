@@ -16,9 +16,9 @@ Complete each milestone before moving to the next one.
 - [x] Keep source art under `Assets/Art`.
 - [x] Keep generated animation controllers under `Assets/Art/Animations` and `Assets/Resources/Animations`.
 - [x] Document important architecture decisions in `docs/`.
-- [ ] Remove or reduce runtime world creation from `Bootstrap`.
-- [ ] Use scene objects and prefabs as the main Unity workflow.
-- [ ] Keep `Bootstrap` only for small global setup if needed.
+- [x] Remove or reduce runtime world creation from `Bootstrap`.
+- [x] Use scene objects and prefabs as the main Unity workflow.
+- [x] Keep `Bootstrap` only for small global setup if needed.
 
 ## 1. Environment Foundation
 
