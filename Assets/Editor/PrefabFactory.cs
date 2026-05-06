@@ -17,6 +17,7 @@ public static class PrefabFactory
     private const string PrefabFolder    = "Assets/Prefabs";
     private const string PlantAnimRoot  = "Assets/Resources/Animations/Plants";
     private const string ZombieAnimRoot = "Assets/Resources/Animations/Zombies";
+    private const string PeaSpritePath  = "Assets/Art/items/Pea.png";
 
     private const string ScenePath = "Assets/Scenes/Main.unity";
 
@@ -38,10 +39,12 @@ public static class PrefabFactory
     [MenuItem("PvZ/Prefabs/Create and Wire All Prefabs")]
     public static void CreateAndWireAllPrefabs()
     {
-        CreateAllPlantPrefabs();
-        CreateAllZombiePrefabs();
-        WireGameManagerPrefabs();
-        WireZombieSpawnerPrefab();
+        CreateAllPlantPrefabs();       // Peashooter.prefab, Sunflower.prefab
+        CreateAllZombiePrefabs();      // BasicZombie.prefab
+        CreatePeaProjectilePrefab();   // PeaProjectile.prefab
+        WireGameManagerPrefabs();      // GameManager <- plant prefabs
+        WireZombieSpawnerPrefab();     // ZombieSpawner <- BasicZombie
+        WirePeashooterAgent();         // Peashooter.prefab <- PeashooterAgent + PeaProjectile
     }
 
     /// <summary>
@@ -167,6 +170,62 @@ public static class PrefabFactory
     }
 
     /// <summary>
+    /// Creates PeaProjectile.prefab using Assets/Art/items/Pea.png.
+    /// </summary>
+    [MenuItem("PvZ/Prefabs/Create PeaProjectile Prefab")]
+    public static void CreatePeaProjectilePrefab()
+    {
+        EnsurePrefabFolder();
+        bool ok = BuildProjectileAndSave(
+            prefabName:  "PeaProjectile",
+            spritePath:  PeaSpritePath,
+            speed:       7f,
+            damage:      1,
+            scale:       Vector3.one * 0.35f);
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+        if (ok) Debug.Log("[PrefabFactory] PeaProjectile.prefab created.");
+        else    Debug.LogError("[PrefabFactory] Failed to create PeaProjectile.prefab.");
+    }
+
+    /// <summary>
+    /// Edits the existing Peashooter.prefab in-place:
+    /// adds PeashooterAgent and wires the PeaProjectile prefab reference.
+    /// </summary>
+    [MenuItem("PvZ/Prefabs/Wire PeashooterAgent into Peashooter")]
+    public static void WirePeashooterAgent()
+    {
+        var peaPath        = PrefabFolder + "/PeaProjectile.prefab";
+        var shooterPath    = PrefabFolder + "/Peashooter.prefab";
+
+        var peaProjectile  = AssetDatabase.LoadAssetAtPath<GameObject>(peaPath);
+        if (peaProjectile == null)
+        {
+            Debug.LogError("[PrefabFactory] PeaProjectile.prefab not found. Run CreatePeaProjectilePrefab first.");
+            return;
+        }
+
+        // Load prefab contents, modify in memory, save back.
+        var contents = PrefabUtility.LoadPrefabContents(shooterPath);
+
+        var agent = contents.GetComponent<PeashooterAgent>();
+        if (agent == null)
+            agent = contents.AddComponent<PeashooterAgent>();
+
+        var so = new SerializedObject(agent);
+        so.FindProperty("projectilePrefab").objectReferenceValue = peaProjectile;
+        so.ApplyModifiedPropertiesWithoutUndo();
+
+        PrefabUtility.SaveAsPrefabAsset(contents, shooterPath);
+        PrefabUtility.UnloadPrefabContents(contents);
+
+        AssetDatabase.SaveAssets();
+        Debug.Log("[PrefabFactory] PeashooterAgent wired into Peashooter.prefab.");
+    }
+
+    /// <summary>
     /// Creates all zombie prefabs. Called by CreateAndWireAllPrefabs.
     /// </summary>
     [MenuItem("PvZ/Prefabs/Create All Zombie Prefabs")]
@@ -241,6 +300,55 @@ public static class PrefabFactory
     // -------------------------------------------------------------------------
     // Core builders
     // -------------------------------------------------------------------------
+
+    /// <summary>
+    /// Builds a PeaProjectile-style prefab with ProjectileAgent, Sprite,
+    /// CircleCollider2D (trigger), and kinematic Rigidbody2D.
+    /// </summary>
+    private static bool BuildProjectileAndSave(
+        string  prefabName,
+        string  spritePath,
+        float   speed,
+        int     damage,
+        Vector3 scale)
+    {
+        var go = new GameObject(prefabName);
+        go.transform.localScale = scale;
+
+        // SpriteRenderer
+        var sr     = go.AddComponent<SpriteRenderer>();
+        var sprite = AssetDatabase.LoadAssetAtPath<Sprite>(spritePath);
+        if (sprite != null)
+            sr.sprite = sprite;
+        else
+            Debug.LogWarning($"[PrefabFactory] Sprite not found at '{spritePath}'.");
+        sr.sortingOrder = 20; // Init() will adjust per-lane at runtime
+
+        // CircleCollider2D – trigger so OnTriggerEnter2D fires on contact
+        var col    = go.AddComponent<CircleCollider2D>();
+        col.isTrigger = true;
+        col.radius    = 0.45f;
+
+        // Kinematic Rigidbody2D – required for trigger callbacks from static colliders
+        var rb            = go.AddComponent<Rigidbody2D>();
+        rb.bodyType       = RigidbodyType2D.Kinematic;
+        rb.gravityScale   = 0f;
+
+        // ProjectileAgent – write private serialized fields
+        var agent = go.AddComponent<ProjectileAgent>();
+        var so    = new SerializedObject(agent);
+        so.FindProperty("speed").floatValue  = speed;
+        so.FindProperty("damage").intValue   = damage;
+        so.ApplyModifiedPropertiesWithoutUndo();
+
+        var path  = $"{PrefabFolder}/{prefabName}.prefab";
+        var saved = PrefabUtility.SaveAsPrefabAsset(go, path);
+        Object.DestroyImmediate(go);
+
+        if (saved == null) { Debug.LogError($"[PrefabFactory] Failed to save {path}"); return false; }
+        Debug.Log($"[PrefabFactory] Saved {path}");
+        return true;
+    }
 
     /// <summary>
     /// Builds a BasicZombie-style prefab with ZombieAgent and the given
