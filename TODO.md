@@ -129,8 +129,8 @@ Complete each milestone before moving to the next one.
 - [x] Prevent zombie from walking through living plants.
 - [x] Trigger attack animation while attacking.
 - [x] Trigger walk animation while walking.
-- [ ] Verify zombie attacks plant until it dies.
-- [ ] Verify tile occupancy clears after plant death.
+- [x] Verify zombie attacks plant until it dies.
+- [x] Verify tile occupancy clears after plant death.
 
 ## 7. Projectile Combat
 
@@ -161,9 +161,9 @@ Complete each milestone before moving to the next one.
 - [x] Spawn projectile in the correct lane.
 - [x] Start cooldown after shooting.
 - [x] Stop shooting after game ends.
-- [ ] Verify Peashooter does not shoot when lane is empty.
-- [ ] Verify Peashooter shoots when zombie enters lane.
-- [ ] Verify projectiles damage and kill zombies.
+- [x] Verify Peashooter does not shoot when lane is empty.
+- [x] Verify Peashooter shoots when zombie enters lane.
+- [x] Verify projectiles damage and kill zombies.
 
 ## 9. Sun Economy
 
