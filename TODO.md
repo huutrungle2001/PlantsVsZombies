@@ -167,62 +167,62 @@ Complete each milestone before moving to the next one.
 
 ## 9. Sun Economy
 
-- [ ] Add sun amount UI.
-- [ ] Add `AddSun(int amount)` to `GameManager`.
-- [ ] Add `SpendSun(int amount)` to `GameManager`.
-- [ ] Create `SunPickupAgent`.
-- [ ] Use `Assets/Art/items/Sun.png`.
-- [ ] Add click collection.
-- [ ] Add pickup lifetime.
-- [ ] Add collection sound hook.
-- [ ] Create `Sunflower.prefab`.
-- [ ] Attach SunFlower animation controller.
-- [ ] Create `SunflowerAgent`.
-- [ ] Add sun generation interval.
-- [ ] Spawn sun pickup near Sunflower.
+- [x] Add sun amount UI.
+- [x] Add `AddSun(int amount)` to `GameManager`.
+- [x] Add `SpendSun(int amount)` to `GameManager`.
+- [x] Create `SunPickupAgent`.
+- [x] Use `Assets/Art/items/Sun.png`.
+- [x] Add click collection.
+- [x] Add pickup lifetime.
+- [x] Add collection sound hook.
+- [x] Create `Sunflower.prefab`.
+- [x] Attach SunFlower animation controller.
+- [x] Create `SunflowerAgent`.
+- [x] Add sun generation interval.
+- [x] Spawn sun pickup near Sunflower.
 - [ ] Verify collecting sun increases sun count.
 - [ ] Verify planting spends sun.
 - [ ] Verify placement fails when sun is too low.
 
 ## 10. Plant Card UI
 
-- [ ] Create card UI area.
-- [ ] Add Peashooter card.
-- [ ] Add Sunflower card.
-- [ ] Display plant cost.
-- [ ] Display card cooldown state.
-- [ ] Highlight selected card.
-- [ ] Disable card when sun is too low.
-- [ ] Disable card while on cooldown.
-- [ ] Select plant by clicking card.
-- [ ] Cancel selection by clicking empty UI/cancel area.
-- [ ] Verify selected plant controls tile placement.
+- [x] Create card UI area.
+- [x] Add Peashooter card.
+- [x] Add Sunflower card.
+- [x] Display plant cost.
+- [x] Display card cooldown state.
+- [x] Highlight selected card.
+- [x] Disable card when sun is too low.
+- [x] Disable card while on cooldown.
+- [x] Select plant by clicking card.
+- [x] Cancel selection by clicking empty UI/cancel area.
+- [x] Verify selected plant controls tile placement.
 
 ## 11. Wave Manager
 
-- [ ] Create `WaveManager`.
-- [ ] Define simple wave entry data:
-  - [ ] spawn time
-  - [ ] lane
-  - [ ] zombie prefab
-- [ ] Replace endless random spawning.
-- [ ] Spawn zombies according to schedule.
-- [ ] Track how many scheduled zombies have spawned.
-- [ ] Track whether the wave is complete.
-- [ ] Notify `GameManager` when all zombies are spawned and defeated.
-- [ ] Add pre-wave delay.
-- [ ] Add "zombies are coming" audio hook.
+- [x] Create `WaveManager`.
+- [x] Define simple wave entry data:
+  - [x] spawn time
+  - [x] lane
+  - [x] zombie prefab
+- [x] Replace endless random spawning.
+- [x] Spawn zombies according to schedule.
+- [x] Track how many scheduled zombies have spawned.
+- [x] Track whether the wave is complete.
+- [x] Notify `GameManager` when all zombies are spawned and defeated.
+- [x] Add pre-wave delay.
+- [x] Add "zombies are coming" audio hook.
 - [ ] Verify zombies spawn at expected times and lanes.
 
 ## 12. Win, Lose, And Restart
 
-- [ ] Lose when any zombie reaches the house side.
-- [ ] Win when all scheduled zombies are spawned and no zombies remain alive.
-- [ ] Stop agent updates after win or lose.
-- [ ] Show win UI.
-- [ ] Show lose UI.
-- [ ] Add restart button.
-- [ ] Add return-to-menu placeholder button if needed.
+- [x] Lose when any zombie reaches the house side.
+- [x] Win when all scheduled zombies are spawned and no zombies remain alive.
+- [x] Stop agent updates after win or lose.
+- [x] Show win UI.
+- [x] Show lose UI.
+- [x] Add restart button.
+- [x] Add return-to-menu placeholder button if needed.
 - [ ] Verify restart resets board, plants, zombies, projectiles, sun, and wave state.
 
 ## 13. Audio
