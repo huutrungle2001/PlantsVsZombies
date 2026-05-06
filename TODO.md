@@ -79,42 +79,42 @@ Complete each milestone before moving to the next one.
 - [x] Attach Peashooter animation controller.
 - [x] Add collider if needed for click/debug selection.
 - [x] Tune Peashooter scale and sorting order.
-- [ ] Place Peashooter through `GameManager`. *(requires prefab assigned in Inspector)*
-- [ ] Verify one plant can be placed on a tile.
-- [ ] Verify a second plant cannot be placed on the same tile.
+- [x] Place Peashooter through `GameManager`. *(requires prefab assigned in Inspector)*
+- [x] Verify one plant can be placed on a tile.
+- [x] Verify a second plant cannot be placed on the same tile.
 
 ## 4. Lane Registry
 
-- [ ] Create `LaneRegistry`.
-- [ ] Track zombies by row.
-- [ ] Register zombies when spawned.
-- [ ] Unregister zombies when dead.
-- [ ] Unregister zombies when they leave the board.
-- [ ] Query whether a row has any zombies.
-- [ ] Query the first zombie in a row after a given X position.
-- [ ] Query active zombie count.
-- [ ] Use `LaneRegistry` instead of broad scene searches.
+- [x] Create `LaneRegistry`.
+- [x] Track zombies by row.
+- [x] Register zombies when spawned.
+- [x] Unregister zombies when dead.
+- [x] Unregister zombies when they leave the board.
+- [x] Query whether a row has any zombies.
+- [x] Query the first zombie in a row after a given X position.
+- [x] Query active zombie count.
+- [x] Use `LaneRegistry` instead of broad scene searches.
 
 ## 5. Basic Zombie Agent
 
-- [ ] Create `ZombieAgent`.
-- [ ] Add max HP and current HP.
-- [ ] Add lane row.
-- [ ] Add movement speed.
-- [ ] Add attack damage.
-- [ ] Add attack interval.
-- [ ] Add house-side lose X position.
-- [ ] Register zombie with `LaneRegistry`.
-- [ ] Move zombie left while not blocked.
-- [ ] Trigger lose state when zombie reaches the house side.
-- [ ] Add `TakeDamage(int amount)`.
-- [ ] Add `Die()`.
-- [ ] Unregister from `LaneRegistry` on death.
-- [ ] Create `BasicZombie.prefab`.
-- [ ] Attach NormalZombie animation controller.
-- [ ] Add `BoxCollider2D`.
-- [ ] Tune zombie scale and sorting order.
-- [ ] Spawn one BasicZombie in a chosen lane.
+- [x] Create `ZombieAgent`.
+- [x] Add max HP and current HP.
+- [x] Add lane row.
+- [x] Add movement speed.
+- [x] Add attack damage.
+- [x] Add attack interval.
+- [x] Add house-side lose X position.
+- [x] Register zombie with `LaneRegistry`.
+- [x] Move zombie left while not blocked.
+- [x] Trigger lose state when zombie reaches the house side.
+- [x] Add `TakeDamage(int amount)`.
+- [x] Add `Die()`.
+- [x] Unregister from `LaneRegistry` on death.
+- [x] Create `BasicZombie.prefab`.
+- [x] Attach NormalZombie animation controller.
+- [x] Add `BoxCollider2D`.
+- [x] Tune zombie scale and sorting order.
+- [x] Spawn one BasicZombie in a chosen lane.
 - [ ] Verify zombie moves in the correct lane.
 - [ ] Verify zombie death removes it from lane tracking.
 
