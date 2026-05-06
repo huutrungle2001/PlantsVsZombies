@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Starting Resources")]
     [Tooltip("Sun the player starts each match with.")]
-    [SerializeField] private int startingSun = 50;
+    [SerializeField] private int startingSun = 9999;
 
     [Header("Plant Costs")]
     [SerializeField] private int peashooterCost = 100;
