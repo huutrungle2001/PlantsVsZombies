@@ -5865,7 +5865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1fdf713df5164deb879d410578f6a4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  startingSun: 50
+  startingSun: 9999
   peashooterCost: 100
   sunflowerCost: 50
   peashooterPrefab: {fileID: 1558753180863266761, guid: ea6bf817da1ef4903a13d9c9d88d8d85, type: 3}

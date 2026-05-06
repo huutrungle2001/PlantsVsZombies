@@ -135,6 +135,21 @@ public static class PrefabFactory
         var so = new SerializedObject(gm);
         so.FindProperty("peashooterPrefab").objectReferenceValue = peashooterPrefab;
         so.FindProperty("sunflowerPrefab").objectReferenceValue  = sunflowerPrefab;
+
+        // Mirror the startingSun default so the scene value always matches the
+        // value defined in GameManager.cs (serialized scene overrides win over
+        // code defaults, so we must write it explicitly here).
+        var startingSunProp = so.FindProperty("startingSun");
+        if (startingSunProp != null)
+        {
+            var tempGm       = new GameObject("__TempGM").AddComponent<GameManager>();
+            var tempSo       = new SerializedObject(tempGm);
+            int codeDefault  = tempSo.FindProperty("startingSun").intValue;
+            Object.DestroyImmediate(tempGm.gameObject);
+            startingSunProp.intValue = codeDefault;
+            Debug.Log($"[PrefabFactory] startingSun set to {codeDefault} in scene.");
+        }
+
         so.ApplyModifiedPropertiesWithoutUndo();
 
         // Save the scene.
