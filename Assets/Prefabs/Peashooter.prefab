@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4262104878930699094}
   - component: {fileID: 43843793583765147}
   - component: {fileID: 2722833797198995477}
-  - component: {fileID: 6197585126891600355}
+  - component: {fileID: 2307642630463653900}
   m_Layer: 0
   m_Name: Peashooter
   m_TagString: Untagged
@@ -180,7 +180,7 @@ MonoBehaviour:
   deathSound: {fileID: 0}
   row: 0
   column: 0
---- !u!114 &6197585126891600355
+--- !u!114 &2307642630463653900
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

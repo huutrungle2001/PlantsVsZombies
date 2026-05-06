@@ -179,3 +179,4 @@ MonoBehaviour:
   attackDamage: 1
   attackInterval: 1
   loseX: -6
+  attackRange: 0.9
