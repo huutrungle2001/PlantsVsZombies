@@ -138,7 +138,12 @@ public class DebugOverlay : MonoBehaviour
         float lh = Px(22f);   // line height
         float p  = Px(8f);    // inner padding
         float bh = Px(34f);   // button height
-        float y  = Px(10f);
+
+        // Calculate total panel height so we can anchor to the bottom-left.
+        float gmBlockH = p + lh * 3f + p * 0.5f + bh + p;
+        float lrBlockH = p + lh * (5 + 1) + p;
+        float totalH   = gmBlockH + Px(6f) + lrBlockH;
+        float y        = Screen.height - totalH - Px(10f);
 
         // ── GameManager block ──────────────────────────────────────────────
         if (GameManager.Instance != null)
