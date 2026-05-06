@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -20,6 +21,10 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance { get; private set; }
 
+    // PlantType -> remaining cooldown seconds (0 = ready).
+    private readonly Dictionary<PlantType, float> cooldownTimers =
+        new Dictionary<PlantType, float>();
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -41,6 +46,12 @@ public class GameManager : MonoBehaviour
     [Header("Plant Costs")]
     [SerializeField] private int peashooterCost = 100;
     [SerializeField] private int sunflowerCost = 50;
+
+    [Header("Plant Cooldowns")]
+    [Tooltip("Seconds before Peashooter can be placed again.")]
+    [SerializeField] private float peashooterCooldown = 7.5f;
+    [Tooltip("Seconds before Sunflower can be placed again.")]
+    [SerializeField] private float sunflowerCooldown  = 7.5f;
 
     [Header("Plant Prefabs")]
     [Tooltip("Assign the Peashooter prefab here once it is created.")]
@@ -75,6 +86,17 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         StartGame();
+    }
+
+    private void Update()
+    {
+        // Drain cooldown timers.
+        foreach (PlantType type in System.Enum.GetValues(typeof(PlantType)))
+        {
+            if (type == PlantType.None) continue;
+            if (cooldownTimers.TryGetValue(type, out float remaining) && remaining > 0f)
+                cooldownTimers[type] = Mathf.Max(0f, remaining - Time.deltaTime);
+        }
     }
 
     // -------------------------------------------------------------------------
@@ -191,6 +213,39 @@ public class GameManager : MonoBehaviour
     }
 
     // -------------------------------------------------------------------------
+    // Placement cooldowns
+    // -------------------------------------------------------------------------
+
+    /// <summary>Returns true when the plant type is still on placement cooldown.</summary>
+    public bool IsOnCooldown(PlantType type)
+    {
+        return cooldownTimers.TryGetValue(type, out float r) && r > 0f;
+    }
+
+    /// <summary>
+    /// Returns the fraction of cooldown remaining (1 = just placed, 0 = ready).
+    /// Useful for filling a cooldown overlay on the card UI.
+    /// </summary>
+    public float GetCooldownFraction(PlantType type)
+    {
+        float total = GetCooldownDuration(type);
+        if (total <= 0f) return 0f;
+        cooldownTimers.TryGetValue(type, out float remaining);
+        return remaining / total;
+    }
+
+    /// <summary>Total cooldown duration for the given plant type in seconds.</summary>
+    public float GetCooldownDuration(PlantType type)
+    {
+        switch (type)
+        {
+            case PlantType.Peashooter: return peashooterCooldown;
+            case PlantType.Sunflower:  return sunflowerCooldown;
+            default:                   return 0f;
+        }
+    }
+
+    // -------------------------------------------------------------------------
     // Plant card selection
     // -------------------------------------------------------------------------
 
@@ -258,6 +313,12 @@ public class GameManager : MonoBehaviour
             return false;
         }
 
+        if (IsOnCooldown(SelectedPlant))
+        {
+            Debug.Log($"[GameManager] Placement rejected: {SelectedPlant} is on cooldown.");
+            return false;
+        }
+
         GameObject prefab = GetPrefab(SelectedPlant);
         if (prefab == null)
         {
@@ -282,6 +343,10 @@ public class GameManager : MonoBehaviour
 
         tile.OccupyWith(plantObj);
         SpendSun(cost);
+
+        // Start placement cooldown.
+        float cd = GetCooldownDuration(SelectedPlant);
+        if (cd > 0f) cooldownTimers[SelectedPlant] = cd;
 
         Debug.Log($"[GameManager] Placed {SelectedPlant} at ({tile.row},{tile.column}). Sun remaining: {Sun}");
         return true;

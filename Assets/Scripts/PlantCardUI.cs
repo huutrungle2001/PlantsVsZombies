@@ -23,15 +23,19 @@ public class PlantCardUI : MonoBehaviour
     [HideInInspector] public PlantType plantType;
     [HideInInspector] public int sunCost;
 
-    private Image selectionHighlight;
-    private Image dimOverlay;
+    private Image           selectionHighlight;
+    private Image           dimOverlay;
     private TextMeshProUGUI costText;
+    private Image           cooldownOverlay;
+    private TextMeshProUGUI cooldownText;
 
     private void Awake()
     {
         selectionHighlight = transform.Find("SelectionHighlight")?.GetComponent<Image>();
         dimOverlay         = transform.Find("DimOverlay")?.GetComponent<Image>();
         costText           = transform.Find("CostText")?.GetComponent<TextMeshProUGUI>();
+        cooldownOverlay    = transform.Find("CooldownOverlay")?.GetComponent<Image>();
+        cooldownText       = transform.Find("CooldownText")?.GetComponent<TextMeshProUGUI>();
 
         if (costText != null)
             costText.text = sunCost.ToString();
@@ -45,14 +49,41 @@ public class PlantCardUI : MonoBehaviour
     {
         if (GameManager.Instance == null) return;
 
-        bool isSelected = GameManager.Instance.SelectedPlant == plantType;
-        bool canAfford  = GameManager.Instance.Sun >= sunCost;
+        bool isSelected   = GameManager.Instance.SelectedPlant == plantType;
+        bool canAfford    = GameManager.Instance.Sun >= sunCost;
+        bool isOnCooldown = GameManager.Instance.IsOnCooldown(plantType);
+        float cdFraction  = GameManager.Instance.GetCooldownFraction(plantType);
 
+        // Selection highlight.
         if (selectionHighlight != null)
             selectionHighlight.gameObject.SetActive(isSelected);
 
+        // Dim when unaffordable OR on cooldown.
         if (dimOverlay != null)
-            dimOverlay.gameObject.SetActive(!canAfford);
+            dimOverlay.gameObject.SetActive(!canAfford && !isOnCooldown);
+
+        // Cooldown overlay: fill amount shrinks as cooldown drains.
+        if (cooldownOverlay != null)
+        {
+            cooldownOverlay.gameObject.SetActive(isOnCooldown);
+            cooldownOverlay.fillAmount = cdFraction;
+        }
+
+        // Cooldown text: shows remaining seconds.
+        if (cooldownText != null)
+        {
+            cooldownText.gameObject.SetActive(isOnCooldown);
+            if (isOnCooldown)
+            {
+                float remaining = cdFraction * GameManager.Instance.GetCooldownDuration(plantType);
+                cooldownText.text = Mathf.CeilToInt(remaining).ToString();
+            }
+        }
+
+        // Button interactable only when affordable and not on cooldown.
+        var btn = GetComponent<UnityEngine.UI.Button>();
+        if (btn != null)
+            btn.interactable = canAfford && !isOnCooldown;
     }
 
     private void OnClicked()
