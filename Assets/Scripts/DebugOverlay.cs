@@ -3,21 +3,23 @@ using UnityEngine;
 /// <summary>
 /// Runtime debug overlay. Press backtick (`) to toggle.
 ///
-/// When visible:
-///   - Red labeled box over every ZombieAgent showing name, row, and HP.
-///   - Green labeled box over every Plant showing name, grid position, and HP.
-///   - Corner HUD showing GameManager state (sun, game state, selection)
-///     and LaneRegistry per-row zombie counts.
-///   - Bottom-right hint reminding the player how to toggle.
+/// All sizes are derived from Screen.height so the overlay is readable at any
+/// window size. Styles are rebuilt automatically when the window is resized.
 ///
-/// This component is created by SceneArtSetup on a "Debug" scene root.
-/// Remove the "Debug" game object (or disable this component) before shipping.
+/// When visible:
+///   ● Red box over every ZombieAgent   – name, row, HP
+///   ● Green box over every Plant       – name, grid position, HP
+///   ● Top-left HUD                     – GameManager state + control buttons
+///   ● Top-left HUD (below)             – LaneRegistry per-row zombie counts
+///   ● Bottom-right hint                – toggle key reminder
+///
+/// Remove the "Debug" scene root before shipping.
 /// </summary>
-[DefaultExecutionOrder(1000)] // Run after all agent Update calls
+[DefaultExecutionOrder(1000)]
 public class DebugOverlay : MonoBehaviour
 {
     // -------------------------------------------------------------------------
-    // Inspector fields
+    // Inspector
     // -------------------------------------------------------------------------
 
     [Tooltip("Key that toggles the overlay while the game is running.")]
@@ -33,12 +35,30 @@ public class DebugOverlay : MonoBehaviour
     private bool   visible;
     private Camera cam;
 
-    // GUI style objects – built once on first OnGUI call.
+    // All styles are rebuilt whenever the screen height changes.
     private GUIStyle zombieBoxStyle;
     private GUIStyle plantBoxStyle;
     private GUIStyle hudBoxStyle;
     private GUIStyle labelStyle;
     private GUIStyle boldLabelStyle;
+    private GUIStyle buttonStyle;
+    private GUIStyle dangerButtonStyle;
+    private int      cachedScreenHeight;
+
+    // -------------------------------------------------------------------------
+    // Scale helpers
+    // -------------------------------------------------------------------------
+
+    /// <summary>
+    /// Multiplier relative to a 720-pixel-tall reference window.
+    /// At 720 p  → 1.0   (base sizes)
+    /// At 1080 p → 1.5
+    /// At 1440 p → 2.0
+    /// </summary>
+    private float Scale => Mathf.Max(0.5f, Screen.height / 720f);
+
+    private float Px(float basePixels) => basePixels * Scale;
+    private int   Fs(int  basePt)      => Mathf.Max(1, Mathf.RoundToInt(basePt * Scale));
 
     // -------------------------------------------------------------------------
     // Unity lifecycle
@@ -73,42 +93,37 @@ public class DebugOverlay : MonoBehaviour
 
     private void DrawWorldLabels()
     {
-        // --- Zombies (red boxes) ---
+        float bw = Px(140f); // box width
+        float bh = Px(44f);  // box height
+
+        // Red boxes – zombies
         foreach (var zombie in FindObjectsByType<ZombieAgent>(FindObjectsInactive.Exclude))
         {
             if (zombie == null) continue;
-
             string label = CleanName(zombie.name) + "\n" +
                            $"row:{zombie.Row}  HP:{zombie.CurrentHp}/{zombie.MaxHp}";
-
-            DrawWorldBox(zombie.transform.position + Vector3.up * 0.6f,
-                         label, zombieBoxStyle, 110f, 36f);
+            DrawWorldBox(zombie.transform.position + Vector3.up * 0.7f,
+                         label, zombieBoxStyle, bw, bh);
         }
 
-        // --- Plants (green boxes) ---
+        // Green boxes – plants
         foreach (var plant in FindObjectsByType<Plant>(FindObjectsInactive.Exclude))
         {
             if (plant == null) continue;
-
             string label = CleanName(plant.name) + "\n" +
                            $"({plant.row},{plant.column})  HP:{plant.CurrentHp}/{plant.MaxHp}";
-
-            DrawWorldBox(plant.transform.position + Vector3.up * 0.6f,
-                         label, plantBoxStyle, 110f, 36f);
+            DrawWorldBox(plant.transform.position + Vector3.up * 0.7f,
+                         label, plantBoxStyle, bw, bh);
         }
     }
 
-    /// <summary>
-    /// Converts a world position to GUI space and draws a labelled box centred on it.
-    /// </summary>
     private void DrawWorldBox(Vector3 worldPos, string label, GUIStyle style, float w, float h)
     {
         Vector3 sp = cam.WorldToScreenPoint(worldPos);
-        if (sp.z < 0f) return; // Behind camera – skip
+        if (sp.z < 0f) return;
 
-        float gx = sp.x      - w * 0.5f;
+        float gx = sp.x               - w * 0.5f;
         float gy = Screen.height - sp.y - h * 0.5f;
-
         GUI.Box(new Rect(gx, gy, w, h), label, style);
     }
 
@@ -118,80 +133,110 @@ public class DebugOverlay : MonoBehaviour
 
     private void DrawHud()
     {
-        const float x  = 10f;
-        const float w  = 215f;
-        const float lh = 18f; // line height
-        float       y  = 10f;
+        float x  = Px(10f);
+        float w  = Px(250f);
+        float lh = Px(22f);   // line height
+        float p  = Px(8f);    // inner padding
+        float bh = Px(34f);   // button height
+        float y  = Px(10f);
 
-        // --- GameManager block ---
+        // ── GameManager block ──────────────────────────────────────────────
         if (GameManager.Instance != null)
         {
-            var gm      = GameManager.Instance;
-            float blockH = lh * 3f + 16f;
+            var gm = GameManager.Instance;
 
+            float blockH = p + lh * 3f + p * 0.5f + bh + p;
             GUI.Box(new Rect(x, y, w, blockH), GUIContent.none, hudBoxStyle);
-            GUI.Label(new Rect(x + 7, y + 6,             w - 14f, lh), $"State:    {gm.State}",         labelStyle);
-            GUI.Label(new Rect(x + 7, y + 6 + lh,        w - 14f, lh), $"Sun:      {gm.Sun}",            labelStyle);
-            GUI.Label(new Rect(x + 7, y + 6 + lh * 2f,   w - 14f, lh), $"Selected: {gm.SelectedPlant}", labelStyle);
 
-            y += blockH + 6f;
+            GUI.Label(new Rect(x + p, y + p,              w - p * 2f, lh), $"State:    {gm.State}",         labelStyle);
+            GUI.Label(new Rect(x + p, y + p + lh,         w - p * 2f, lh), $"Sun:      {gm.Sun}",            labelStyle);
+            GUI.Label(new Rect(x + p, y + p + lh * 2f,    w - p * 2f, lh), $"Selected: {gm.SelectedPlant}", labelStyle);
+
+            // ── Control buttons ────────────────────────────────────────────
+            float btnY  = y + p + lh * 3f + p * 0.5f;
+            float gap   = Px(6f);
+            float btnW  = (w - p * 2f - gap) * 0.5f;
+
+            // Left button: Pause / Resume / Play depending on current state
+            string leftLabel;
+            switch (gm.State)
+            {
+                case GameState.Playing:     leftLabel = "⏸  Pause";  break;
+                case GameState.Paused:      leftLabel = "▶  Resume"; break;
+                default:                    leftLabel = "▶  Play";   break;
+            }
+
+            if (GUI.Button(new Rect(x + p, btnY, btnW, bh), leftLabel, buttonStyle))
+            {
+                if      (gm.State == GameState.Playing) gm.Pause();
+                else if (gm.State == GameState.Paused)  gm.Resume();
+                else                                     gm.StartGame();
+            }
+
+            // Right button: Restart (always available)
+            if (GUI.Button(new Rect(x + p + btnW + gap, btnY, btnW, bh), "↺  Restart", dangerButtonStyle))
+                gm.RestartGame();
+
+            y += blockH + Px(6f);
         }
 
-        // --- LaneRegistry block ---
+        // ── LaneRegistry block ────────────────────────────────────────────
         if (LaneRegistry.Instance != null)
         {
-            const int rows    = 5;
-            float     blockH  = lh * (rows + 1) + 16f;
-            int       total   = LaneRegistry.Instance.GetActiveZombieCount();
+            const int rows   = 5;
+            int       total  = LaneRegistry.Instance.GetActiveZombieCount();
+            float     blockH = p + lh * (rows + 1) + p;
 
             GUI.Box(new Rect(x, y, w, blockH), GUIContent.none, hudBoxStyle);
-            GUI.Label(new Rect(x + 7, y + 6, w - 14f, lh),
-                $"LaneRegistry  (total: {total})", boldLabelStyle);
+            GUI.Label(new Rect(x + p, y + p, w - p * 2f, lh),
+                      $"LaneRegistry  (total: {total})", boldLabelStyle);
 
             for (int row = 0; row < rows; row++)
             {
-                bool hasZ = LaneRegistry.Instance.HasZombiesInRow(row);
-                string rowText = hasZ
-                    ? $"  row {row}:  ● zombie(s)"
-                    : $"  row {row}:  ○ clear";
-
-                GUI.Label(new Rect(x + 7, y + 6 + lh * (row + 1), w - 14f, lh),
+                bool   hasZ    = LaneRegistry.Instance.HasZombiesInRow(row);
+                string rowText = hasZ ? $"  row {row}:  ● zombie(s)"
+                                      : $"  row {row}:  ○ clear";
+                GUI.Label(new Rect(x + p, y + p + lh * (row + 1), w - p * 2f, lh),
                           rowText, labelStyle);
             }
         }
     }
 
     // -------------------------------------------------------------------------
-    // Toggle hint (bottom-right)
+    // Toggle hint
     // -------------------------------------------------------------------------
 
     private void DrawToggleHint()
     {
-        const float w = 185f;
-        const float h = 20f;
+        float w  = Px(220f);
+        float h  = Px(22f);
+        float margin = Px(8f);
         GUI.Label(
-            new Rect(Screen.width - w - 8f, Screen.height - h - 6f, w, h),
-            "[ ` ] toggle debug overlay",
+            new Rect(Screen.width - w - margin, Screen.height - h - margin, w, h),
+            "[ ` ]  toggle debug overlay",
             labelStyle);
     }
 
     // -------------------------------------------------------------------------
-    // Style helpers – built once, cached thereafter
+    // Styles – rebuilt whenever the window is resized
     // -------------------------------------------------------------------------
 
     private void EnsureStyles()
     {
-        if (zombieBoxStyle != null) return;
+        if (zombieBoxStyle != null && cachedScreenHeight == Screen.height) return;
+        cachedScreenHeight = Screen.height;
 
-        zombieBoxStyle = BuildBoxStyle(new Color(0.75f, 0.1f, 0.1f, 0.80f), Color.white);
-        plantBoxStyle  = BuildBoxStyle(new Color(0.10f, 0.60f, 0.1f, 0.80f), Color.white);
+        zombieBoxStyle    = BuildBoxStyle(new Color(0.75f, 0.10f, 0.10f, 0.85f), Color.white);
+        plantBoxStyle     = BuildBoxStyle(new Color(0.10f, 0.60f, 0.10f, 0.85f), Color.white);
 
-        hudBoxStyle = new GUIStyle();
-        hudBoxStyle.normal.background = MakeTex(new Color(0f, 0f, 0f, 0.65f));
+        hudBoxStyle = new GUIStyle
+        {
+            normal = { background = MakeTex(new Color(0f, 0f, 0f, 0.68f)) }
+        };
 
         labelStyle = new GUIStyle(GUI.skin.label)
         {
-            fontSize = 11,
+            fontSize = Fs(14),
             normal   = { textColor = Color.white }
         };
 
@@ -199,17 +244,31 @@ public class DebugOverlay : MonoBehaviour
         {
             fontStyle = FontStyle.Bold
         };
+
+        buttonStyle = new GUIStyle(GUI.skin.button)
+        {
+            fontSize  = Fs(14),
+            fontStyle = FontStyle.Bold,
+            alignment = TextAnchor.MiddleCenter
+        };
+        buttonStyle.normal.textColor  = Color.white;
+        buttonStyle.hover.textColor   = Color.white;
+        buttonStyle.active.textColor  = Color.white;
+
+        dangerButtonStyle = new GUIStyle(buttonStyle);
+        dangerButtonStyle.normal.background = MakeTex(new Color(0.65f, 0.15f, 0.15f, 0.95f));
+        dangerButtonStyle.hover.background  = MakeTex(new Color(0.80f, 0.20f, 0.20f, 0.95f));
     }
 
-    private static GUIStyle BuildBoxStyle(Color background, Color textColor)
+    private GUIStyle BuildBoxStyle(Color background, Color textColor)
     {
         var style = new GUIStyle(GUI.skin.box)
         {
-            fontSize  = 10,
+            fontSize  = Fs(12),
             alignment = TextAnchor.MiddleCenter
         };
-        style.normal.background  = MakeTex(background);
-        style.normal.textColor   = textColor;
+        style.normal.background = MakeTex(background);
+        style.normal.textColor  = textColor;
         return style;
     }
 
@@ -220,10 +279,6 @@ public class DebugOverlay : MonoBehaviour
         tex.Apply();
         return tex;
     }
-
-    // -------------------------------------------------------------------------
-    // Utilities
-    // -------------------------------------------------------------------------
 
     private static string CleanName(string n) =>
         n.Replace("(Clone)", "").Trim();
