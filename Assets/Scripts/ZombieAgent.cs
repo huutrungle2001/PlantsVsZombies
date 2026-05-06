@@ -7,10 +7,9 @@ using UnityEngine;
 ///   - Track HP and receive damage.
 ///   - Register with LaneRegistry on Start; unregister on death or board-exit.
 ///   - Walk left across the board while the game is in the Playing state.
+///   - Stop and attack a blocking Plant (Section 6).
 ///   - Notify GameManager when it crosses the house-side lose boundary.
 ///   - Die when HP reaches 0.
-///
-/// Blocking and attack behaviour (Section 6) will be layered on top of this base.
 /// </summary>
 public class ZombieAgent : MonoBehaviour
 {
@@ -27,6 +26,10 @@ public class ZombieAgent : MonoBehaviour
     [Header("Board Limits")]
     [Tooltip("X position at which the zombie reaches the house side and the player loses.")]
     [SerializeField] private float loseX = -6f;
+
+    [Header("Blocking")]
+    [Tooltip("Distance (world units) at which the zombie stops and attacks a plant.")]
+    [SerializeField] private float attackRange = 0.9f;
 
     // -------------------------------------------------------------------------
     // Public read-only state
@@ -46,6 +49,11 @@ public class ZombieAgent : MonoBehaviour
     // -------------------------------------------------------------------------
 
     private bool registered;
+    private Plant  targetPlant;
+    private float  attackTimer;
+    private RuntimeAnimatorController walkController;
+    private RuntimeAnimatorController eatController;
+    private Animator zombieAnimator;
 
     // -------------------------------------------------------------------------
     // Unity lifecycle
@@ -54,31 +62,55 @@ public class ZombieAgent : MonoBehaviour
     private void Awake()
     {
         CurrentHp = maxHp;
+        zombieAnimator = GetComponent<Animator>();
     }
 
     private void Start()
     {
+        walkController = ArtLibrary.GetZombieController("NormalZombie");
+        eatController  = ArtLibrary.GetZombieController("NormalZombieEat");
         RegisterWithLaneRegistry();
     }
 
     private void Update()
     {
-        if (GameManager.Instance == null ||
-            GameManager.Instance.State != GameState.Playing)
+        if (!IsAlive || GameManager.Instance == null || GameManager.Instance.State != GameState.Playing) return;
+
+        // Clear dead or destroyed target
+        if (targetPlant != null && (!targetPlant.IsAlive || targetPlant == null))
+            targetPlant = null;
+
+        // Search for a blocking plant when we have no current target
+        if (targetPlant == null && BoardGrid.Instance != null)
         {
-            return;
+            var candidate = BoardGrid.Instance.GetBlockingPlant(Row, transform.position.x);
+            if (candidate != null && IsWithinAttackRange(candidate))
+                targetPlant = candidate;
         }
 
-        // Walk left.
-        transform.Translate(Vector3.left * speed * Time.deltaTime);
-
-        // Lose condition: zombie walked past the house side.
-        if (transform.position.x <= loseX)
+        if (targetPlant != null)
         {
-            Debug.Log($"[ZombieAgent] {name} reached the house side in row {Row}.");
-            UnregisterFromLaneRegistry();
-            GameManager.Instance.NotifyLose();
-            Destroy(gameObject);
+            // Attacking – stay still, damage plant on interval
+            SetAnimatorAttacking(true);
+            attackTimer += Time.deltaTime;
+            if (attackTimer >= attackInterval)
+            {
+                attackTimer = 0f;
+                targetPlant.TakeDamage(attackDamage);
+            }
+        }
+        else
+        {
+            // Walking
+            SetAnimatorAttacking(false);
+            transform.Translate(Vector3.left * speed * Time.deltaTime);
+            if (transform.position.x <= loseX)
+            {
+                Debug.Log($"[ZombieAgent] {name} reached the house side in row {Row}.");
+                UnregisterFromLaneRegistry();
+                GameManager.Instance.NotifyLose();
+                Destroy(gameObject);
+            }
         }
     }
 
@@ -124,6 +156,21 @@ public class ZombieAgent : MonoBehaviour
         UnregisterFromLaneRegistry();
         Debug.Log($"[ZombieAgent] {name} died in row {Row}.");
         Destroy(gameObject);
+    }
+
+    // -------------------------------------------------------------------------
+    // Attack helpers
+    // -------------------------------------------------------------------------
+
+    private bool IsWithinAttackRange(Plant plant) =>
+        transform.position.x <= plant.transform.position.x + attackRange;
+
+    private void SetAnimatorAttacking(bool attacking)
+    {
+        if (zombieAnimator == null) return;
+        var target = attacking ? eatController : walkController;
+        if (target != null && zombieAnimator.runtimeAnimatorController != target)
+            zombieAnimator.runtimeAnimatorController = target;
     }
 
     // -------------------------------------------------------------------------

@@ -14,6 +14,9 @@ public class Tile : MonoBehaviour
     /// <summary>True when a plant is sitting on this tile.</summary>
     public bool IsOccupied => currentPlant != null;
 
+    /// <summary>Returns the Plant component on the occupant, or null if unoccupied or Plant-less.</summary>
+    public Plant OccupantPlant => currentPlant != null ? currentPlant.GetComponent<Plant>() : null;
+
     /// <summary>Records the plant GameObject as this tile's occupant.</summary>
     public void OccupyWith(GameObject plant)
     {
@@ -24,6 +27,18 @@ public class Tile : MonoBehaviour
     public void ClearOccupant()
     {
         currentPlant = null;
+    }
+
+    private void Start()
+    {
+        if (BoardGrid.Instance != null)
+        {
+            BoardGrid.Instance.RegisterTile(this);
+        }
+        else
+        {
+            Debug.LogWarning($"[Tile] BoardGrid.Instance is null – tile ({row},{column}) could not register.");
+        }
     }
 
     private void Awake()
