@@ -1,230 +1,241 @@
 # Asset Generation Guide
 
-This document lists every static art asset that needs to be (re)generated using
-an image-generation LLM (DALL-E 3, Midjourney, Stable Diffusion, etc.), along
-with a ready-to-paste prompt for each one.
+19 static assets to generate with an image LLM (DALL-E 3, Midjourney, Stable
+Diffusion, etc.). Each entry has one **complete, copy-pasteable prompt** — no
+substitutions required.
 
----
-
-## Style Anchor
-
-Paste this at the beginning of **every** prompt to keep all assets visually
-consistent:
-
-> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense
-> game. Bright, saturated primary colors. Thick (2–4 px at source resolution)
-> solid black outlines on all shapes. No gradients on fills — use flat color
-> with a single highlight shape for depth. Friendly, slightly exaggerated
-> proportions. **Transparent PNG background** unless stated otherwise.
+Drop the finished PNG into the path shown and the game picks it up immediately.
+No code changes needed unless marked otherwise.
 
 ---
 
 ## Group 1 — Plant Cards
 
-Displayed at **80 × 110 reference pixels** in the UI (CanvasScaler 1920 × 1080).
-Generate at **256 × 360 px** so they stay sharp when the engine scales them down.
-
-Each card looks like a **seed packet**: portrait orientation, rounded border,
-a colored header strip at the top with the plant name, a central illustration,
-and a plain strip at the bottom where the engine prints the sun cost.
-
-### Shared Card Template
-
-Replace `[PLANT]`, `[DESCRIPTION]`, `[HEADER_COLOR]`, and `[ACCENT_COLOR]`:
-
-> Seed packet card for a tower-defense plant game. Portrait orientation,
-> 256 × 360 pixels. Transparent background. The card has a rounded rectangular
-> border with a thin black outline. Upper third: a solid `[HEADER_COLOR]` banner
-> with the text "`[PLANT]`" in bold cartoon font. Center: a charming cartoon
-> illustration of `[DESCRIPTION]`, centered on a light-green panel. Lower fifth:
-> a plain light-colored strip (no text — cost is added by the game engine).
-> Flat 2D cartoon, bright saturated colors, thick black outlines, friendly and
-> cute. No shadows outside the card border. PNG with transparent background.
-
-### Per-Card Values
-
-| # | Plant | `[PLANT]` | `[DESCRIPTION]` | `[HEADER_COLOR]` |
-|---|---|---|---|---|
-| 1 | Peashooter | Peashooter | a cheerful green pea-shooting plant with a single round mouth like a pea cannon | `#4CAF50` green |
-| 2 | Sunflower | Sunflower | a happy bright yellow sunflower with a smiling face and large petals | `#FFC107` amber |
-| 3 | Wall-nut | Wall-nut | a tough smiling brown walnut with a determined expression and cracked shell texture | `#8D6E63` brown |
-| 4 | Repeater | Repeater | a green plant with two pea-shooter heads side by side, both aimed right, smiling | `#388E3C` dark green |
-| 5 | Snow Pea | Snow Pea | a pale blue-green pea-shooter plant with frosty ice crystals around its mouth | `#4FC3F7` sky blue |
-| 6 | Cherry Bomb | Cherry Bomb | two bright red cherries with a lit fuse and an excited expression | `#E53935` red |
-| 7 | Jalapeno | Jalapeno | a fiery red-orange jalapeño pepper character with angry flames around it | `#FF5722` deep orange |
-| 8 | Chomper | Chomper | a purple Venus flytrap with a huge open toothy mouth and eager expression | `#7B1FA2` purple |
-| 9 | Potato Mine | Potato Mine | a cute brown potato half-buried in dirt with a small detonator on top, nervous face | `#795548` earthy brown |
-
-### Target Paths
-
-```
-Assets/Art/Cards/PeaShooter.png
-Assets/Art/Cards/SunFlower.png
-Assets/Art/Cards/WallNut.png
-Assets/Art/Cards/Repeater.png
-Assets/Art/Cards/SnowPea.png
-Assets/Art/Cards/CherryBomb.png
-Assets/Art/Cards/Jalapeno.png
-Assets/Art/Cards/Chomper.png
-Assets/Art/Cards/PotatoMine.png
-```
+Generate at **256 × 360 px**, transparent background.  
+After replacing the file, run **PvZ › UI › Build HUD** in Unity to refresh card art.
 
 ---
 
-## Group 2 — Card Tray / Deck Panel
+### 1. Peashooter Card
+**Path:** `Assets/Art/Cards/PeaShooter.png`
 
-The vertical panel on the left side of the screen that holds all plant cards.
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Friendly, slightly exaggerated proportions. Transparent PNG background.
+>
+> A seed packet card, portrait orientation, 256 × 360 pixels. The card has a rounded rectangular border with a thin black outline. Upper third: a solid green (#4CAF50) banner with the text "Peashooter" in bold cartoon font. Center: a charming cartoon illustration of a cheerful green pea-shooting plant with a single round mouth like a pea cannon, centered on a light-green panel. Lower fifth: a plain light-colored strip with no text. No shadows outside the card border.
 
-**Path:** `Assets/Art/Cards/card_deck.png`  
-**Size:** 200 × 600 px
+---
 
-> A vertical panel for a 2D tower-defense game UI. 200 × 600 pixels. Designed
-> as a 9-slice-friendly panel: solid repeating center with decorative top and
-> bottom caps. Style: worn wooden plank or mossy stone tablet, dark green tones,
-> subtle grass and dirt texture along the edges, thick black cartoon outline on
-> all sides. Flat 2D cartoon style, no photorealism. No text. Transparent
-> background around the panel shape. PNG.
+### 2. Sunflower Card
+**Path:** `Assets/Art/Cards/SunFlower.png`
+
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Friendly, slightly exaggerated proportions. Transparent PNG background.
+>
+> A seed packet card, portrait orientation, 256 × 360 pixels. The card has a rounded rectangular border with a thin black outline. Upper third: a solid amber (#FFC107) banner with the text "Sunflower" in bold cartoon font. Center: a charming cartoon illustration of a happy bright yellow sunflower with a smiling face and large petals, centered on a light-green panel. Lower fifth: a plain light-colored strip with no text. No shadows outside the card border.
+
+---
+
+### 3. Wall-nut Card
+**Path:** `Assets/Art/Cards/WallNut.png`
+
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Friendly, slightly exaggerated proportions. Transparent PNG background.
+>
+> A seed packet card, portrait orientation, 256 × 360 pixels. The card has a rounded rectangular border with a thin black outline. Upper third: a solid brown (#8D6E63) banner with the text "Wall-nut" in bold cartoon font. Center: a charming cartoon illustration of a tough smiling brown walnut with a determined expression and cracked shell texture, centered on a light-green panel. Lower fifth: a plain light-colored strip with no text. No shadows outside the card border.
+
+---
+
+### 4. Repeater Card
+**Path:** `Assets/Art/Cards/Repeater.png`
+
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Friendly, slightly exaggerated proportions. Transparent PNG background.
+>
+> A seed packet card, portrait orientation, 256 × 360 pixels. The card has a rounded rectangular border with a thin black outline. Upper third: a solid dark green (#388E3C) banner with the text "Repeater" in bold cartoon font. Center: a charming cartoon illustration of a green plant with two pea-shooter heads side by side, both aimed to the right, smiling, centered on a light-green panel. Lower fifth: a plain light-colored strip with no text. No shadows outside the card border.
+
+---
+
+### 5. Snow Pea Card
+**Path:** `Assets/Art/Cards/SnowPea.png`
+
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Friendly, slightly exaggerated proportions. Transparent PNG background.
+>
+> A seed packet card, portrait orientation, 256 × 360 pixels. The card has a rounded rectangular border with a thin black outline. Upper third: a solid sky blue (#4FC3F7) banner with the text "Snow Pea" in bold cartoon font. Center: a charming cartoon illustration of a pale blue-green pea-shooter plant with frosty ice crystals sparkling around its mouth, centered on a light-blue tinted panel. Lower fifth: a plain light-colored strip with no text. No shadows outside the card border.
+
+---
+
+### 6. Cherry Bomb Card
+**Path:** `Assets/Art/Cards/CherryBomb.png`
+
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Friendly, slightly exaggerated proportions. Transparent PNG background.
+>
+> A seed packet card, portrait orientation, 256 × 360 pixels. The card has a rounded rectangular border with a thin black outline. Upper third: a solid red (#E53935) banner with the text "Cherry Bomb" in bold cartoon font. Center: a charming cartoon illustration of two bright red cherries with a lit fuse between them and excited expressions, centered on a light-green panel. Lower fifth: a plain light-colored strip with no text. No shadows outside the card border.
+
+---
+
+### 7. Jalapeno Card
+**Path:** `Assets/Art/Cards/Jalapeno.png`
+
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Friendly, slightly exaggerated proportions. Transparent PNG background.
+>
+> A seed packet card, portrait orientation, 256 × 360 pixels. The card has a rounded rectangular border with a thin black outline. Upper third: a solid deep orange (#FF5722) banner with the text "Jalapeno" in bold cartoon font. Center: a charming cartoon illustration of a fiery red-orange jalapeño pepper character with an angry expression and small flames flickering around its body, centered on a light-green panel. Lower fifth: a plain light-colored strip with no text. No shadows outside the card border.
+
+---
+
+### 8. Chomper Card
+**Path:** `Assets/Art/Cards/Chomper.png`
+
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Friendly, slightly exaggerated proportions. Transparent PNG background.
+>
+> A seed packet card, portrait orientation, 256 × 360 pixels. The card has a rounded rectangular border with a thin black outline. Upper third: a solid purple (#7B1FA2) banner with the text "Chomper" in bold cartoon font. Center: a charming cartoon illustration of a purple Venus flytrap plant with a huge wide-open toothy mouth and an eager hungry expression, centered on a light-green panel. Lower fifth: a plain light-colored strip with no text. No shadows outside the card border.
+
+---
+
+### 9. Potato Mine Card
+**Path:** `Assets/Art/Cards/PotatoMine.png`
+
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Friendly, slightly exaggerated proportions. Transparent PNG background.
+>
+> A seed packet card, portrait orientation, 256 × 360 pixels. The card has a rounded rectangular border with a thin black outline. Upper third: a solid earthy brown (#795548) banner with the text "Potato Mine" in bold cartoon font. Center: a charming cartoon illustration of a cute brown potato character half-buried in dirt with a small red detonator button on top and a nervous worried expression, centered on a light-green panel. Lower fifth: a plain light-colored strip with no text. No shadows outside the card border.
+
+---
+
+## Group 2 — Card Tray Panel
+
+Generate at **200 × 600 px**, transparent background.
+
+---
+
+### 10. Card Tray / Deck Panel
+**Path:** `Assets/Art/Cards/card_deck.png`
+
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Transparent PNG background.
+>
+> A tall vertical UI panel, 200 × 600 pixels, designed to hold plant cards in a tower-defense game. 9-slice friendly: the center area is a plain repeating texture, with decorative caps at the top and bottom. Style: worn wooden plank with a mossy stone border, dark green earthy tones, subtle grass tufts and soil texture along the left and right edges, thick black cartoon outline around the whole shape. No text anywhere on the panel.
 
 ---
 
 ## Group 3 — HUD Icons
 
-Small icons used in the heads-up display.
+---
 
-### Sun Coin (HUD display)
-
+### 11. Sun Coin Icon
 **Path:** `Assets/Art/items/Sun.png`  
 **Size:** 128 × 128 px
 
-> A glowing cartoon sun coin, circular, bright yellow-orange with a cheerful
-> smiling face, surrounded by short triangular rays. Flat 2D cartoon style,
-> thick black outline, vibrant gradient from yellow center to warm orange edge.
-> Transparent background. PNG. No text.
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Transparent PNG background.
+>
+> A glowing cartoon sun coin, 128 × 128 pixels, perfectly circular. Bright yellow-orange face with a cheerful wide smile and round eyes. Eight short chunky triangular rays radiating outward from the circle edge. Flat color fill with a single small white oval highlight on the upper-left to suggest shine. No text. No drop shadow.
 
-### Pea Projectile
+---
 
+### 12. Pea Projectile
 **Path:** `Assets/Art/items/Pea.png`  
 **Size:** 64 × 64 px
 
-> A single cartoon pea projectile seen from a slight 3/4 angle. Small round
-> green sphere with a subtle shine highlight on the top-left. Flat 2D cartoon
-> style, bright grass-green color, thick black outline. Transparent background.
-> PNG.
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Transparent PNG background.
+>
+> A single cartoon pea projectile, 64 × 64 pixels. A small perfectly round sphere, bright grass-green color, with a small white oval highlight on the upper-left to indicate a shiny surface. Centered in the canvas with empty transparent space around it. No face, no text, no motion lines.
 
-### Shovel Tool Icon
+---
 
+### 13. Shovel Tool Icon
 **Path:** `Assets/Art/items/Shovel.png`  
 **Size:** 128 × 128 px
 
-> A cartoon garden shovel icon. Brown wooden handle with a shiny silver spade
-> head, cheerful and rounded. Flat 2D cartoon style, thick black outline.
-> Transparent background. PNG.
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Transparent PNG background.
+>
+> A cartoon garden shovel icon, 128 × 128 pixels. A chunky wooden brown handle with a shiny silver spade head at the bottom. Slightly angled to the right (about 20 degrees). Rounded, friendly proportions. A single white highlight stripe on the silver blade. No text. No background.
 
 ---
 
 ## Group 4 — UI Panels & Buttons
 
-Reusable 9-slice panel textures and button states. Keep the **center area
-plain** so Unity can stretch it without distorting the corners.
+---
 
-### Sun Counter Panel
-
+### 14. Sun Counter Panel
 **Path:** `Assets/Art/items/sun_panel.png`  
 **Size:** 200 × 60 px
 
-> A small horizontal pill-shaped UI panel for displaying a sun count in a
-> tower-defense game. Dark earthy brown with a subtle wood-grain texture and a
-> thin golden border. Flat 2D cartoon style, thick black outline, 9-slice
-> friendly (plain center, decorative rounded ends). No text. Transparent
-> background. PNG.
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Thick solid black outlines on all shapes. Transparent PNG background.
+>
+> A small horizontal pill-shaped UI display panel, 200 × 60 pixels. Dark earthy warm brown fill with a faint wood-grain texture across the center. A thin golden-yellow border line follows the pill outline. The left and right ends are rounded semicircles; the center area is plain and stretchable (9-slice friendly). No text, no icons.
 
-### Primary Button (normal state)
+---
 
+### 15. Primary Button
 **Path:** `Assets/Art/items/Button1.png`  
 **Size:** 256 × 80 px
 
-> A wide rounded-rectangle button for a 2D cartoon game UI. Bright green with
-> a slightly lighter green highlight stripe across the top half. Thick black
-> cartoon outline. 9-slice friendly: solid stretchable center, decorative
-> rounded corners only at the sides. Flat 2D art. No text. Transparent
-> background. PNG.
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Thick solid black outlines on all shapes. Transparent PNG background.
+>
+> A wide rounded-rectangle UI button, 256 × 80 pixels. Bright green fill with a lighter lime-green highlight stripe across the upper quarter of the button. Thick black outline around the entire shape. The left and right ends are gently rounded; the long horizontal edges are straight (9-slice friendly — plain stretchable center). No text, no icon.
 
-### Danger Button (red — used for Restart)
+---
 
+### 16. Danger / Restart Button
 **Path:** `Assets/Art/items/Button2.png`  
 **Size:** 256 × 80 px
 
-> Same shape as a rounded-rectangle game button but in deep red with a lighter
-> red highlight stripe across the top. Thick black outline. 9-slice friendly.
-> Flat 2D cartoon. No text. Transparent background. PNG.
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Thick solid black outlines on all shapes. Transparent PNG background.
+>
+> A wide rounded-rectangle UI button, 256 × 80 pixels. Deep red fill with a lighter warm-red highlight stripe across the upper quarter of the button. Thick black outline around the entire shape. The left and right ends are gently rounded; the long horizontal edges are straight (9-slice friendly — plain stretchable center). No text, no icon.
 
 ---
 
 ## Group 5 — Win / Lose Screen Decorations
 
-Layered on top of the result panels built by `UIFactory`.
+---
 
-### Win Banner
-
+### 17. Win Banner
 **Path:** `Assets/Art/items/win_banner.png`  
 **Size:** 800 × 200 px
 
-> A celebratory horizontal banner for a victory screen in a 2D cartoon
-> tower-defense game. Bright golden-yellow with colorful pennant flags hanging
-> across it, confetti shapes, and stars. Text-free. Flat 2D cartoon style,
-> thick black outlines. Transparent background. PNG.
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Transparent PNG background.
+>
+> A wide celebratory horizontal banner decoration, 800 × 200 pixels. Bright golden-yellow background with a row of colorful triangular pennant flags hanging across the top on a string. Scattered confetti shapes (stars, circles, small rectangles) in red, blue, and green fill the remaining space. No text. The banner has a slight wave or ribbon shape to the top and bottom edges.
 
-### Lose Banner
+---
 
+### 18. Lose Banner
 **Path:** `Assets/Art/items/lose_banner.png`  
 **Size:** 800 × 200 px
 
-> A dramatic horizontal banner for a game-over screen in a 2D cartoon
-> tower-defense game. Dark purple-black with cracked earth texture and a few
-> ominous green zombie hands reaching up from the bottom edge. Text-free.
-> Flat 2D cartoon style, thick black outlines. Transparent background. PNG.
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Thick solid black outlines on all shapes. Transparent PNG background.
+>
+> A wide dramatic horizontal banner decoration, 800 × 200 pixels. Dark purple-black background with a cracked dry earth texture across the surface. Three or four cartoon zombie hands (grey-green, decayed) reach upward from cracks along the bottom edge. A few small green wisps of fog float near the top. No text. The banner has a jagged torn edge along the top and bottom.
 
 ---
 
 ## Group 6 — Lawn Mower Idle Sprite
 
-The animated mower (`lawnMower_Active`) already exists. This is the **static
-idle** sprite shown before the mower is triggered.
+---
 
+### 19. Lawn Mower (idle)
 **Path:** `Assets/Art/items/LawnMower.png`  
 **Size:** 128 × 96 px
 
-> A small cartoon red push lawn mower seen from a side angle, facing right.
-> Red body, silver blades, black rubber wheels, a silver handle at the back.
-> Flat 2D cartoon style, thick black outlines, bright cheerful colors.
-> Transparent background. PNG.
+> Flat 2D cartoon vector art in the style of a cheerful mobile tower-defense game. Bright, saturated primary colors. Thick solid black outlines on all shapes. Transparent PNG background.
+>
+> A small cartoon red push lawn mower, 128 × 96 pixels, seen perfectly from the side, facing right. Bright red rectangular body with a silver exhaust pipe on top. Two chunky black rubber wheels with grey rims. A silver rotating blade guard at the bottom front. A brown wooden handle extending up and to the left at the back. Cheerful rounded proportions. No rider, no motion blur, no grass clippings.
 
 ---
 
-## Recommended Drop-In Workflow
+## Drop-In Workflow
 
-1. Generate each asset at the size listed above.
-2. Drop the PNG into the correct `Assets/Art/` path shown — overwrite the
-   existing placeholder.
-3. **Card art only** — open Unity and run `PvZ > UI > Build HUD` so
-   `UIFactory` picks up the new file (it re-reads by path, no GUID change).
-4. **Sun.png / Pea.png** — run `make prefabs` to rebuild `SunPickup.prefab`
-   and `PeaProjectile.prefab` with the new sprite.
-5. **Button1/Button2** — if switching to 9-slice rendering, update the
-   `Image.type` and border settings in `UIFactory.BuildCard`.
-6. No code changes are required for any asset in this list as long as the
-   file is saved at the exact path shown.
+| Situation | What to do after dropping in the PNG |
+|---|---|
+| Any card art (Group 1) | Unity menu → **PvZ › UI › Build HUD** |
+| `Sun.png` or `Pea.png` | Run `make prefabs` to rebuild SunPickup and PeaProjectile prefabs |
+| Everything else | Nothing — Unity picks up the file automatically on next import |
 
 ---
 
-## Asset Count Summary
+## Summary
 
-| Group | Count | Status |
+| Group | Assets | Path prefix |
 |---|---|---|
-| Plant cards | 9 | Placeholders exist — regenerate |
-| Card tray panel | 1 | Placeholder exists — regenerate |
-| HUD icons | 3 | Placeholders exist — regenerate |
-| UI panels & buttons | 3 | Placeholders exist — regenerate |
-| Win / Lose banners | 2 | New — does not exist yet |
-| Lawn mower idle | 1 | New — does not exist yet |
+| Plant cards | 9 | `Assets/Art/Cards/` |
+| Card tray panel | 1 | `Assets/Art/Cards/` |
+| HUD icons | 3 | `Assets/Art/items/` |
+| UI buttons & panels | 3 | `Assets/Art/items/` |
+| Win / Lose banners | 2 | `Assets/Art/items/` |
+| Lawn mower idle | 1 | `Assets/Art/items/` |
 | **Total** | **19** | |
