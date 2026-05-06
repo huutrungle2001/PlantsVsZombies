@@ -31,6 +31,9 @@ public class ZombieSpawner : MonoBehaviour
     {
         if (boardGrid == null || zombiePrefab == null) return;
 
+        // WaveManager takes over spawning when present – stand down.
+        if (WaveManager.Instance != null) return;
+
         // Pause spawning while the game is not actively playing.
         if (GameManager.Instance != null &&
             GameManager.Instance.State != GameState.Playing)
