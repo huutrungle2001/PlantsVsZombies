@@ -21,6 +21,12 @@ public static class ArtLibrary
         return LoadController("Plants/" + plantName);
     }
 
+    /// <summary>Returns the controller for the named zombie (e.g. "NormalZombie").</summary>
+    public static RuntimeAnimatorController GetZombieController(string zombieName)
+    {
+        return LoadController("Zombies/" + zombieName);
+    }
+
     public static RuntimeAnimatorController GetRandomZombieController()
     {
         if (DefaultZombies.Length == 0)
