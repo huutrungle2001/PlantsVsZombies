@@ -14,8 +14,9 @@ using UnityEngine;
 /// </summary>
 public static class PrefabFactory
 {
-    private const string PrefabFolder  = "Assets/Prefabs";
-    private const string PlantAnimRoot = "Assets/Resources/Animations/Plants";
+    private const string PrefabFolder    = "Assets/Prefabs";
+    private const string PlantAnimRoot  = "Assets/Resources/Animations/Plants";
+    private const string ZombieAnimRoot = "Assets/Resources/Animations/Zombies";
 
     private const string ScenePath = "Assets/Scenes/Main.unity";
 
@@ -38,7 +39,9 @@ public static class PrefabFactory
     public static void CreateAndWireAllPrefabs()
     {
         CreateAllPlantPrefabs();
+        CreateAllZombiePrefabs();
         WireGameManagerPrefabs();
+        WireZombieSpawnerPrefab();
     }
 
     /// <summary>
@@ -163,9 +166,134 @@ public static class PrefabFactory
         AssetDatabase.Refresh();
     }
 
+    /// <summary>
+    /// Creates all zombie prefabs. Called by CreateAndWireAllPrefabs.
+    /// </summary>
+    [MenuItem("PvZ/Prefabs/Create All Zombie Prefabs")]
+    public static void CreateAllZombiePrefabs()
+    {
+        EnsurePrefabFolder();
+
+        bool ok = BuildZombieAndSave(
+            prefabName:     "BasicZombie",
+            controllerName: "NormalZombie",
+            maxHp:          10,
+            speed:          0.9f,
+            scale:          new Vector3(0.9f, 0.9f, 1f));
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+        if (ok)
+            Debug.Log("[PrefabFactory] All zombie prefabs created successfully.");
+        else
+        {
+            Debug.LogError("[PrefabFactory] One or more zombie prefabs failed to save.");
+            EditorApplication.Exit(1);
+        }
+    }
+
+    /// <summary>
+    /// Wires the BasicZombie prefab into the ZombieSpawner found in the Main scene.
+    /// </summary>
+    [MenuItem("PvZ/Prefabs/Wire BasicZombie into ZombieSpawner")]
+    public static void WireZombieSpawnerPrefab()
+    {
+        var zombiePrefab = AssetDatabase.LoadAssetAtPath<GameObject>(
+            PrefabFolder + "/BasicZombie.prefab");
+
+        if (zombiePrefab == null)
+        {
+            Debug.LogError("[PrefabFactory] BasicZombie.prefab not found in " + PrefabFolder +
+                           ". Run 'Create All Zombie Prefabs' first.");
+            EditorApplication.Exit(1);
+            return;
+        }
+
+        var scene = EditorSceneManager.OpenScene(ScenePath, OpenSceneMode.Single);
+
+        var spawnerObject = GameObject.Find("ZombieSpawner");
+        if (spawnerObject == null)
+        {
+            Debug.LogWarning("[PrefabFactory] No 'ZombieSpawner' GameObject found in " + ScenePath +
+                             ". Skipping ZombieSpawner wiring.");
+            return;
+        }
+
+        var spawner = spawnerObject.GetComponent<ZombieSpawner>();
+        if (spawner == null)
+        {
+            Debug.LogWarning("[PrefabFactory] 'ZombieSpawner' object has no ZombieSpawner component. Skipping.");
+            return;
+        }
+
+        var so = new SerializedObject(spawner);
+        so.FindProperty("zombiePrefab").objectReferenceValue = zombiePrefab;
+        so.ApplyModifiedPropertiesWithoutUndo();
+
+        EditorSceneManager.MarkSceneDirty(scene);
+        EditorSceneManager.SaveScene(scene);
+        AssetDatabase.SaveAssets();
+
+        Debug.Log("[PrefabFactory] ZombieSpawner.zombiePrefab wired and scene saved.");
+    }
+
     // -------------------------------------------------------------------------
-    // Core builder
+    // Core builders
     // -------------------------------------------------------------------------
+
+    /// <summary>
+    /// Builds a BasicZombie-style prefab with ZombieAgent and the given
+    /// animation controller, saves it under Assets/Prefabs/, returns true on success.
+    /// </summary>
+    private static bool BuildZombieAndSave(
+        string  prefabName,
+        string  controllerName,
+        int     maxHp,
+        float   speed,
+        Vector3 scale)
+    {
+        var go = new GameObject(prefabName);
+        go.transform.localScale = scale;
+
+        // SpriteRenderer
+        var sr = go.AddComponent<SpriteRenderer>();
+        sr.sortingOrder = 10;
+
+        // Animator + controller
+        var animator   = go.AddComponent<Animator>();
+        var controller = LoadZombieController(controllerName);
+        if (controller != null)
+            animator.runtimeAnimatorController = controller;
+        else
+            Debug.LogWarning($"[PrefabFactory] Zombie controller '{controllerName}' not found. " +
+                             "Prefab saved without one.");
+
+        // BoxCollider2D (non-trigger so projectile triggers can detect it)
+        var col  = go.AddComponent<BoxCollider2D>();
+        col.size = new Vector2(0.8f, 1.2f);
+
+        // ZombieAgent — write private serialized fields via SerializedObject.
+        var agent = go.AddComponent<ZombieAgent>();
+        var so    = new SerializedObject(agent);
+        so.FindProperty("maxHp").intValue    = maxHp;
+        so.FindProperty("speed").floatValue  = speed;
+        so.ApplyModifiedPropertiesWithoutUndo();
+
+        // Save prefab asset.
+        var path  = $"{PrefabFolder}/{prefabName}.prefab";
+        var saved = PrefabUtility.SaveAsPrefabAsset(go, path);
+        Object.DestroyImmediate(go);
+
+        if (saved == null)
+        {
+            Debug.LogError($"[PrefabFactory] Failed to save prefab at {path}");
+            return false;
+        }
+
+        Debug.Log($"[PrefabFactory] Saved {path}");
+        return true;
+    }
 
     /// <summary>
     /// Builds a temporary scene object, saves it as a prefab, then destroys
@@ -247,6 +375,12 @@ public static class PrefabFactory
     private static RuntimeAnimatorController LoadController(string name)
     {
         var path = $"{PlantAnimRoot}/{name}.controller";
+        return AssetDatabase.LoadAssetAtPath<RuntimeAnimatorController>(path);
+    }
+
+    private static RuntimeAnimatorController LoadZombieController(string name)
+    {
+        var path = $"{ZombieAnimRoot}/{name}.controller";
         return AssetDatabase.LoadAssetAtPath<RuntimeAnimatorController>(path);
     }
 }

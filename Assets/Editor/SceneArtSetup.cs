@@ -81,13 +81,23 @@ public static class SceneArtSetup
             gmRoot.AddComponent<GameManager>();
         }
 
-        FindOrCreateRoot("LaneRegistry");
+        // LaneRegistry – ensure the script component is attached.
+        var lrRoot = FindOrCreateRoot("LaneRegistry");
+        if (lrRoot.GetComponent<LaneRegistry>() == null)
+            lrRoot.AddComponent<LaneRegistry>();
+
         FindOrCreateRoot("WaveManager");
         FindOrCreateRoot("UI");
 
         var board = FindOrCreateRoot("Board");
         var boardGrid = ConfigureBoard(board);
         CreateTiles(board.transform, boardGrid);
+
+        // ZombieSpawner – temporary until WaveManager is implemented.
+        EnsureZombieSpawner(boardGrid);
+
+        // Debug overlay – remove before shipping.
+        EnsureDebugOverlay();
 
         // Remove legacy prototype objects if they exist from an earlier setup run.
         CleanupLegacyObjects();
@@ -337,6 +347,34 @@ public static class SceneArtSetup
         gameObject.transform.localPosition = Vector3.zero;
         gameObject.transform.localScale = Vector3.one;
         return gameObject;
+    }
+
+    /// <summary>
+    /// Creates (or validates) the "Debug" scene root and attaches DebugOverlay.
+    /// Remove this object before shipping a release build.
+    /// </summary>
+    private static void EnsureDebugOverlay()
+    {
+        var debugRoot = FindOrCreateRoot("Debug");
+        if (debugRoot.GetComponent<DebugOverlay>() == null)
+            debugRoot.AddComponent<DebugOverlay>();
+    }
+
+    /// <summary>
+    /// Creates (or validates) the ZombieSpawner scene root and wires its
+    /// BoardGrid reference. The zombie prefab is wired later by PrefabFactory.
+    /// </summary>
+    private static void EnsureZombieSpawner(BoardGrid boardGrid)
+    {
+        var spawnerRoot = FindOrCreateRoot("ZombieSpawner");
+        var spawner = spawnerRoot.GetComponent<ZombieSpawner>();
+        if (spawner == null)
+            spawner = spawnerRoot.AddComponent<ZombieSpawner>();
+
+        // Wire the authoritative board grid reference.
+        var so = new SerializedObject(spawner);
+        so.FindProperty("boardGrid").objectReferenceValue = boardGrid;
+        so.ApplyModifiedPropertiesWithoutUndo();
     }
 
     /// <summary>

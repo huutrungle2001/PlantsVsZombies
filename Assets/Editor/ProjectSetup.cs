@@ -29,9 +29,11 @@ public static class ProjectSetup
     public static void FullSetup()
     {
         CreateDefaultScene();
-        SceneArtSetup.ApplyPrototypeFoundation();
-        PrefabFactory.CreateAllPlantPrefabs();
-        PrefabFactory.WireGameManagerPrefabs();
+        SceneArtSetup.ApplyPrototypeFoundation();   // scene objects + ZombieSpawner skeleton
+        PrefabFactory.CreateAllPlantPrefabs();       // Peashooter.prefab, Sunflower.prefab
+        PrefabFactory.CreateAllZombiePrefabs();      // BasicZombie.prefab
+        PrefabFactory.WireGameManagerPrefabs();      // GameManager ← plant prefabs
+        PrefabFactory.WireZombieSpawnerPrefab();     // ZombieSpawner ← BasicZombie.prefab
         UIFactory.BuildHud();
 
         Debug.Log("[ProjectSetup] FullSetup complete.");
