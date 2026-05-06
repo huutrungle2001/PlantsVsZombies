@@ -1,19 +1,39 @@
 using UnityEngine;
 
+/// <summary>
+/// Temporary zombie spawner used before WaveManager (Section 11) is implemented.
+/// Instantiates the BasicZombie prefab at regular intervals in random lanes and
+/// calls ZombieAgent.Init() so each zombie knows which row it belongs to.
+///
+/// Uses BoardGrid as the authoritative source for lane Y positions.
+/// This component will be replaced by WaveManager, which uses a scheduled spawn
+/// table instead of endless random spawning.
+/// </summary>
 public class ZombieSpawner : MonoBehaviour
 {
-    public LaneGrid laneGrid;
-    public float spawnInterval = 2.5f;
-    public float minSpawnInterval = 1.2f;
-    public float speed = 0.9f;
-    public int health = 3;
-    public Color zombieColor = new Color(0.55f, 0.75f, 0.55f);
+    [Header("References")]
+    [Tooltip("Assign the BasicZombie prefab here.")]
+    [SerializeField] private GameObject zombiePrefab;
+    [Tooltip("Authoritative board grid – set by SceneArtSetup or the Inspector.")]
+    [SerializeField] private BoardGrid boardGrid;
+
+    [Header("Timing")]
+    [SerializeField] private float spawnInterval    = 2.5f;
+    [SerializeField] private float minSpawnInterval = 1.2f;
+
+    [Header("Board Limits")]
+    [Tooltip("X position (right of the board) where zombies first appear.")]
+    [SerializeField] private float spawnX = 8f;
 
     private float timer;
 
     private void Update()
     {
-        if (laneGrid == null)
+        if (boardGrid == null || zombiePrefab == null) return;
+
+        // Pause spawning while the game is not actively playing.
+        if (GameManager.Instance != null &&
+            GameManager.Instance.State != GameState.Playing)
         {
             return;
         }
@@ -23,35 +43,26 @@ public class ZombieSpawner : MonoBehaviour
         {
             timer = 0f;
             SpawnZombie();
+            // Gradually tighten the spawn interval, down to the configured minimum.
             spawnInterval = Mathf.Max(minSpawnInterval, spawnInterval * 0.98f);
         }
     }
 
     private void SpawnZombie()
     {
-        var laneIndex = Random.Range(0, laneGrid.laneCount);
+        int row = Random.Range(0, boardGrid.rowCount);
 
-        var zombie = new GameObject("Zombie");
-        zombie.transform.position = new Vector3(laneGrid.zombieSpawnX, laneGrid.GetLaneY(laneIndex), 0f);
-        zombie.transform.localScale = new Vector3(0.9f, 1.1f, 1f);
+        // Use column 0's Y centre – all columns share the same Y for a given row.
+        float y = boardGrid.GetCellCenter(row, 0).y;
+        var pos = new Vector3(spawnX, y, 0f);
 
-        var renderer = zombie.AddComponent<SpriteRenderer>();
-        var controller = ArtLibrary.GetRandomZombieController();
-        if (controller != null)
-        {
-            var animator = zombie.AddComponent<Animator>();
-            animator.runtimeAnimatorController = controller;
-        }
+        var go = Instantiate(zombiePrefab, pos, Quaternion.identity);
+
+        // Assign the lane row BEFORE Start() fires so the registry gets it right.
+        var agent = go.GetComponent<ZombieAgent>();
+        if (agent != null)
+            agent.Init(row);
         else
-        {
-            renderer.sprite = SimpleSprite.Create(zombieColor);
-        }
-
-        zombie.AddComponent<BoxCollider2D>();
-
-        var zombieComponent = zombie.AddComponent<Zombie>();
-        zombieComponent.speed = speed;
-        zombieComponent.maxHealth = health;
-        zombieComponent.despawnX = laneGrid.despawnX;
+            Debug.LogWarning("[ZombieSpawner] Spawned prefab has no ZombieAgent component.");
     }
 }
