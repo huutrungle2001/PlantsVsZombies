@@ -115,52 +115,52 @@ Complete each milestone before moving to the next one.
 - [x] Add `BoxCollider2D`.
 - [x] Tune zombie scale and sorting order.
 - [x] Spawn one BasicZombie in a chosen lane.
-- [ ] Verify zombie moves in the correct lane.
-- [ ] Verify zombie death removes it from lane tracking.
+- [x] Verify zombie moves in the correct lane.
+- [x] Verify zombie death removes it from lane tracking.
 
 ## 6. Plant And Zombie Blocking
 
-- [ ] Let `ZombieAgent` ask the environment for the next blocking plant.
-- [ ] Detect when zombie reaches a plant in the same lane.
-- [ ] Stop zombie movement while blocked.
-- [ ] Attack plant on cooldown.
-- [ ] Damage plant HP.
-- [ ] Resume walking after the plant dies.
-- [ ] Prevent zombie from walking through living plants.
-- [ ] Trigger attack animation while attacking.
-- [ ] Trigger walk animation while walking.
+- [x] Let `ZombieAgent` ask the environment for the next blocking plant.
+- [x] Detect when zombie reaches a plant in the same lane.
+- [x] Stop zombie movement while blocked.
+- [x] Attack plant on cooldown.
+- [x] Damage plant HP.
+- [x] Resume walking after the plant dies.
+- [x] Prevent zombie from walking through living plants.
+- [x] Trigger attack animation while attacking.
+- [x] Trigger walk animation while walking.
 - [ ] Verify zombie attacks plant until it dies.
 - [ ] Verify tile occupancy clears after plant death.
 
 ## 7. Projectile Combat
 
-- [ ] Create `ProjectileAgent`.
-- [ ] Add speed.
-- [ ] Add damage.
-- [ ] Add lane row.
-- [ ] Add max lifetime.
-- [ ] Move projectile right.
-- [ ] Destroy projectile after max lifetime.
-- [ ] Damage only zombies in the same lane.
-- [ ] Destroy projectile after hitting a zombie.
-- [ ] Create `PeaProjectile.prefab`.
-- [ ] Use `Assets/Art/items/Pea.png`.
-- [ ] Add `CircleCollider2D` as trigger.
-- [ ] Add kinematic `Rigidbody2D` if trigger collision requires it.
-- [ ] Tune projectile scale and sorting order.
-- [ ] Add projectile hit sound hook.
+- [x] Create `ProjectileAgent`.
+- [x] Add speed.
+- [x] Add damage.
+- [x] Add lane row.
+- [x] Add max lifetime.
+- [x] Move projectile right.
+- [x] Destroy projectile after max lifetime.
+- [x] Damage only zombies in the same lane.
+- [x] Destroy projectile after hitting a zombie.
+- [x] Create `PeaProjectile.prefab`.
+- [x] Use `Assets/Art/items/Pea.png`.
+- [x] Add `CircleCollider2D` as trigger.
+- [x] Add kinematic `Rigidbody2D` if trigger collision requires it.
+- [x] Tune projectile scale and sorting order.
+- [x] Add projectile hit sound hook.
 
 ## 8. Peashooter Agent
 
-- [ ] Create `PeashooterAgent`.
-- [ ] Add fire interval.
-- [ ] Add projectile spawn point offset.
-- [ ] Add projectile prefab reference.
-- [ ] Check `LaneRegistry` for zombies in the same row.
-- [ ] Shoot only when a zombie exists in the same row.
-- [ ] Spawn projectile in the correct lane.
-- [ ] Start cooldown after shooting.
-- [ ] Stop shooting after game ends.
+- [x] Create `PeashooterAgent`.
+- [x] Add fire interval.
+- [x] Add projectile spawn point offset.
+- [x] Add projectile prefab reference.
+- [x] Check `LaneRegistry` for zombies in the same row.
+- [x] Shoot only when a zombie exists in the same row.
+- [x] Spawn projectile in the correct lane.
+- [x] Start cooldown after shooting.
+- [x] Stop shooting after game ends.
 - [ ] Verify Peashooter does not shoot when lane is empty.
 - [ ] Verify Peashooter shoots when zombie enters lane.
 - [ ] Verify projectiles damage and kill zombies.
