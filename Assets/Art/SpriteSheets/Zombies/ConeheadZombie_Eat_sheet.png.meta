@@ -219,8 +219,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_01
       rect:
         serializedVersion: 2
-        x: 90
+        x: 138
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +261,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_02
       rect:
         serializedVersion: 2
-        x: 180
+        x: 276
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_03
       rect:
         serializedVersion: 2
-        x: 270
+        x: 414
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_04
       rect:
         serializedVersion: 2
-        x: 360
+        x: 552
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_05
       rect:
         serializedVersion: 2
-        x: 450
+        x: 690
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_06
       rect:
         serializedVersion: 2
-        x: 540
+        x: 828
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_07
       rect:
         serializedVersion: 2
-        x: 630
+        x: 966
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_08
       rect:
         serializedVersion: 2
-        x: 720
+        x: 1104
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_09
       rect:
         serializedVersion: 2
-        x: 810
+        x: 1242
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,10 +437,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_10
       rect:
         serializedVersion: 2
-        x: 900
+        x: 1380
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +459,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_11
       rect:
         serializedVersion: 2
-        x: 990
+        x: 1518
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_12
       rect:
         serializedVersion: 2
-        x: 1080
+        x: 1656
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,10 +503,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_13
       rect:
         serializedVersion: 2
-        x: 1170
+        x: 1794
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_14
       rect:
         serializedVersion: 2
-        x: 1260
+        x: 1932
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_15
       rect:
         serializedVersion: 2
-        x: 1350
+        x: 2070
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_16
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 2208
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_17
       rect:
         serializedVersion: 2
-        x: 1530
+        x: 2346
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +613,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_18
       rect:
         serializedVersion: 2
-        x: 1620
+        x: 2484
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,10 +635,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_19
       rect:
         serializedVersion: 2
-        x: 1710
+        x: 2622
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,10 +657,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_20
       rect:
         serializedVersion: 2
-        x: 1800
+        x: 2760
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,10 +679,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_21
       rect:
         serializedVersion: 2
-        x: 1890
+        x: 2898
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,10 +701,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_22
       rect:
         serializedVersion: 2
-        x: 1980
+        x: 3036
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,10 +723,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_23
       rect:
         serializedVersion: 2
-        x: 2070
+        x: 3174
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,10 +745,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_24
       rect:
         serializedVersion: 2
-        x: 2160
+        x: 3312
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,10 +767,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_25
       rect:
         serializedVersion: 2
-        x: 2250
+        x: 3450
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,10 +789,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_26
       rect:
         serializedVersion: 2
-        x: 2340
+        x: 3588
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,10 +811,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_27
       rect:
         serializedVersion: 2
-        x: 2430
+        x: 3726
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,10 +833,10 @@ TextureImporter:
       name: ConeheadZombie_Eat_sheet_28
       rect:
         serializedVersion: 2
-        x: 2520
+        x: 3864
         y: 0
-        width: 90
-        height: 130
+        width: 138
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

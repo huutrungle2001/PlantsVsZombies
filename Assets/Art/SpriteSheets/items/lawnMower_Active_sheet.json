@@ -1,1 +1,24 @@
-{"frameWidth": 70, "frameHeight": 57, "frameCount": 17, "durationsMs": [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40]}
+{
+  "frameWidth": 245,
+  "frameHeight": 200,
+  "frameCount": 17,
+  "durationsMs": [
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40
+  ]
+}

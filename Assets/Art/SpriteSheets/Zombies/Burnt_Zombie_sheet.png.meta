@@ -279,8 +279,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +299,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_01
       rect:
         serializedVersion: 2
-        x: 419
+        x: 145
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +321,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_02
       rect:
         serializedVersion: 2
-        x: 838
+        x: 290
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,10 +343,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_03
       rect:
         serializedVersion: 2
-        x: 1257
+        x: 435
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_04
       rect:
         serializedVersion: 2
-        x: 1676
+        x: 580
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,10 +387,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_05
       rect:
         serializedVersion: 2
-        x: 2095
+        x: 725
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,10 +409,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_06
       rect:
         serializedVersion: 2
-        x: 2514
+        x: 870
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,10 +431,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_07
       rect:
         serializedVersion: 2
-        x: 2933
+        x: 1015
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -453,10 +453,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_08
       rect:
         serializedVersion: 2
-        x: 3352
+        x: 1160
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,10 +475,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_09
       rect:
         serializedVersion: 2
-        x: 3771
+        x: 1305
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,10 +497,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_10
       rect:
         serializedVersion: 2
-        x: 4190
+        x: 1450
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +519,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_11
       rect:
         serializedVersion: 2
-        x: 4609
+        x: 1595
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,10 +541,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_12
       rect:
         serializedVersion: 2
-        x: 5028
+        x: 1740
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,10 +563,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_13
       rect:
         serializedVersion: 2
-        x: 5447
+        x: 1885
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -585,10 +585,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_14
       rect:
         serializedVersion: 2
-        x: 5866
+        x: 2030
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,10 +607,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_15
       rect:
         serializedVersion: 2
-        x: 6285
+        x: 2175
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -629,10 +629,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_16
       rect:
         serializedVersion: 2
-        x: 6704
+        x: 2320
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -651,10 +651,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_17
       rect:
         serializedVersion: 2
-        x: 7123
+        x: 2465
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -673,10 +673,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_18
       rect:
         serializedVersion: 2
-        x: 7542
+        x: 2610
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -695,10 +695,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_19
       rect:
         serializedVersion: 2
-        x: 7961
+        x: 2755
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,10 +717,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_20
       rect:
         serializedVersion: 2
-        x: 8380
+        x: 2900
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -739,10 +739,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_21
       rect:
         serializedVersion: 2
-        x: 8799
+        x: 3045
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -761,10 +761,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_22
       rect:
         serializedVersion: 2
-        x: 9218
+        x: 3190
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -783,10 +783,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_23
       rect:
         serializedVersion: 2
-        x: 9637
+        x: 3335
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -805,10 +805,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_24
       rect:
         serializedVersion: 2
-        x: 10056
+        x: 3480
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -827,10 +827,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_25
       rect:
         serializedVersion: 2
-        x: 10475
+        x: 3625
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -849,10 +849,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_26
       rect:
         serializedVersion: 2
-        x: 10894
+        x: 3770
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -871,10 +871,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_27
       rect:
         serializedVersion: 2
-        x: 11313
+        x: 3915
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -893,10 +893,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_28
       rect:
         serializedVersion: 2
-        x: 11732
+        x: 4060
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -915,10 +915,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_29
       rect:
         serializedVersion: 2
-        x: 12151
+        x: 4205
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -937,10 +937,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_30
       rect:
         serializedVersion: 2
-        x: 12570
+        x: 4350
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -959,10 +959,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_31
       rect:
         serializedVersion: 2
-        x: 12989
+        x: 4495
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -981,10 +981,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_32
       rect:
         serializedVersion: 2
-        x: 13408
+        x: 4640
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1003,10 +1003,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_33
       rect:
         serializedVersion: 2
-        x: 13827
+        x: 4785
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1025,10 +1025,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_34
       rect:
         serializedVersion: 2
-        x: 14246
+        x: 4930
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1047,10 +1047,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_35
       rect:
         serializedVersion: 2
-        x: 14665
+        x: 5075
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1069,10 +1069,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_36
       rect:
         serializedVersion: 2
-        x: 15084
+        x: 5220
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1091,10 +1091,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_37
       rect:
         serializedVersion: 2
-        x: 15503
+        x: 5365
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1113,10 +1113,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_38
       rect:
         serializedVersion: 2
-        x: 15922
+        x: 5510
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1135,10 +1135,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_39
       rect:
         serializedVersion: 2
-        x: 16341
+        x: 5655
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1157,10 +1157,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_40
       rect:
         serializedVersion: 2
-        x: 16760
+        x: 5800
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1179,10 +1179,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_41
       rect:
         serializedVersion: 2
-        x: 17179
+        x: 5945
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1201,10 +1201,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_42
       rect:
         serializedVersion: 2
-        x: 17598
+        x: 6090
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1223,10 +1223,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_43
       rect:
         serializedVersion: 2
-        x: 18017
+        x: 6235
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1245,10 +1245,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_44
       rect:
         serializedVersion: 2
-        x: 18436
+        x: 6380
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1267,10 +1267,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_45
       rect:
         serializedVersion: 2
-        x: 18855
+        x: 6525
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1289,10 +1289,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_46
       rect:
         serializedVersion: 2
-        x: 19274
+        x: 6670
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1311,10 +1311,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_47
       rect:
         serializedVersion: 2
-        x: 19693
+        x: 6815
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1333,10 +1333,10 @@ TextureImporter:
       name: Burnt_Zombie_sheet_48
       rect:
         serializedVersion: 2
-        x: 20112
+        x: 6960
         y: 0
-        width: 419
-        height: 577
+        width: 145
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

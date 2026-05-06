@@ -402,8 +402,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +422,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_01
       rect:
         serializedVersion: 2
-        x: 177
+        x: 140
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +444,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_02
       rect:
         serializedVersion: 2
-        x: 354
+        x: 280
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +466,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_03
       rect:
         serializedVersion: 2
-        x: 531
+        x: 420
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,10 +488,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_04
       rect:
         serializedVersion: 2
-        x: 708
+        x: 560
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,10 +510,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_05
       rect:
         serializedVersion: 2
-        x: 885
+        x: 700
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,10 +532,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_06
       rect:
         serializedVersion: 2
-        x: 1062
+        x: 840
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +554,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_07
       rect:
         serializedVersion: 2
-        x: 1239
+        x: 980
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,10 +576,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_08
       rect:
         serializedVersion: 2
-        x: 1416
+        x: 1120
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -598,10 +598,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_09
       rect:
         serializedVersion: 2
-        x: 1593
+        x: 1260
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,10 +620,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_10
       rect:
         serializedVersion: 2
-        x: 1770
+        x: 1400
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -642,10 +642,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_11
       rect:
         serializedVersion: 2
-        x: 1947
+        x: 1540
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -664,10 +664,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_12
       rect:
         serializedVersion: 2
-        x: 2124
+        x: 1680
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -686,10 +686,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_13
       rect:
         serializedVersion: 2
-        x: 2301
+        x: 1820
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -708,10 +708,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_14
       rect:
         serializedVersion: 2
-        x: 2478
+        x: 1960
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -730,10 +730,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_15
       rect:
         serializedVersion: 2
-        x: 2655
+        x: 2100
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -752,10 +752,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_16
       rect:
         serializedVersion: 2
-        x: 2832
+        x: 2240
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -774,10 +774,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_17
       rect:
         serializedVersion: 2
-        x: 3009
+        x: 2380
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,10 +796,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_18
       rect:
         serializedVersion: 2
-        x: 3186
+        x: 2520
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -818,10 +818,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_19
       rect:
         serializedVersion: 2
-        x: 3363
+        x: 2660
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -840,10 +840,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_20
       rect:
         serializedVersion: 2
-        x: 3540
+        x: 2800
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -862,10 +862,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_21
       rect:
         serializedVersion: 2
-        x: 3717
+        x: 2940
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -884,10 +884,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_22
       rect:
         serializedVersion: 2
-        x: 3894
+        x: 3080
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -906,10 +906,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_23
       rect:
         serializedVersion: 2
-        x: 4071
+        x: 3220
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -928,10 +928,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_24
       rect:
         serializedVersion: 2
-        x: 4248
+        x: 3360
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -950,10 +950,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_25
       rect:
         serializedVersion: 2
-        x: 4425
+        x: 3500
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -972,10 +972,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_26
       rect:
         serializedVersion: 2
-        x: 4602
+        x: 3640
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -994,10 +994,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_27
       rect:
         serializedVersion: 2
-        x: 4779
+        x: 3780
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1016,10 +1016,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_28
       rect:
         serializedVersion: 2
-        x: 4956
+        x: 3920
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1038,10 +1038,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_29
       rect:
         serializedVersion: 2
-        x: 5133
+        x: 4060
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1060,10 +1060,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_30
       rect:
         serializedVersion: 2
-        x: 5310
+        x: 4200
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1082,10 +1082,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_31
       rect:
         serializedVersion: 2
-        x: 5487
+        x: 4340
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1104,10 +1104,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_32
       rect:
         serializedVersion: 2
-        x: 5664
+        x: 4480
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1126,10 +1126,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_33
       rect:
         serializedVersion: 2
-        x: 5841
+        x: 4620
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1148,10 +1148,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_34
       rect:
         serializedVersion: 2
-        x: 6018
+        x: 4760
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1170,10 +1170,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_35
       rect:
         serializedVersion: 2
-        x: 6195
+        x: 4900
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1192,10 +1192,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_36
       rect:
         serializedVersion: 2
-        x: 6372
+        x: 5040
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1214,10 +1214,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_37
       rect:
         serializedVersion: 2
-        x: 6549
+        x: 5180
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1236,10 +1236,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_38
       rect:
         serializedVersion: 2
-        x: 6726
+        x: 5320
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1258,10 +1258,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_39
       rect:
         serializedVersion: 2
-        x: 6903
+        x: 5460
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1280,10 +1280,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_40
       rect:
         serializedVersion: 2
-        x: 7080
+        x: 5600
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1302,10 +1302,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_41
       rect:
         serializedVersion: 2
-        x: 7257
+        x: 5740
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1324,10 +1324,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_42
       rect:
         serializedVersion: 2
-        x: 7434
+        x: 5880
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1346,10 +1346,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_43
       rect:
         serializedVersion: 2
-        x: 7611
+        x: 6020
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1368,10 +1368,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_44
       rect:
         serializedVersion: 2
-        x: 7788
+        x: 6160
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1390,10 +1390,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_45
       rect:
         serializedVersion: 2
-        x: 7965
+        x: 6300
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1412,10 +1412,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_46
       rect:
         serializedVersion: 2
-        x: 8142
+        x: 6440
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1434,10 +1434,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_47
       rect:
         serializedVersion: 2
-        x: 8319
+        x: 6580
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1456,10 +1456,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_48
       rect:
         serializedVersion: 2
-        x: 8496
+        x: 6720
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1478,10 +1478,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_49
       rect:
         serializedVersion: 2
-        x: 8673
+        x: 6860
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1500,10 +1500,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_50
       rect:
         serializedVersion: 2
-        x: 8850
+        x: 7000
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1522,10 +1522,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_51
       rect:
         serializedVersion: 2
-        x: 9027
+        x: 7140
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1544,10 +1544,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_52
       rect:
         serializedVersion: 2
-        x: 9204
+        x: 7280
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1566,10 +1566,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_53
       rect:
         serializedVersion: 2
-        x: 9381
+        x: 7420
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1588,10 +1588,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_54
       rect:
         serializedVersion: 2
-        x: 9558
+        x: 7560
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1610,10 +1610,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_55
       rect:
         serializedVersion: 2
-        x: 9735
+        x: 7700
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1632,10 +1632,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_56
       rect:
         serializedVersion: 2
-        x: 9912
+        x: 7840
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1654,10 +1654,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_57
       rect:
         serializedVersion: 2
-        x: 10089
+        x: 7980
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1676,10 +1676,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_58
       rect:
         serializedVersion: 2
-        x: 10266
+        x: 8120
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1698,10 +1698,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_59
       rect:
         serializedVersion: 2
-        x: 10443
+        x: 8260
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1720,10 +1720,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_60
       rect:
         serializedVersion: 2
-        x: 10620
+        x: 8400
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1742,10 +1742,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_61
       rect:
         serializedVersion: 2
-        x: 10797
+        x: 8540
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1764,10 +1764,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_62
       rect:
         serializedVersion: 2
-        x: 10974
+        x: 8680
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1786,10 +1786,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_63
       rect:
         serializedVersion: 2
-        x: 11151
+        x: 8820
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1808,10 +1808,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_64
       rect:
         serializedVersion: 2
-        x: 11328
+        x: 8960
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1830,10 +1830,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_65
       rect:
         serializedVersion: 2
-        x: 11505
+        x: 9100
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1852,10 +1852,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_66
       rect:
         serializedVersion: 2
-        x: 11682
+        x: 9240
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1874,10 +1874,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_67
       rect:
         serializedVersion: 2
-        x: 11859
+        x: 9380
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1896,10 +1896,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_68
       rect:
         serializedVersion: 2
-        x: 12036
+        x: 9520
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1918,10 +1918,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_69
       rect:
         serializedVersion: 2
-        x: 12213
+        x: 9660
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1940,10 +1940,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_70
       rect:
         serializedVersion: 2
-        x: 12390
+        x: 9800
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1962,10 +1962,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_71
       rect:
         serializedVersion: 2
-        x: 12567
+        x: 9940
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1984,10 +1984,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_72
       rect:
         serializedVersion: 2
-        x: 12744
+        x: 10080
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2006,10 +2006,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_73
       rect:
         serializedVersion: 2
-        x: 12921
+        x: 10220
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2028,10 +2028,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_74
       rect:
         serializedVersion: 2
-        x: 13098
+        x: 10360
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2050,10 +2050,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_75
       rect:
         serializedVersion: 2
-        x: 13275
+        x: 10500
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2072,10 +2072,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_76
       rect:
         serializedVersion: 2
-        x: 13452
+        x: 10640
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2094,10 +2094,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_77
       rect:
         serializedVersion: 2
-        x: 13629
+        x: 10780
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2116,10 +2116,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_78
       rect:
         serializedVersion: 2
-        x: 13806
+        x: 10920
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2138,10 +2138,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_79
       rect:
         serializedVersion: 2
-        x: 13983
+        x: 11060
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2160,10 +2160,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_80
       rect:
         serializedVersion: 2
-        x: 14160
+        x: 11200
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2182,10 +2182,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_81
       rect:
         serializedVersion: 2
-        x: 14337
+        x: 11340
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2204,10 +2204,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_82
       rect:
         serializedVersion: 2
-        x: 14514
+        x: 11480
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2226,10 +2226,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_83
       rect:
         serializedVersion: 2
-        x: 14691
+        x: 11620
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2248,10 +2248,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_84
       rect:
         serializedVersion: 2
-        x: 14868
+        x: 11760
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2270,10 +2270,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_85
       rect:
         serializedVersion: 2
-        x: 15045
+        x: 11900
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2292,10 +2292,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_86
       rect:
         serializedVersion: 2
-        x: 15222
+        x: 12040
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2314,10 +2314,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_87
       rect:
         serializedVersion: 2
-        x: 15399
+        x: 12180
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2336,10 +2336,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_88
       rect:
         serializedVersion: 2
-        x: 15576
+        x: 12320
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2358,10 +2358,10 @@ TextureImporter:
       name: NormalZombieRun_sheet_89
       rect:
         serializedVersion: 2
-        x: 15753
+        x: 12460
         y: 0
-        width: 177
-        height: 252
+        width: 140
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -126,8 +126,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 66
-        height: 75
+        width: 176
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,10 +146,10 @@ TextureImporter:
       name: Wallnut_sheet_01
       rect:
         serializedVersion: 2
-        x: 66
+        x: 176
         y: 0
-        width: 66
-        height: 75
+        width: 176
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: Wallnut_sheet_02
       rect:
         serializedVersion: 2
-        x: 132
+        x: 352
         y: 0
-        width: 66
-        height: 75
+        width: 176
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +190,10 @@ TextureImporter:
       name: Wallnut_sheet_03
       rect:
         serializedVersion: 2
-        x: 198
+        x: 528
         y: 0
-        width: 66
-        height: 75
+        width: 176
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

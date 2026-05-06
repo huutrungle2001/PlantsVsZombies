@@ -294,8 +294,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_01
       rect:
         serializedVersion: 2
-        x: 37
+        x: 119
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_02
       rect:
         serializedVersion: 2
-        x: 74
+        x: 238
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_03
       rect:
         serializedVersion: 2
-        x: 111
+        x: 357
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_04
       rect:
         serializedVersion: 2
-        x: 148
+        x: 476
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_05
       rect:
         serializedVersion: 2
-        x: 185
+        x: 595
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_06
       rect:
         serializedVersion: 2
-        x: 222
+        x: 714
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +446,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_07
       rect:
         serializedVersion: 2
-        x: 259
+        x: 833
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +468,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_08
       rect:
         serializedVersion: 2
-        x: 296
+        x: 952
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_09
       rect:
         serializedVersion: 2
-        x: 333
+        x: 1071
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_10
       rect:
         serializedVersion: 2
-        x: 370
+        x: 1190
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +534,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_11
       rect:
         serializedVersion: 2
-        x: 407
+        x: 1309
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +556,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_12
       rect:
         serializedVersion: 2
-        x: 444
+        x: 1428
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +578,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_13
       rect:
         serializedVersion: 2
-        x: 481
+        x: 1547
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,10 +600,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_14
       rect:
         serializedVersion: 2
-        x: 518
+        x: 1666
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +622,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_15
       rect:
         serializedVersion: 2
-        x: 555
+        x: 1785
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,10 +644,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_16
       rect:
         serializedVersion: 2
-        x: 592
+        x: 1904
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +666,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_17
       rect:
         serializedVersion: 2
-        x: 629
+        x: 2023
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +688,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_18
       rect:
         serializedVersion: 2
-        x: 666
+        x: 2142
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,10 +710,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_19
       rect:
         serializedVersion: 2
-        x: 703
+        x: 2261
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,10 +732,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_20
       rect:
         serializedVersion: 2
-        x: 740
+        x: 2380
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,10 +754,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_21
       rect:
         serializedVersion: 2
-        x: 777
+        x: 2499
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -776,10 +776,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_22
       rect:
         serializedVersion: 2
-        x: 814
+        x: 2618
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -798,10 +798,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_23
       rect:
         serializedVersion: 2
-        x: 851
+        x: 2737
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -820,10 +820,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_24
       rect:
         serializedVersion: 2
-        x: 888
+        x: 2856
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,10 +842,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_25
       rect:
         serializedVersion: 2
-        x: 925
+        x: 2975
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -864,10 +864,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_26
       rect:
         serializedVersion: 2
-        x: 962
+        x: 3094
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,10 +886,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_27
       rect:
         serializedVersion: 2
-        x: 999
+        x: 3213
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -908,10 +908,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_28
       rect:
         serializedVersion: 2
-        x: 1036
+        x: 3332
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -930,10 +930,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_29
       rect:
         serializedVersion: 2
-        x: 1073
+        x: 3451
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -952,10 +952,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_30
       rect:
         serializedVersion: 2
-        x: 1110
+        x: 3570
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -974,10 +974,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_31
       rect:
         serializedVersion: 2
-        x: 1147
+        x: 3689
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -996,10 +996,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_32
       rect:
         serializedVersion: 2
-        x: 1184
+        x: 3808
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1018,10 +1018,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_33
       rect:
         serializedVersion: 2
-        x: 1221
+        x: 3927
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1040,10 +1040,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_34
       rect:
         serializedVersion: 2
-        x: 1258
+        x: 4046
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1062,10 +1062,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_35
       rect:
         serializedVersion: 2
-        x: 1295
+        x: 4165
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1084,10 +1084,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_36
       rect:
         serializedVersion: 2
-        x: 1332
+        x: 4284
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1106,10 +1106,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_37
       rect:
         serializedVersion: 2
-        x: 1369
+        x: 4403
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1128,10 +1128,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_38
       rect:
         serializedVersion: 2
-        x: 1406
+        x: 4522
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1150,10 +1150,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_39
       rect:
         serializedVersion: 2
-        x: 1443
+        x: 4641
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1172,10 +1172,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_40
       rect:
         serializedVersion: 2
-        x: 1480
+        x: 4760
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1194,10 +1194,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_41
       rect:
         serializedVersion: 2
-        x: 1517
+        x: 4879
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1216,10 +1216,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_42
       rect:
         serializedVersion: 2
-        x: 1554
+        x: 4998
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1238,10 +1238,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_43
       rect:
         serializedVersion: 2
-        x: 1591
+        x: 5117
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1260,10 +1260,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_44
       rect:
         serializedVersion: 2
-        x: 1628
+        x: 5236
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1282,10 +1282,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_45
       rect:
         serializedVersion: 2
-        x: 1665
+        x: 5355
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1304,10 +1304,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_46
       rect:
         serializedVersion: 2
-        x: 1702
+        x: 5474
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1326,10 +1326,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_47
       rect:
         serializedVersion: 2
-        x: 1739
+        x: 5593
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1348,10 +1348,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_48
       rect:
         serializedVersion: 2
-        x: 1776
+        x: 5712
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1370,10 +1370,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_49
       rect:
         serializedVersion: 2
-        x: 1813
+        x: 5831
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1392,10 +1392,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_50
       rect:
         serializedVersion: 2
-        x: 1850
+        x: 5950
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1414,10 +1414,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_51
       rect:
         serializedVersion: 2
-        x: 1887
+        x: 6069
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1436,10 +1436,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_52
       rect:
         serializedVersion: 2
-        x: 1924
+        x: 6188
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1458,10 +1458,10 @@ TextureImporter:
       name: BucketheadZombie_sheet_53
       rect:
         serializedVersion: 2
-        x: 1961
+        x: 6307
         y: 0
-        width: 37
-        height: 62
+        width: 119
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

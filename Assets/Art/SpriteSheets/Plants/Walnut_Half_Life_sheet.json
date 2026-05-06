@@ -1,1 +1,11 @@
-{"frameWidth": 66, "frameHeight": 75, "frameCount": 4, "durationsMs": [200, 200, 200, 200]}
+{
+  "frameWidth": 176,
+  "frameHeight": 200,
+  "frameCount": 4,
+  "durationsMs": [
+    200,
+    200,
+    200,
+    200
+  ]
+}

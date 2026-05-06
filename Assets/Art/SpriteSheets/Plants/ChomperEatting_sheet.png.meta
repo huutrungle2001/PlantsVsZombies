@@ -186,8 +186,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +206,10 @@ TextureImporter:
       name: ChomperEatting_sheet_01
       rect:
         serializedVersion: 2
-        x: 83
+        x: 197
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: ChomperEatting_sheet_02
       rect:
         serializedVersion: 2
-        x: 166
+        x: 394
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: ChomperEatting_sheet_03
       rect:
         serializedVersion: 2
-        x: 249
+        x: 591
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +272,10 @@ TextureImporter:
       name: ChomperEatting_sheet_04
       rect:
         serializedVersion: 2
-        x: 332
+        x: 788
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: ChomperEatting_sheet_05
       rect:
         serializedVersion: 2
-        x: 415
+        x: 985
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +316,10 @@ TextureImporter:
       name: ChomperEatting_sheet_06
       rect:
         serializedVersion: 2
-        x: 498
+        x: 1182
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +338,10 @@ TextureImporter:
       name: ChomperEatting_sheet_07
       rect:
         serializedVersion: 2
-        x: 581
+        x: 1379
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: ChomperEatting_sheet_08
       rect:
         serializedVersion: 2
-        x: 664
+        x: 1576
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +382,10 @@ TextureImporter:
       name: ChomperEatting_sheet_09
       rect:
         serializedVersion: 2
-        x: 747
+        x: 1773
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +404,10 @@ TextureImporter:
       name: ChomperEatting_sheet_10
       rect:
         serializedVersion: 2
-        x: 830
+        x: 1970
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +426,10 @@ TextureImporter:
       name: ChomperEatting_sheet_11
       rect:
         serializedVersion: 2
-        x: 913
+        x: 2167
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +448,10 @@ TextureImporter:
       name: ChomperEatting_sheet_12
       rect:
         serializedVersion: 2
-        x: 996
+        x: 2364
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: ChomperEatting_sheet_13
       rect:
         serializedVersion: 2
-        x: 1079
+        x: 2561
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +492,10 @@ TextureImporter:
       name: ChomperEatting_sheet_14
       rect:
         serializedVersion: 2
-        x: 1162
+        x: 2758
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +514,10 @@ TextureImporter:
       name: ChomperEatting_sheet_15
       rect:
         serializedVersion: 2
-        x: 1245
+        x: 2955
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +536,10 @@ TextureImporter:
       name: ChomperEatting_sheet_16
       rect:
         serializedVersion: 2
-        x: 1328
+        x: 3152
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +558,10 @@ TextureImporter:
       name: ChomperEatting_sheet_17
       rect:
         serializedVersion: 2
-        x: 1411
+        x: 3349
         y: 0
-        width: 83
-        height: 84
+        width: 197
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

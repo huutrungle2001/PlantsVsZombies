@@ -252,8 +252,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +272,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_01
       rect:
         serializedVersion: 2
-        x: 176
+        x: 139
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_02
       rect:
         serializedVersion: 2
-        x: 352
+        x: 278
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +316,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_03
       rect:
         serializedVersion: 2
-        x: 528
+        x: 417
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +338,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_04
       rect:
         serializedVersion: 2
-        x: 704
+        x: 556
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_05
       rect:
         serializedVersion: 2
-        x: 880
+        x: 695
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +382,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_06
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 834
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +404,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_07
       rect:
         serializedVersion: 2
-        x: 1232
+        x: 973
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +426,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_08
       rect:
         serializedVersion: 2
-        x: 1408
+        x: 1112
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +448,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_09
       rect:
         serializedVersion: 2
-        x: 1584
+        x: 1251
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_10
       rect:
         serializedVersion: 2
-        x: 1760
+        x: 1390
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +492,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_11
       rect:
         serializedVersion: 2
-        x: 1936
+        x: 1529
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +514,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_12
       rect:
         serializedVersion: 2
-        x: 2112
+        x: 1668
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +536,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_13
       rect:
         serializedVersion: 2
-        x: 2288
+        x: 1807
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +558,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_14
       rect:
         serializedVersion: 2
-        x: 2464
+        x: 1946
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +580,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_15
       rect:
         serializedVersion: 2
-        x: 2640
+        x: 2085
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +602,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_16
       rect:
         serializedVersion: 2
-        x: 2816
+        x: 2224
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_17
       rect:
         serializedVersion: 2
-        x: 2992
+        x: 2363
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +646,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_18
       rect:
         serializedVersion: 2
-        x: 3168
+        x: 2502
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +668,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_19
       rect:
         serializedVersion: 2
-        x: 3344
+        x: 2641
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +690,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_20
       rect:
         serializedVersion: 2
-        x: 3520
+        x: 2780
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +712,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_21
       rect:
         serializedVersion: 2
-        x: 3696
+        x: 2919
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,10 +734,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_22
       rect:
         serializedVersion: 2
-        x: 3872
+        x: 3058
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +756,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_23
       rect:
         serializedVersion: 2
-        x: 4048
+        x: 3197
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +778,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_24
       rect:
         serializedVersion: 2
-        x: 4224
+        x: 3336
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,10 +800,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_25
       rect:
         serializedVersion: 2
-        x: 4400
+        x: 3475
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,10 +822,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_26
       rect:
         serializedVersion: 2
-        x: 4576
+        x: 3614
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,10 +844,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_27
       rect:
         serializedVersion: 2
-        x: 4752
+        x: 3753
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -866,10 +866,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_28
       rect:
         serializedVersion: 2
-        x: 4928
+        x: 3892
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -888,10 +888,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_29
       rect:
         serializedVersion: 2
-        x: 5104
+        x: 4031
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -910,10 +910,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_30
       rect:
         serializedVersion: 2
-        x: 5280
+        x: 4170
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -932,10 +932,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_31
       rect:
         serializedVersion: 2
-        x: 5456
+        x: 4309
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -954,10 +954,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_32
       rect:
         serializedVersion: 2
-        x: 5632
+        x: 4448
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -976,10 +976,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_33
       rect:
         serializedVersion: 2
-        x: 5808
+        x: 4587
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -998,10 +998,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_34
       rect:
         serializedVersion: 2
-        x: 5984
+        x: 4726
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1020,10 +1020,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_35
       rect:
         serializedVersion: 2
-        x: 6160
+        x: 4865
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1042,10 +1042,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_36
       rect:
         serializedVersion: 2
-        x: 6336
+        x: 5004
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1064,10 +1064,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_37
       rect:
         serializedVersion: 2
-        x: 6512
+        x: 5143
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1086,10 +1086,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_38
       rect:
         serializedVersion: 2
-        x: 6688
+        x: 5282
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1108,10 +1108,10 @@ TextureImporter:
       name: NormalZombieEat_sheet_39
       rect:
         serializedVersion: 2
-        x: 6864
+        x: 5421
         y: 0
-        width: 176
-        height: 252
+        width: 139
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -321,8 +321,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,10 +341,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_01
       rect:
         serializedVersion: 2
-        x: 434
+        x: 118
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,10 +363,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_02
       rect:
         serializedVersion: 2
-        x: 868
+        x: 236
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,10 +385,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_03
       rect:
         serializedVersion: 2
-        x: 1302
+        x: 354
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_04
       rect:
         serializedVersion: 2
-        x: 1736
+        x: 472
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -429,10 +429,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_05
       rect:
         serializedVersion: 2
-        x: 2170
+        x: 590
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -451,10 +451,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_06
       rect:
         serializedVersion: 2
-        x: 2604
+        x: 708
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,10 +473,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_07
       rect:
         serializedVersion: 2
-        x: 3038
+        x: 826
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -495,10 +495,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_08
       rect:
         serializedVersion: 2
-        x: 3472
+        x: 944
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,10 +517,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_09
       rect:
         serializedVersion: 2
-        x: 3906
+        x: 1062
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,10 +539,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_10
       rect:
         serializedVersion: 2
-        x: 4340
+        x: 1180
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,10 +561,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_11
       rect:
         serializedVersion: 2
-        x: 4774
+        x: 1298
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,10 +583,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_12
       rect:
         serializedVersion: 2
-        x: 5208
+        x: 1416
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -605,10 +605,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_13
       rect:
         serializedVersion: 2
-        x: 5642
+        x: 1534
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -627,10 +627,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_14
       rect:
         serializedVersion: 2
-        x: 6076
+        x: 1652
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,10 +649,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_15
       rect:
         serializedVersion: 2
-        x: 6510
+        x: 1770
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -671,10 +671,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_16
       rect:
         serializedVersion: 2
-        x: 6944
+        x: 1888
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -693,10 +693,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_17
       rect:
         serializedVersion: 2
-        x: 7378
+        x: 2006
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -715,10 +715,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_18
       rect:
         serializedVersion: 2
-        x: 7812
+        x: 2124
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -737,10 +737,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_19
       rect:
         serializedVersion: 2
-        x: 8246
+        x: 2242
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,10 +759,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_20
       rect:
         serializedVersion: 2
-        x: 8680
+        x: 2360
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -781,10 +781,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_21
       rect:
         serializedVersion: 2
-        x: 9114
+        x: 2478
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -803,10 +803,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_22
       rect:
         serializedVersion: 2
-        x: 9548
+        x: 2596
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -825,10 +825,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_23
       rect:
         serializedVersion: 2
-        x: 9982
+        x: 2714
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -847,10 +847,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_24
       rect:
         serializedVersion: 2
-        x: 10416
+        x: 2832
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -869,10 +869,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_25
       rect:
         serializedVersion: 2
-        x: 10850
+        x: 2950
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -891,10 +891,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_26
       rect:
         serializedVersion: 2
-        x: 11284
+        x: 3068
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -913,10 +913,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_27
       rect:
         serializedVersion: 2
-        x: 11718
+        x: 3186
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -935,10 +935,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_28
       rect:
         serializedVersion: 2
-        x: 12152
+        x: 3304
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -957,10 +957,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_29
       rect:
         serializedVersion: 2
-        x: 12586
+        x: 3422
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -979,10 +979,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_30
       rect:
         serializedVersion: 2
-        x: 13020
+        x: 3540
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1001,10 +1001,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_31
       rect:
         serializedVersion: 2
-        x: 13454
+        x: 3658
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1023,10 +1023,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_32
       rect:
         serializedVersion: 2
-        x: 13888
+        x: 3776
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1045,10 +1045,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_33
       rect:
         serializedVersion: 2
-        x: 14322
+        x: 3894
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1067,10 +1067,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_34
       rect:
         serializedVersion: 2
-        x: 14756
+        x: 4012
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1089,10 +1089,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_35
       rect:
         serializedVersion: 2
-        x: 15190
+        x: 4130
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1111,10 +1111,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_36
       rect:
         serializedVersion: 2
-        x: 15624
+        x: 4248
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1133,10 +1133,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_37
       rect:
         serializedVersion: 2
-        x: 16058
+        x: 4366
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1155,10 +1155,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_38
       rect:
         serializedVersion: 2
-        x: 16492
+        x: 4484
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1177,10 +1177,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_39
       rect:
         serializedVersion: 2
-        x: 16926
+        x: 4602
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1199,10 +1199,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_40
       rect:
         serializedVersion: 2
-        x: 17360
+        x: 4720
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1221,10 +1221,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_41
       rect:
         serializedVersion: 2
-        x: 17794
+        x: 4838
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1243,10 +1243,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_42
       rect:
         serializedVersion: 2
-        x: 18228
+        x: 4956
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1265,10 +1265,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_43
       rect:
         serializedVersion: 2
-        x: 18662
+        x: 5074
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1287,10 +1287,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_44
       rect:
         serializedVersion: 2
-        x: 19096
+        x: 5192
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1309,10 +1309,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_45
       rect:
         serializedVersion: 2
-        x: 19530
+        x: 5310
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1331,10 +1331,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_46
       rect:
         serializedVersion: 2
-        x: 19964
+        x: 5428
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1353,10 +1353,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_47
       rect:
         serializedVersion: 2
-        x: 20398
+        x: 5546
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1375,10 +1375,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_48
       rect:
         serializedVersion: 2
-        x: 20832
+        x: 5664
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1397,10 +1397,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_49
       rect:
         serializedVersion: 2
-        x: 21266
+        x: 5782
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1419,10 +1419,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_50
       rect:
         serializedVersion: 2
-        x: 21700
+        x: 5900
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1441,10 +1441,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_51
       rect:
         serializedVersion: 2
-        x: 22134
+        x: 6018
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1463,10 +1463,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_52
       rect:
         serializedVersion: 2
-        x: 22568
+        x: 6136
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1485,10 +1485,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_53
       rect:
         serializedVersion: 2
-        x: 23002
+        x: 6254
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1507,10 +1507,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_54
       rect:
         serializedVersion: 2
-        x: 23436
+        x: 6372
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1529,10 +1529,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_55
       rect:
         serializedVersion: 2
-        x: 23870
+        x: 6490
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1551,10 +1551,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_56
       rect:
         serializedVersion: 2
-        x: 24304
+        x: 6608
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1573,10 +1573,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_57
       rect:
         serializedVersion: 2
-        x: 24738
+        x: 6726
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1595,10 +1595,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_58
       rect:
         serializedVersion: 2
-        x: 25172
+        x: 6844
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1617,10 +1617,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_59
       rect:
         serializedVersion: 2
-        x: 25606
+        x: 6962
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1639,10 +1639,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_60
       rect:
         serializedVersion: 2
-        x: 26040
+        x: 7080
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1661,10 +1661,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_61
       rect:
         serializedVersion: 2
-        x: 26474
+        x: 7198
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1683,10 +1683,10 @@ TextureImporter:
       name: ConeheadZombie_sheet_62
       rect:
         serializedVersion: 2
-        x: 26908
+        x: 7316
         y: 0
-        width: 434
-        height: 735
+        width: 118
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -219,8 +219,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: PotatoMine_sheet_01
       rect:
         serializedVersion: 2
-        x: 360
+        x: 200
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +261,10 @@ TextureImporter:
       name: PotatoMine_sheet_02
       rect:
         serializedVersion: 2
-        x: 720
+        x: 400
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: PotatoMine_sheet_03
       rect:
         serializedVersion: 2
-        x: 1080
+        x: 600
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: PotatoMine_sheet_04
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 800
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: PotatoMine_sheet_05
       rect:
         serializedVersion: 2
-        x: 1800
+        x: 1000
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: PotatoMine_sheet_06
       rect:
         serializedVersion: 2
-        x: 2160
+        x: 1200
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: PotatoMine_sheet_07
       rect:
         serializedVersion: 2
-        x: 2520
+        x: 1400
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: PotatoMine_sheet_08
       rect:
         serializedVersion: 2
-        x: 2880
+        x: 1600
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: PotatoMine_sheet_09
       rect:
         serializedVersion: 2
-        x: 3240
+        x: 1800
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,10 +437,10 @@ TextureImporter:
       name: PotatoMine_sheet_10
       rect:
         serializedVersion: 2
-        x: 3600
+        x: 2000
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +459,10 @@ TextureImporter:
       name: PotatoMine_sheet_11
       rect:
         serializedVersion: 2
-        x: 3960
+        x: 2200
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: PotatoMine_sheet_12
       rect:
         serializedVersion: 2
-        x: 4320
+        x: 2400
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,10 +503,10 @@ TextureImporter:
       name: PotatoMine_sheet_13
       rect:
         serializedVersion: 2
-        x: 4680
+        x: 2600
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: PotatoMine_sheet_14
       rect:
         serializedVersion: 2
-        x: 5040
+        x: 2800
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ TextureImporter:
       name: PotatoMine_sheet_15
       rect:
         serializedVersion: 2
-        x: 5400
+        x: 3000
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: PotatoMine_sheet_16
       rect:
         serializedVersion: 2
-        x: 5760
+        x: 3200
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: PotatoMine_sheet_17
       rect:
         serializedVersion: 2
-        x: 6120
+        x: 3400
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +613,10 @@ TextureImporter:
       name: PotatoMine_sheet_18
       rect:
         serializedVersion: 2
-        x: 6480
+        x: 3600
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,10 +635,10 @@ TextureImporter:
       name: PotatoMine_sheet_19
       rect:
         serializedVersion: 2
-        x: 6840
+        x: 3800
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,10 +657,10 @@ TextureImporter:
       name: PotatoMine_sheet_20
       rect:
         serializedVersion: 2
-        x: 7200
+        x: 4000
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,10 +679,10 @@ TextureImporter:
       name: PotatoMine_sheet_21
       rect:
         serializedVersion: 2
-        x: 7560
+        x: 4200
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,10 +701,10 @@ TextureImporter:
       name: PotatoMine_sheet_22
       rect:
         serializedVersion: 2
-        x: 7920
+        x: 4400
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,10 +723,10 @@ TextureImporter:
       name: PotatoMine_sheet_23
       rect:
         serializedVersion: 2
-        x: 8280
+        x: 4600
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,10 +745,10 @@ TextureImporter:
       name: PotatoMine_sheet_24
       rect:
         serializedVersion: 2
-        x: 8640
+        x: 4800
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,10 +767,10 @@ TextureImporter:
       name: PotatoMine_sheet_25
       rect:
         serializedVersion: 2
-        x: 9000
+        x: 5000
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,10 +789,10 @@ TextureImporter:
       name: PotatoMine_sheet_26
       rect:
         serializedVersion: 2
-        x: 9360
+        x: 5200
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,10 +811,10 @@ TextureImporter:
       name: PotatoMine_sheet_27
       rect:
         serializedVersion: 2
-        x: 9720
+        x: 5400
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,10 +833,10 @@ TextureImporter:
       name: PotatoMine_sheet_28
       rect:
         serializedVersion: 2
-        x: 10080
+        x: 5600
         y: 0
-        width: 360
-        height: 360
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

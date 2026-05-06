@@ -126,8 +126,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 138
-        height: 156
+        width: 177
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,10 +146,10 @@ TextureImporter:
       name: Wallnut_Dying_sheet_01
       rect:
         serializedVersion: 2
-        x: 138
+        x: 177
         y: 0
-        width: 138
-        height: 156
+        width: 177
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: Wallnut_Dying_sheet_02
       rect:
         serializedVersion: 2
-        x: 276
+        x: 354
         y: 0
-        width: 138
-        height: 156
+        width: 177
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +190,10 @@ TextureImporter:
       name: Wallnut_Dying_sheet_03
       rect:
         serializedVersion: 2
-        x: 414
+        x: 531
         y: 0
-        width: 138
-        height: 156
+        width: 177
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
