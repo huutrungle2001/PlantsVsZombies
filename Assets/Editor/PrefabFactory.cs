@@ -18,6 +18,7 @@ public static class PrefabFactory
     private const string PlantAnimRoot  = "Assets/Resources/Animations/Plants";
     private const string ZombieAnimRoot = "Assets/Resources/Animations/Zombies";
     private const string PeaSpritePath  = "Assets/Art/items/Pea.png";
+    private const string SunSpritePath  = "Assets/Art/items/Sun.png";
 
     private const string ScenePath = "Assets/Scenes/Main.unity";
 
@@ -42,9 +43,12 @@ public static class PrefabFactory
         CreateAllPlantPrefabs();       // Peashooter.prefab, Sunflower.prefab
         CreateAllZombiePrefabs();      // BasicZombie.prefab
         CreatePeaProjectilePrefab();   // PeaProjectile.prefab
+        CreateSunPickupPrefab();       // SunPickup.prefab
         WireGameManagerPrefabs();      // GameManager <- plant prefabs
         WireZombieSpawnerPrefab();     // ZombieSpawner <- BasicZombie
         WirePeashooterAgent();         // Peashooter.prefab <- PeashooterAgent + PeaProjectile
+        WireSunflowerAgent();          // Sunflower.prefab  <- SunflowerAgent  + SunPickup
+        WireWaveManager();             // WaveManager scene object <- BasicZombie
     }
 
     /// <summary>
@@ -209,6 +213,108 @@ public static class PrefabFactory
     /// Edits the existing Peashooter.prefab in-place:
     /// adds PeashooterAgent and wires the PeaProjectile prefab reference.
     /// </summary>
+    /// <summary>Creates SunPickup.prefab using Assets/Art/items/Sun.png.</summary>
+    [MenuItem("PvZ/Prefabs/Create SunPickup Prefab")]
+    public static void CreateSunPickupPrefab()
+    {
+        EnsurePrefabFolder();
+
+        var go = new GameObject("SunPickup");
+        go.transform.localScale = Vector3.one * 0.55f;
+
+        var sr     = go.AddComponent<SpriteRenderer>();
+        var sprite = AssetDatabase.LoadAssetAtPath<Sprite>(SunSpritePath);
+        if (sprite != null) sr.sprite = sprite;
+        else Debug.LogWarning("[PrefabFactory] Sun.png not found.");
+        sr.sortingOrder = 30;
+
+        // BoxCollider2D (non-trigger) for OnMouseDown click detection.
+        var col  = go.AddComponent<BoxCollider2D>();
+        col.size = Vector2.one;
+
+        go.AddComponent<SunPickupAgent>();
+
+        var path  = PrefabFolder + "/SunPickup.prefab";
+        var saved = PrefabUtility.SaveAsPrefabAsset(go, path);
+        Object.DestroyImmediate(go);
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+        if (saved != null) Debug.Log("[PrefabFactory] Saved " + path);
+        else Debug.LogError("[PrefabFactory] Failed to save SunPickup.prefab");
+    }
+
+    /// <summary>
+    /// Edits Sunflower.prefab in-place: adds SunflowerAgent and wires SunPickup.prefab.
+    /// </summary>
+    [MenuItem("PvZ/Prefabs/Wire SunflowerAgent into Sunflower")]
+    public static void WireSunflowerAgent()
+    {
+        var sunPickupPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(PrefabFolder + "/SunPickup.prefab");
+        if (sunPickupPrefab == null)
+        {
+            Debug.LogError("[PrefabFactory] SunPickup.prefab not found. Run CreateSunPickupPrefab first.");
+            return;
+        }
+
+        var sunflowerPath = PrefabFolder + "/Sunflower.prefab";
+        var contents      = PrefabUtility.LoadPrefabContents(sunflowerPath);
+
+        var agent = contents.GetComponent<SunflowerAgent>();
+        if (agent == null) agent = contents.AddComponent<SunflowerAgent>();
+
+        var so = new SerializedObject(agent);
+        so.FindProperty("sunPickupPrefab").objectReferenceValue = sunPickupPrefab;
+        so.ApplyModifiedPropertiesWithoutUndo();
+
+        PrefabUtility.SaveAsPrefabAsset(contents, sunflowerPath);
+        PrefabUtility.UnloadPrefabContents(contents);
+        AssetDatabase.SaveAssets();
+
+        Debug.Log("[PrefabFactory] SunflowerAgent wired into Sunflower.prefab.");
+    }
+
+    /// <summary>
+    /// Wires BasicZombie.prefab into the WaveManager scene object as defaultZombiePrefab.
+    /// </summary>
+    [MenuItem("PvZ/Prefabs/Wire BasicZombie into WaveManager")]
+    public static void WireWaveManager()
+    {
+        var basicZombie = AssetDatabase.LoadAssetAtPath<GameObject>(PrefabFolder + "/BasicZombie.prefab");
+        if (basicZombie == null)
+        {
+            Debug.LogError("[PrefabFactory] BasicZombie.prefab not found.");
+            return;
+        }
+
+        var scene = EditorSceneManager.OpenScene(ScenePath, OpenSceneMode.Single);
+
+        var wmObject = GameObject.Find("WaveManager");
+        if (wmObject == null)
+        {
+            Debug.LogWarning("[PrefabFactory] No 'WaveManager' object in scene – skipping.");
+            return;
+        }
+
+        var wm = wmObject.GetComponent<WaveManager>();
+        if (wm == null)
+        {
+            Debug.LogWarning("[PrefabFactory] WaveManager component missing – skipping.");
+            return;
+        }
+
+        var so = new SerializedObject(wm);
+        so.FindProperty("defaultZombiePrefab").objectReferenceValue = basicZombie;
+        so.ApplyModifiedPropertiesWithoutUndo();
+
+        EditorSceneManager.MarkSceneDirty(scene);
+        EditorSceneManager.SaveScene(scene);
+        AssetDatabase.SaveAssets();
+
+        Debug.Log("[PrefabFactory] WaveManager.defaultZombiePrefab wired.");
+    }
+
     [MenuItem("PvZ/Prefabs/Wire PeashooterAgent into Peashooter")]
     public static void WirePeashooterAgent()
     {

@@ -86,7 +86,11 @@ public static class SceneArtSetup
         if (lrRoot.GetComponent<LaneRegistry>() == null)
             lrRoot.AddComponent<LaneRegistry>();
 
-        FindOrCreateRoot("WaveManager");
+        // WaveManager – ensure component is attached.
+        var wmRoot = FindOrCreateRoot("WaveManager");
+        if (wmRoot.GetComponent<WaveManager>() == null)
+            wmRoot.AddComponent<WaveManager>();
+
         FindOrCreateRoot("UI");
 
         var board = FindOrCreateRoot("Board");

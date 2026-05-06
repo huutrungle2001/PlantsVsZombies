@@ -62,6 +62,11 @@ public static class UIFactory
 
         BuildSunDisplay(uiRoot);
         BuildCardArea(uiRoot);
+        BuildWinLoseOverlay(uiRoot);
+
+        // WinLoseUI drives the panels at runtime.
+        if (uiRoot.GetComponent<WinLoseUI>() == null)
+            uiRoot.AddComponent<WinLoseUI>();
 
         EditorSceneManager.MarkSceneDirty(scene);
         EditorSceneManager.SaveScene(scene);
@@ -235,6 +240,104 @@ public static class UIFactory
         if (dimImg == null) dimImg = dimGo.AddComponent<Image>();
         dimImg.color = new Color(0f, 0f, 0f, 0.55f);
         dimGo.SetActive(false);
+
+        // Cooldown overlay – fills from top, shrinks as cooldown drains.
+        var cdOverlayGo  = FindOrCreate(card.transform, "CooldownOverlay");
+        FillParent(cdOverlayGo);
+        var cdImg = cdOverlayGo.GetComponent<Image>();
+        if (cdImg == null) cdImg = cdOverlayGo.AddComponent<Image>();
+        cdImg.color      = new Color(0f, 0f, 0f, 0.70f);
+        cdImg.type       = Image.Type.Filled;
+        cdImg.fillMethod = Image.FillMethod.Vertical;
+        cdImg.fillOrigin = (int)Image.OriginVertical.Top;
+        cdImg.fillAmount = 0f;
+        cdOverlayGo.SetActive(false);
+
+        // Cooldown countdown text shown on top of the overlay.
+        var cdTextGo = FindOrCreate(card.transform, "CooldownText");
+        SetRect(cdTextGo, 0f, -(CardH * 0.25f), CardW, 28f);
+        var cdTmp = cdTextGo.GetComponent<TextMeshProUGUI>();
+        if (cdTmp == null) cdTmp = cdTextGo.AddComponent<TextMeshProUGUI>();
+        cdTmp.text      = "";
+        cdTmp.fontSize  = 20;
+        cdTmp.fontStyle = FontStyles.Bold;
+        cdTmp.color     = Color.white;
+        cdTmp.alignment = TextAlignmentOptions.Center;
+        cdTextGo.SetActive(false);
+    }
+
+    // -------------------------------------------------------------------------
+    // Win / Lose overlay
+    // -------------------------------------------------------------------------
+
+    private static void BuildWinLoseOverlay(GameObject parent)
+    {
+        BuildResultPanel(parent, "WinPanel",
+            "YOU WIN!",
+            new Color(0f, 0.1f, 0f, 0.82f),
+            new Color(0.3f, 1f, 0.3f, 1f));
+
+        BuildResultPanel(parent, "LosePanel",
+            "YOU LOSE!",
+            new Color(0.15f, 0f, 0f, 0.82f),
+            new Color(1f, 0.3f, 0.3f, 1f));
+    }
+
+    private static void BuildResultPanel(
+        GameObject parent,
+        string     panelName,
+        string     titleText,
+        Color      bgColor,
+        Color      titleColor)
+    {
+        var panel = FindOrCreate(parent.transform, panelName);
+        FillParent(panel);
+        var bg = panel.GetComponent<Image>();
+        if (bg == null) bg = panel.AddComponent<Image>();
+        bg.color = bgColor;
+
+        // Title
+        var titleGo = FindOrCreate(panel.transform, "TitleText");
+        var trt     = titleGo.GetComponent<RectTransform>();
+        if (trt == null) trt = titleGo.AddComponent<RectTransform>();
+        trt.anchorMin        = new Vector2(0.5f, 0.5f);
+        trt.anchorMax        = new Vector2(0.5f, 0.5f);
+        trt.pivot            = new Vector2(0.5f, 0.5f);
+        trt.anchoredPosition = new Vector2(0f, 100f);
+        trt.sizeDelta        = new Vector2(700f, 120f);
+        var title = titleGo.GetComponent<TextMeshProUGUI>();
+        if (title == null) title = titleGo.AddComponent<TextMeshProUGUI>();
+        title.text      = titleText;
+        title.fontSize  = 80;
+        title.fontStyle = FontStyles.Bold;
+        title.color     = titleColor;
+        title.alignment = TextAlignmentOptions.Center;
+
+        // Restart button
+        var btnGo = FindOrCreate(panel.transform, "RestartButton");
+        var brt   = btnGo.GetComponent<RectTransform>();
+        if (brt == null) brt = btnGo.AddComponent<RectTransform>();
+        brt.anchorMin        = new Vector2(0.5f, 0.5f);
+        brt.anchorMax        = new Vector2(0.5f, 0.5f);
+        brt.pivot            = new Vector2(0.5f, 0.5f);
+        brt.anchoredPosition = new Vector2(0f, -60f);
+        brt.sizeDelta        = new Vector2(220f, 65f);
+        if (btnGo.GetComponent<Button>() == null) btnGo.AddComponent<Button>();
+        var btnBg = btnGo.GetComponent<Image>();
+        if (btnBg == null) btnBg = btnGo.AddComponent<Image>();
+        btnBg.color = new Color(0.15f, 0.15f, 0.15f, 0.95f);
+
+        var btnLblGo = FindOrCreate(btnGo.transform, "Label");
+        FillParent(btnLblGo);
+        var btnLbl = btnLblGo.GetComponent<TextMeshProUGUI>();
+        if (btnLbl == null) btnLbl = btnLblGo.AddComponent<TextMeshProUGUI>();
+        btnLbl.text      = "Restart";
+        btnLbl.fontSize  = 34;
+        btnLbl.fontStyle = FontStyles.Bold;
+        btnLbl.color     = Color.white;
+        btnLbl.alignment = TextAlignmentOptions.Center;
+
+        panel.SetActive(false);
     }
 
     // -------------------------------------------------------------------------

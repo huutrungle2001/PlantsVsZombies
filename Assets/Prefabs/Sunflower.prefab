@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2901915680303942131}
   - component: {fileID: 305956960918663753}
   - component: {fileID: 2394367927517642164}
+  - component: {fileID: 3396925910663334719}
   m_Layer: 0
   m_Name: Sunflower
   m_TagString: Untagged
@@ -179,3 +180,18 @@ MonoBehaviour:
   deathSound: {fileID: 0}
   row: 0
   column: 0
+--- !u!114 &3396925910663334719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5665994503555812890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a74e164c77fcc494b8239a59a7a19cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SunflowerAgent
+  sunInterval: 7
+  sunPickupPrefab: {fileID: 344952444909436108, guid: 5de78e7349dac4f509d7cce188c44760, type: 3}
+  spawnRadius: 0.4

@@ -29,14 +29,17 @@ public static class ProjectSetup
     public static void FullSetup()
     {
         CreateDefaultScene();
-        SceneArtSetup.ApplyPrototypeFoundation();   // scene objects + ZombieSpawner skeleton
+        SceneArtSetup.ApplyPrototypeFoundation();   // scene objects + WaveManager + ZombieSpawner
         PrefabFactory.CreateAllPlantPrefabs();       // Peashooter.prefab, Sunflower.prefab
         PrefabFactory.CreateAllZombiePrefabs();      // BasicZombie.prefab
         PrefabFactory.CreatePeaProjectilePrefab();   // PeaProjectile.prefab
-        PrefabFactory.WireGameManagerPrefabs();      // GameManager <- plant prefabs
+        PrefabFactory.CreateSunPickupPrefab();       // SunPickup.prefab
+        PrefabFactory.WireGameManagerPrefabs();      // GameManager <- plant prefabs + startingSun
         PrefabFactory.WireZombieSpawnerPrefab();     // ZombieSpawner <- BasicZombie.prefab
         PrefabFactory.WirePeashooterAgent();         // Peashooter.prefab <- PeashooterAgent
-        UIFactory.BuildHud();
+        PrefabFactory.WireSunflowerAgent();          // Sunflower.prefab  <- SunflowerAgent
+        PrefabFactory.WireWaveManager();             // WaveManager <- BasicZombie.prefab
+        UIFactory.BuildHud();                        // Sun display, cards, win/lose panels
 
         Debug.Log("[ProjectSetup] FullSetup complete.");
     }
